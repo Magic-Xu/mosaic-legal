@@ -27,17 +27,18 @@
     }
     .card {
       width: 100%;
-      max-width: 680px;
+      max-width: 760px;
       background: var(--card);
       border: 1px solid var(--line);
       border-radius: 16px;
       padding: 24px;
     }
     h1 { margin: 0 0 10px; font-size: 28px; }
-    p { margin: 0 0 18px; color: var(--sub); }
+    p { margin: 0 0 18px; color: var(--sub); line-height: 1.6; }
+    .row { display: grid; gap: 10px; margin-bottom: 18px; }
     a {
       display: block;
-      margin: 10px 0;
+      margin: 0;
       padding: 14px 16px;
       border-radius: 12px;
       border: 1px solid var(--line);
@@ -45,17 +46,27 @@
       text-decoration: none;
       background: #101010;
     }
-    a:hover {
-      border-color: var(--brand);
-    }
+    a:hover { border-color: var(--brand); }
+    .muted { color: var(--sub); font-size: 14px; }
   </style>
 </head>
 <body>
   <main class="card">
-    <h1>Mosaic 法律文档</h1>
-    <p>以下文档可直接用于应用设置页跳转与商店合规填写。</p>
-    <a href="./privacy.html">隐私政策</a>
-    <a href="./terms.html">服务条款</a>
+    <h1>Mosaic 法律文档（中文）</h1>
+    <p>以下链接可直接用于应用设置页和商店合规配置。</p>
+
+    <div class="row">
+      <a href="./privacy.html">隐私政策（中文）</a>
+      <a href="./terms.html">服务条款（中文）</a>
+    </div>
+
+    <div class="row">
+      <a href="../index.html">English Entry</a>
+      <a href="../privacy.html">Privacy Policy (EN)</a>
+      <a href="../terms.html">Terms of Service (EN)</a>
+    </div>
+
+    <p class="muted">反馈入口：<a href="https://github.com/Magic-Xu/mosaic-legal/issues">https://github.com/Magic-Xu/mosaic-legal/issues</a></p>
   </main>
 </body>
 </html>
