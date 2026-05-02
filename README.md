@@ -1,6 +1,6 @@
-# Mosaic Legal Documents
+# SnapMosaic Legal Documents
 
-This repository hosts public legal pages for the Mosaic app.
+This repository hosts public legal pages for the SnapMosaic app.
 
 ## Live URLs
 
