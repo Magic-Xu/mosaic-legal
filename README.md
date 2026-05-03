@@ -13,6 +13,7 @@ This repository hosts public legal pages for the SnapMosaic app.
 
 ## Feedback
 
+- Email: `snapmosaic.help@outlook.com`
 - Issues: `https://github.com/Magic-Xu/mosaic-legal/issues`
 
 ## File Structure
