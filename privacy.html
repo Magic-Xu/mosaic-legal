@@ -58,7 +58,7 @@
   <main class="container">
     <div class="lang">Language: English | <a href="./zh-CN/privacy.html">中文</a></div>
     <h1>SnapMosaic Privacy Policy</h1>
-    <p class="meta">Effective Date: May 6, 2026</p>
+    <p class="meta">Effective Date: May 28, 2026</p>
     <p>
       Welcome to SnapMosaic ("the App"). SnapMosaic is a local-first privacy image editor focused on
       mosaic, blur, and block masking. This Privacy Policy explains how we handle your information.
@@ -71,7 +71,7 @@
       <li>Edit operations (stroke, shape, effect, strength, size) are used locally to render results.</li>
       <li>App settings such as language, export format, resolution, privacy enhancement, and editor adjustment memory may be stored locally on your device.</li>
       <li>By default, your image content is not uploaded to our servers.</li>
-      <li>When ads, analytics, or crash monitoring are enabled, third-party services may automatically collect data such as IP address, device or advertising identifiers, app/ad interactions, app usage events, crash logs, and diagnostics as described below.</li>
+      <li>When ads, analytics, crash monitoring, or on-device ML features are enabled, third-party SDKs may automatically collect data such as IP address, device or advertising identifiers, app/ad interactions, app usage events, crash logs, diagnostics, SDK usage, and model download status as described below.</li>
     </ul>
 
     <h2>2. Permissions and Purpose</h2>
@@ -86,6 +86,7 @@
     <h2>3. Data Processing</h2>
     <ul>
       <li>Image processing is performed locally.</li>
+      <li>Smart detection for faces, QR/barcodes, and sensitive text suggestions is performed on device using Google ML Kit models.</li>
       <li>Saved output is written to your device media library.</li>
       <li>We do not send your image content externally without your explicit action.</li>
       <li>If privacy enhancement is enabled, the App attempts to remove metadata such as EXIF/GPS information when saving output.</li>
@@ -97,9 +98,11 @@
       <li>Google AdMob / Google Mobile Ads SDK, provided by Google LLC, to display ads in the App.</li>
       <li>Google Analytics for Firebase, provided by Google LLC, to understand aggregate app usage, active users, feature usage, and app performance.</li>
       <li>Firebase Crashlytics, provided by Google LLC, to monitor crashes, non-fatal errors, and app stability.</li>
+      <li>Google ML Kit, provided by Google LLC, to support on-device smart detection of faces, QR/barcodes, and text regions.</li>
       <li>The Google Mobile Ads SDK may collect or share data such as IP address, device or advertising identifiers, app interactions, ad interactions, and diagnostics.</li>
       <li>Google Analytics for Firebase may collect app interactions, app performance data, device information, identifiers, and approximate location derived from network information.</li>
       <li>Firebase Crashlytics may collect crash logs, stack traces, diagnostic information, device information, app version, and identifiers.</li>
+      <li>Google ML Kit may collect SDK usage, diagnostics, performance metrics, error codes, device information, app information, and model download status for service quality, debugging, and abuse prevention.</li>
       <li>These data may be used for advertising, analytics, fraud prevention, security, and compliance purposes.</li>
       <li>Where required by applicable law or platform policy, we may use Google's User Messaging Platform (UMP) to request and manage advertising consent choices.</li>
     </ul>
@@ -119,7 +122,11 @@
       Firebase Crashlytics:
       <a href="https://firebase.google.com/docs/crashlytics">https://firebase.google.com/docs/crashlytics</a>
     </p>
-    <p class="sub">We do not send your selected image content to Google AdMob, Google Analytics for Firebase, or Firebase Crashlytics.</p>
+    <p class="sub">
+      Google ML Kit data disclosure:
+      <a href="https://developers.google.com/ml-kit/android-data-disclosure">https://developers.google.com/ml-kit/android-data-disclosure</a>
+    </p>
+    <p class="sub">We do not send your selected image content to Google AdMob, Google Analytics for Firebase, Firebase Crashlytics, or remote AI services.</p>
 
     <h2>5. Children</h2>
     <p>
