@@ -3,70 +3,688 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mosaic 法律文档</title>
+  <title>SnapMosaic - 本地优先的图片隐私打码工具</title>
+  <meta name="description" content="SnapMosaic 是一款本地优先的 Android 图片隐私处理工具，支持马赛克、模糊和遮挡效果，适合在保存或分享照片前隐藏敏感信息。">
+  <meta property="og:title" content="SnapMosaic">
+  <meta property="og:description" content="本地优先的图片隐私打码工具。保存或分享照片前，快速隐藏敏感信息。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://magic-xu.github.io/mosaic-legal/zh-CN/">
+  <meta property="og:image" content="https://magic-xu.github.io/mosaic-legal/assets/snapmosaic-feature-graphic-1024x500.png">
+  <link rel="icon" href="../assets/snapmosaic-play-icon-512.png">
   <style>
     :root {
       color-scheme: dark;
-      --bg: #0b0b0b;
-      --card: #141414;
-      --text: #f2f2f2;
-      --sub: #b3b3b3;
-      --line: #262626;
-      --brand: #7c4dff;
+      --bg: #050505;
+      --surface: #101114;
+      --surface-2: #17191d;
+      --text: #f7f7f4;
+      --muted: #b8bcc5;
+      --line: #2a2d33;
+      --brand: #8b5cf6;
+      --brand-soft: #c4b5fd;
+      --cyan: #67e8f9;
+      --green: #8bea9f;
+      --paper: #f3f0e8;
+      --paper-text: #171717;
+      --paper-muted: #555b64;
+      --max: 1120px;
     }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      padding: 24px;
+
+    * {
       box-sizing: border-box;
     }
-    .card {
-      width: 100%;
-      max-width: 760px;
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 24px;
+
+    html {
+      scroll-behavior: smooth;
     }
-    h1 { margin: 0 0 10px; font-size: 28px; }
-    p { margin: 0 0 18px; color: var(--sub); line-height: 1.6; }
-    .row { display: grid; gap: 10px; margin-bottom: 18px; }
-    a {
-      display: block;
+
+    body {
       margin: 0;
-      padding: 14px 16px;
-      border-radius: 12px;
-      border: 1px solid var(--line);
+      background: var(--bg);
       color: var(--text);
-      text-decoration: none;
-      background: #101010;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.7;
     }
-    a:hover { border-color: var(--brand); }
-    .muted { color: var(--sub); font-size: 14px; }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .site-header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      width: 100%;
+    }
+
+    .nav {
+      width: min(100%, var(--max));
+      height: 74px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 17px;
+    }
+
+    .brand img {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 14px;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 86vh;
+      border-bottom: 1px solid var(--line);
+      padding: 104px 24px 56px;
+      display: flex;
+      align-items: flex-end;
+      background: #050505;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 92px;
+      right: 0;
+      bottom: 42px;
+      width: min(48vw, 680px);
+      background: url("../assets/snapmosaic-feature-graphic-1024x500.png") right center / auto 100% no-repeat;
+      opacity: 1;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, #050505 0, rgba(5, 5, 5, 0.94) 78px, rgba(5, 5, 5, 0.14) 152px, rgba(5, 5, 5, 0) 260px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0%, rgba(0, 0, 0, 0.84) 46%, rgba(0, 0, 0, 0.08) 76%, rgba(0, 0, 0, 0) 100%);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: min(100%, var(--max));
+      margin: 0 auto;
+    }
+
+    .hero-copy {
+      width: min(100%, 610px);
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: var(--green);
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 64px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .hero-copy p {
+      margin: 22px 0 0;
+      color: rgba(255, 255, 255, 0.84);
+      font-size: 20px;
+      max-width: 560px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      min-height: 46px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 8px;
+      padding: 11px 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.08);
+      font-weight: 700;
+    }
+
+    .button.primary {
+      border-color: transparent;
+      color: #09090b;
+      background: var(--green);
+    }
+
+    .button:hover {
+      border-color: rgba(255, 255, 255, 0.38);
+    }
+
+    .button-icon {
+      width: 19px;
+      height: 19px;
+      display: block;
+      flex: 0 0 auto;
+    }
+
+    .proof {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      width: min(100%, 610px);
+      margin-top: 38px;
+    }
+
+    .proof-item {
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      padding: 14px;
+      background: rgba(9, 10, 12, 0.72);
+    }
+
+    .proof-item strong {
+      display: block;
+      font-size: 15px;
+    }
+
+    .proof-item span {
+      display: block;
+      margin-top: 4px;
+      color: rgba(255, 255, 255, 0.66);
+      font-size: 13px;
+    }
+
+    .section {
+      padding: 72px 24px;
+    }
+
+    .section-inner {
+      width: min(100%, var(--max));
+      margin: 0 auto;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
+      gap: 44px;
+      align-items: start;
+    }
+
+    .section-label {
+      margin: 0 0 12px;
+      color: var(--cyan);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 36px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .feature {
+      min-height: 150px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      background: var(--surface);
+    }
+
+    .feature b {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .feature p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .screenshots {
+      background: #090a0c;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .screen-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 32px;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    .screen {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--surface-2);
+    }
+
+    .screen img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1494 / 2656;
+      object-fit: cover;
+    }
+
+    .screen figcaption {
+      border-top: 1px solid var(--line);
+      padding: 11px 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .social {
+      background: #050505;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .social-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 32px;
+    }
+
+    .social-link {
+      min-height: 106px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--surface);
+    }
+
+    .social-icon {
+      width: 44px;
+      height: 44px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #090a0c;
+      flex: 0 0 auto;
+    }
+
+    .social-icon svg {
+      width: 23px;
+      height: 23px;
+      display: block;
+    }
+
+    .social-link strong {
+      display: block;
+      font-size: 16px;
+    }
+
+    .social-link span span {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .social-link:hover {
+      border-color: rgba(139, 92, 246, 0.72);
+    }
+
+    .legal {
+      background: var(--paper);
+      color: var(--paper-text);
+    }
+
+    .legal .section-label {
+      color: #3b6f64;
+    }
+
+    .legal .lead {
+      color: var(--paper-muted);
+    }
+
+    .legal-links {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 32px;
+    }
+
+    .legal-link {
+      border: 1px solid rgba(23, 23, 23, 0.14);
+      border-radius: 8px;
+      padding: 18px;
+      background: rgba(255, 255, 255, 0.58);
+    }
+
+    .legal-link strong {
+      display: block;
+      margin-bottom: 7px;
+      font-size: 16px;
+    }
+
+    .legal-link span {
+      color: var(--paper-muted);
+      font-size: 14px;
+    }
+
+    .footer {
+      padding: 26px 24px;
+      color: var(--muted);
+      font-size: 14px;
+      background: #050505;
+    }
+
+    .footer-inner {
+      width: min(100%, var(--max));
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        min-height: 82vh;
+      }
+
+      .hero::before {
+        top: 112px;
+        right: -90px;
+        bottom: 44px;
+        width: min(80vw, 560px);
+        opacity: 0.72;
+      }
+
+      h1 {
+        font-size: 48px;
+      }
+
+      .split,
+      .screen-grid,
+      .social-row,
+      .legal-links {
+        grid-template-columns: 1fr;
+      }
+
+      .feature-grid,
+      .proof {
+        grid-template-columns: 1fr;
+      }
+
+      .screen-grid {
+        max-width: 420px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .nav {
+        height: auto;
+        padding-top: 18px;
+        align-items: flex-start;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+      }
+
+      .hero {
+        padding: 126px 20px 44px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      .hero-copy p,
+      .lead {
+        font-size: 17px;
+      }
+
+      .section {
+        padding: 54px 20px;
+      }
+
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
   </style>
 </head>
 <body>
-  <main class="card">
-    <h1>Mosaic 法律文档（中文）</h1>
-    <p>以下链接可直接用于应用设置页和商店合规配置。</p>
+  <header class="site-header">
+    <nav class="nav" aria-label="主导航">
+      <a class="brand" href="./index.html" aria-label="SnapMosaic 中文首页">
+        <img src="../assets/snapmosaic-play-icon-512.png" alt="">
+        <span>SnapMosaic</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">功能</a>
+        <a href="#screenshots">截图</a>
+        <a href="#social">社交</a>
+        <a href="#legal">法律文档</a>
+        <a href="../">English</a>
+      </div>
+    </nav>
+  </header>
 
-    <div class="row">
-      <a href="./privacy.html">隐私政策（中文）</a>
-      <a href="./terms.html">服务条款（中文）</a>
-    </div>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">本地优先的 Android 图片隐私工具</p>
+          <h1 id="hero-title">SnapMosaic</h1>
+          <p>在保存或分享照片前，快速隐藏人脸、姓名、地址、车牌、票据、截图和其他敏感信息。</p>
+          <div class="actions" aria-label="主要操作">
+            <a class="button primary" href="https://play.google.com/store/apps/details?id=com.magic.snapmosaic" target="_blank" rel="noopener">
+              <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="#00A0FF" d="M4.2 3.4c-.2.3-.3.7-.3 1.1v15c0 .4.1.8.3 1.1l8-8.6-8-8.6Z"/>
+                <path fill="#00F076" d="m12.2 12 2.7-2.9L5.7 3.8c-.5-.3-1-.4-1.4-.4l7.9 8.6Z"/>
+                <path fill="#FFCE00" d="m12.2 12-8 8.6c.4.1.9 0 1.4-.3l9.3-5.4-2.7-2.9Z"/>
+                <path fill="#FF3A44" d="m14.9 9.1-2.7 2.9 2.7 2.9 3.8-2.2c1-.6 1-1.6 0-2.2l-3.8-2.4Z"/>
+              </svg>
+              前往 Google Play
+            </a>
+            <a class="button" href="#screenshots">查看应用界面</a>
+            <a class="button" href="./privacy.html">隐私政策</a>
+          </div>
+          <div class="proof" aria-label="产品重点">
+            <div class="proof-item">
+              <strong>本地处理</strong>
+              <span>默认在设备上处理你选择的图片。</span>
+            </div>
+            <div class="proof-item">
+              <strong>无需账号</strong>
+              <span>选择、编辑、保存和分享不需要注册。</span>
+            </div>
+            <div class="proof-item">
+              <strong>聚焦隐私打码</strong>
+              <span>马赛克、模糊和遮挡三种常用效果。</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="row">
-      <a href="../index.html">English Entry</a>
-      <a href="../privacy.html">Privacy Policy (EN)</a>
-      <a href="../terms.html">Terms of Service (EN)</a>
-    </div>
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="section-inner split">
+        <div>
+          <p class="section-label">为什么是 SnapMosaic</p>
+          <h2 id="features-title">为日常分享前的隐私处理而做。</h2>
+          <p class="lead">SnapMosaic 只专注一件事：在单张图片离开你的设备前，把敏感区域快速处理到不易识别。</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature">
+            <b>三种遮挡效果</b>
+            <p>根据隐私强度选择马赛克、模糊或纯色遮挡。</p>
+          </div>
+          <div class="feature">
+            <b>涂抹、矩形、圆形</b>
+            <p>既能手动涂抹，也能用几何区域快速处理结构化内容。</p>
+          </div>
+          <div class="feature">
+            <b>撤销、重做和调节</b>
+            <p>支持调整强度与尺寸，编辑过程中可以随时回退。</p>
+          </div>
+          <div class="feature">
+            <b>本地保存与系统分享</b>
+            <p>结果保存到本地相册；你主动选择后，可通过 Android 系统分享面板发送。</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <p class="muted">反馈入口：<a href="mailto:snapmosaic.help@outlook.com">snapmosaic.help@outlook.com</a> · <a href="https://github.com/Magic-Xu/mosaic-legal/issues">GitHub Issues</a></p>
+    <section class="section screenshots" id="screenshots" aria-labelledby="screenshots-title">
+      <div class="section-inner">
+        <p class="section-label">应用预览</p>
+        <h2 id="screenshots-title">轻量、直接，不做复杂修图。</h2>
+        <div class="screen-grid">
+          <figure class="screen">
+            <img src="../assets/screenshots/0-home.jpg" alt="SnapMosaic 编辑首页" loading="lazy">
+            <figcaption>从编辑器开始</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="../assets/screenshots/1-adjust-panel.jpg" alt="SnapMosaic 调节面板" loading="lazy">
+            <figcaption>调节效果与形状</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="../assets/screenshots/4-edit.jpg" alt="SnapMosaic 图片编辑页面" loading="lazy">
+            <figcaption>处理敏感区域</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="../assets/screenshots/3-result.jpg" alt="SnapMosaic 保存结果页面" loading="lazy">
+            <figcaption>保存或分享结果</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section social" id="social" aria-labelledby="social-title">
+      <div class="section-inner">
+        <p class="section-label">社交媒体</p>
+        <h2 id="social-title">关注 SnapMosaic。</h2>
+        <p class="lead">后续的产品更新、版本发布和图片隐私处理技巧会逐步放在这里。</p>
+        <div class="social-row">
+          <a class="social-link" href="https://x.com/snapmosaic_app" target="_blank" rel="noopener">
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path fill="#f7f7f4" d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.65l-5.22-6.82-5.96 6.82H1.68l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64Z"/>
+              </svg>
+            </span>
+            <span>
+              <strong>X / Twitter</strong>
+              <span>@snapmosaic_app</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section legal" id="legal" aria-labelledby="legal-title">
+      <div class="section-inner">
+        <p class="section-label">官方链接</p>
+        <h2 id="legal-title">公开站点与法律文档。</h2>
+        <p class="lead">这些页面通过 GitHub Pages 托管，用于应用商店审核、App 内设置、用户支持和公开访问。</p>
+        <div class="legal-links">
+          <a class="legal-link" href="./privacy.html">
+            <strong>隐私政策</strong>
+            <span>说明本地图片处理、权限、广告服务和用户选择。</span>
+          </a>
+          <a class="legal-link" href="./terms.html">
+            <strong>服务条款</strong>
+            <span>说明服务范围、用户责任、授权和限制。</span>
+          </a>
+          <a class="legal-link" href="https://github.com/Magic-Xu/mosaic-legal/issues">
+            <strong>问题反馈</strong>
+            <span>通过 GitHub Issues 反馈站点或法律文档问题。</span>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>SnapMosaic - 本地优先的图片隐私打码工具。</span>
+      <div class="footer-links">
+        <a href="https://x.com/snapmosaic_app" target="_blank" rel="noopener">X / Twitter</a>
+        <a href="mailto:snapmosaic.help@outlook.com">snapmosaic.help@outlook.com</a>
+        <a href="../">English</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
