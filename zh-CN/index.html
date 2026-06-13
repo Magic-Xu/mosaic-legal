@@ -27,6 +27,7 @@
       --paper: #f3f0e8;
       --paper-text: #171717;
       --paper-muted: #555b64;
+      --header-height: 74px;
       --max: 1120px;
     }
 
@@ -35,7 +36,7 @@
     }
 
     html {
-      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-height) + 12px);
     }
 
     body {
@@ -56,11 +57,13 @@
     }
 
     .site-header {
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       z-index: 10;
       width: 100%;
+      background: rgba(5, 5, 5, 0.96);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .nav {
@@ -105,6 +108,7 @@
       position: relative;
       overflow: hidden;
       min-height: 86vh;
+      min-height: 86svh;
       border-bottom: 1px solid var(--line);
       padding: 104px 24px 56px;
       display: flex;
@@ -390,6 +394,8 @@
     }
 
     .legal {
+      min-height: calc(100vh - var(--header-height));
+      min-height: calc(100svh - var(--header-height));
       background: var(--paper);
       color: var(--paper-text);
     }
@@ -452,6 +458,7 @@
     @media (max-width: 900px) {
       .hero {
         min-height: 82vh;
+        min-height: 82svh;
       }
 
       .hero::before {
@@ -484,6 +491,10 @@
     }
 
     @media (max-width: 640px) {
+      :root {
+        --header-height: 170px;
+      }
+
       .nav {
         height: auto;
         padding-top: 18px;
@@ -522,6 +533,7 @@
         flex-direction: column;
       }
     }
+
   </style>
 </head>
 <body>
