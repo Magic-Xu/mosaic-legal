@@ -45,7 +45,8 @@ Public website assets live in `assets/`:
 
 - `assets/snapmosaic-play-icon-512.png`
 - `assets/snapmosaic-feature-graphic-1024x500.png`
-- `assets/screenshots/*.jpg`
+- `assets/screenshots/*.png` for current ASO preview images
+- `assets/screenshots/*.jpg` for archived raw app screenshots
 
 ## Maintenance Notes
 

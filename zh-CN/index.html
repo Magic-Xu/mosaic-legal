@@ -113,18 +113,30 @@
       padding: 104px 24px 56px;
       display: flex;
       align-items: flex-end;
-      background: #050505;
+      background:
+        linear-gradient(115deg, #050505 0%, #050505 48%, #100d18 72%, #050505 100%);
     }
 
     .hero::before {
       content: "";
       position: absolute;
-      top: 92px;
-      right: 0;
-      bottom: 42px;
-      width: min(48vw, 680px);
-      background: url("../assets/snapmosaic-feature-graphic-1024x500.png") right center / auto 100% no-repeat;
-      opacity: 1;
+      top: 152px;
+      right: max(24px, calc((100vw - var(--max)) / 2 - 248px));
+      width: min(50vw, 780px);
+      aspect-ratio: 1024 / 500;
+      border: 1px solid rgba(196, 181, 253, 0.2);
+      border-radius: 24px;
+      background:
+        linear-gradient(90deg, rgba(5, 5, 5, 0.54) 0%, rgba(5, 5, 5, 0.16) 24%, rgba(5, 5, 5, 0) 48%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)),
+        url("../assets/snapmosaic-feature-graphic-1024x500.png") center / contain no-repeat;
+      box-shadow:
+        0 30px 90px rgba(139, 92, 246, 0.18),
+        0 16px 44px rgba(0, 0, 0, 0.52);
+      opacity: 0.96;
+      pointer-events: none;
+      transform: rotate(-4deg) translateY(12px);
+      transform-origin: center;
     }
 
     .hero::after {
@@ -133,7 +145,7 @@
       inset: 0;
       background:
         linear-gradient(180deg, #050505 0, rgba(5, 5, 5, 0.94) 78px, rgba(5, 5, 5, 0.14) 152px, rgba(5, 5, 5, 0) 260px),
-        linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0%, rgba(0, 0, 0, 0.84) 46%, rgba(0, 0, 0, 0.08) 76%, rgba(0, 0, 0, 0) 100%);
+        linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0%, rgba(0, 0, 0, 0.88) 43%, rgba(0, 0, 0, 0.28) 68%, rgba(0, 0, 0, 0.08) 100%);
       pointer-events: none;
     }
 
@@ -299,16 +311,22 @@
     }
 
     .screenshots {
-      background: #090a0c;
-      border-top: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
+      background: #f7f5fb;
+      color: #1d1930;
+      border-top: 1px solid rgba(139, 92, 246, 0.16);
+      border-bottom: 1px solid rgba(139, 92, 246, 0.16);
+    }
+
+    .screenshots .section-label {
+      color: #7c3aed;
     }
 
     .screen-grid {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 16px;
       margin-top: 32px;
+      align-items: start;
     }
 
     figure {
@@ -316,24 +334,18 @@
     }
 
     .screen {
-      border: 1px solid var(--line);
+      border: 1px solid rgba(29, 25, 48, 0.1);
       border-radius: 8px;
       overflow: hidden;
-      background: var(--surface-2);
+      background: #fff;
+      box-shadow: 0 18px 44px rgba(29, 25, 48, 0.12);
     }
 
     .screen img {
       display: block;
       width: 100%;
-      aspect-ratio: 1494 / 2656;
+      aspect-ratio: 9 / 16;
       object-fit: cover;
-    }
-
-    .screen figcaption {
-      border-top: 1px solid var(--line);
-      padding: 11px 12px;
-      color: var(--muted);
-      font-size: 13px;
     }
 
     .social {
@@ -394,8 +406,6 @@
     }
 
     .legal {
-      min-height: calc(100vh - var(--header-height));
-      min-height: calc(100svh - var(--header-height));
       background: var(--paper);
       color: var(--paper-text);
     }
@@ -462,19 +472,22 @@
       }
 
       .hero::before {
-        top: 112px;
-        right: -90px;
-        bottom: 44px;
-        width: min(80vw, 560px);
-        opacity: 0.72;
+        top: 170px;
+        right: -188px;
+        width: min(86vw, 560px);
+        opacity: 0.3;
+        transform: rotate(-5deg);
       }
 
       h1 {
         font-size: 48px;
       }
 
+      .screen-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
       .split,
-      .screen-grid,
       .social-row,
       .legal-links {
         grid-template-columns: 1fr;
@@ -485,9 +498,6 @@
         grid-template-columns: 1fr;
       }
 
-      .screen-grid {
-        max-width: 420px;
-      }
     }
 
     @media (max-width: 640px) {
@@ -508,7 +518,7 @@
       }
 
       .hero {
-        padding: 126px 20px 44px;
+        padding: calc(var(--header-height) + 36px) 20px 44px;
       }
 
       h1 {
@@ -528,9 +538,24 @@
         padding: 54px 20px;
       }
 
+      .hero::before {
+        top: calc(var(--header-height) + 70px);
+        right: -176px;
+        width: min(110vw, 420px);
+        opacity: 0.22;
+        transform: rotate(-6deg);
+      }
+
       .footer-inner {
         align-items: flex-start;
         flex-direction: column;
+      }
+    }
+
+    @media (max-width: 460px) {
+      .screen-grid {
+        grid-template-columns: 1fr;
+        max-width: 420px;
       }
     }
 
@@ -622,23 +647,22 @@
     <section class="section screenshots" id="screenshots" aria-labelledby="screenshots-title">
       <div class="section-inner">
         <p class="section-label">应用预览</p>
-        <h2 id="screenshots-title">轻量、直接，不做复杂修图。</h2>
+        <h2 id="screenshots-title">1.5.0：更智能的打码、更清爽的调节和更安全的导出。</h2>
         <div class="screen-grid">
           <figure class="screen">
-            <img src="../assets/screenshots/0-home.jpg" alt="SnapMosaic 编辑首页" loading="lazy">
-            <figcaption>从编辑器开始</figcaption>
+            <img src="../assets/screenshots/01-smart-masking.png" alt="SnapMosaic 1.5.0 智能人脸打码预览" loading="lazy">
           </figure>
           <figure class="screen">
-            <img src="../assets/screenshots/1-adjust-panel.jpg" alt="SnapMosaic 调节面板" loading="lazy">
-            <figcaption>调节效果与形状</figcaption>
+            <img src="../assets/screenshots/02-sensitive-info.png" alt="SnapMosaic 1.5.0 敏感文字和二维码打码预览" loading="lazy">
           </figure>
           <figure class="screen">
-            <img src="../assets/screenshots/4-edit.jpg" alt="SnapMosaic 图片编辑页面" loading="lazy">
-            <figcaption>处理敏感区域</figcaption>
+            <img src="../assets/screenshots/03-mask-styles.png" alt="SnapMosaic 1.5.0 打码样式调节预览" loading="lazy">
           </figure>
           <figure class="screen">
-            <img src="../assets/screenshots/3-result.jpg" alt="SnapMosaic 保存结果页面" loading="lazy">
-            <figcaption>保存或分享结果</figcaption>
+            <img src="../assets/screenshots/04-save-share.png" alt="SnapMosaic 1.5.0 本地保存和分享预览" loading="lazy">
+          </figure>
+          <figure class="screen">
+            <img src="../assets/screenshots/05-privacy-settings.png" alt="SnapMosaic 1.5.0 隐私导出设置预览" loading="lazy">
           </figure>
         </div>
       </div>
