@@ -6,34 +6,41 @@
   <title>SnapMosaic Privacy Policy</title>
   <style>
     :root {
-      color-scheme: dark;
-      --bg: #0b0b0b;
-      --card: #141414;
-      --text: #f2f2f2;
-      --sub: #b3b3b3;
-      --line: #262626;
-      --brand: #7c4dff;
+      color-scheme: light;
+      --bg: #fbf9ff;
+      --card: rgba(255, 255, 255, 0.94);
+      --text: #201831;
+      --sub: #706783;
+      --line: #e5dcfb;
+      --brand: #7253e8;
+      --brand-soft: #f0eaff;
+      --shadow: 0 24px 80px rgba(111, 82, 215, 0.14);
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      background: var(--bg);
+      background:
+        radial-gradient(circle at 16% 0%, rgba(133, 96, 255, 0.12), transparent 34%),
+        radial-gradient(circle at 90% 12%, rgba(196, 178, 255, 0.2), transparent 32%),
+        linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
       color: var(--text);
       line-height: 1.75;
       padding: 24px;
+      min-height: 100vh;
     }
     .container {
       max-width: 860px;
       margin: 0 auto;
       background: var(--card);
       border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 24px;
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 28px;
     }
     h1, h2 { line-height: 1.35; margin: 0 0 12px; }
-    h1 { font-size: 28px; }
-    h2 { font-size: 20px; margin-top: 28px; }
+    h1 { color: #19122a; font-size: 30px; letter-spacing: 0; }
+    h2 { color: #2d2145; font-size: 20px; margin-top: 28px; }
     p, li { color: var(--text); }
     .meta { color: var(--sub); margin-bottom: 20px; }
     a { color: var(--brand); text-decoration: none; }
@@ -46,12 +53,18 @@
       margin-bottom: 12px;
       border: 1px solid var(--line);
       border-radius: 999px;
+      background: var(--brand-soft);
       padding: 6px 12px;
       font-size: 14px;
       color: var(--sub);
     }
     hr { border: 0; border-top: 1px solid var(--line); margin: 20px 0; }
     ul { margin: 8px 0 0; padding-left: 20px; }
+    @media (max-width: 640px) {
+      body { padding: 16px; }
+      .container { border-radius: 20px; padding: 20px; }
+      h1 { font-size: 26px; }
+    }
   </style>
 </head>
 <body>
