@@ -71,38 +71,41 @@
   <main class="container">
     <div class="lang">Language: English | <a href="./zh-CN/privacy.html">中文</a></div>
     <h1>SnapMosaic Privacy Policy</h1>
-    <p class="meta">Effective Date: May 28, 2026</p>
+    <p class="meta">Effective Date: August 20, 2026</p>
     <p>
-      Welcome to SnapMosaic ("the App"). SnapMosaic is a local-first privacy image editor focused on
-      mosaic, blur, and block masking. This Privacy Policy explains how we handle your information.
+      Welcome to SnapMosaic ("the App"). SnapMosaic is a local-first privacy editor for photos and videos,
+      focused on mosaic, blur, block masking, and automatic video face masking. This Privacy Policy explains
+      how we handle your information.
     </p>
 
     <h2>1. Information We Collect</h2>
     <p>We do not require account registration and do not operate our own account or cloud storage service.</p>
     <ul>
-      <li>Images you choose are processed locally on your device.</li>
-      <li>Edit operations (stroke, shape, effect, strength, size) are used locally to render results.</li>
+      <li>Photos and videos you choose are processed locally on your device.</li>
+      <li>Photo edit operations (stroke, shape, effect, strength, size) and video face detection, tracking, and masking data are used locally to render results.</li>
       <li>App settings such as language, export format, resolution, privacy enhancement, and editor adjustment memory may be stored locally on your device.</li>
-      <li>By default, your image content is not uploaded to our servers.</li>
+      <li>Processed video drafts may be stored temporarily in the App's private cache until you save, replace, close, cancel, or encounter a processing failure.</li>
+      <li>Your selected photo and video content is not uploaded to our servers.</li>
       <li>When ads, analytics, crash monitoring, or on-device ML features are enabled, third-party SDKs may automatically collect data such as IP address, device or advertising identifiers, app/ad interactions, app usage events, crash logs, diagnostics, SDK usage, and model download status as described below.</li>
     </ul>
 
     <h2>2. Permissions and Purpose</h2>
     <p>The App may request system capabilities only for core features:</p>
     <ul>
-      <li>Photos/Media access: select images from system picker/gallery.</li>
-      <li>Media write access: save edited images to your local album.</li>
-      <li>System share: share images to other apps when you explicitly choose to do so.</li>
+      <li>Photos/Media access: select photos or videos from the system picker/gallery.</li>
+      <li>Media write access: save edited photos or processed videos to your local album.</li>
+      <li>System share: share output photos or videos to other apps when you explicitly choose to do so.</li>
     </ul>
     <p class="sub">These permissions are used on demand and not for background data collection.</p>
 
     <h2>3. Data Processing</h2>
     <ul>
-      <li>Image processing is performed locally.</li>
-      <li>Smart detection for faces, QR/barcodes, and sensitive text suggestions is performed on device using Google ML Kit models.</li>
+      <li>Photo editing and video processing are performed locally.</li>
+      <li>Smart detection for faces, QR/barcodes, and sensitive text suggestions in photos is performed on device using Google ML Kit models.</li>
+      <li>Automatic video face detection and tracking is performed on device using Google ML Kit models; video decoding, masking, and export are performed on device.</li>
       <li>Saved output is written to your device media library.</li>
-      <li>We do not send your image content externally without your explicit action.</li>
-      <li>If privacy enhancement is enabled, the App attempts to remove metadata such as EXIF/GPS information when saving output.</li>
+      <li>We do not send your photo or video content externally without your explicit sharing action.</li>
+      <li>If privacy enhancement is enabled for photo export, the App attempts to remove metadata such as EXIF/GPS information when saving output.</li>
     </ul>
 
     <h2>4. Third-Party Services</h2>
@@ -111,7 +114,7 @@
       <li>Google AdMob / Google Mobile Ads SDK, provided by Google LLC, to display ads in the App.</li>
       <li>Google Analytics for Firebase, provided by Google LLC, to understand aggregate app usage, active users, feature usage, and app performance.</li>
       <li>Firebase Crashlytics, provided by Google LLC, to monitor crashes, non-fatal errors, and app stability.</li>
-      <li>Google ML Kit, provided by Google LLC, to support on-device smart detection of faces, QR/barcodes, and text regions.</li>
+      <li>Google ML Kit, provided by Google LLC, to support on-device smart detection of faces, QR/barcodes, and text regions in photos and faces in video frames.</li>
       <li>The Google Mobile Ads SDK may collect or share data such as IP address, device or advertising identifiers, app interactions, ad interactions, and diagnostics.</li>
       <li>Google Analytics for Firebase may collect app interactions, app performance data, device information, identifiers, and approximate location derived from network information.</li>
       <li>Firebase Crashlytics may collect crash logs, stack traces, diagnostic information, device information, app version, and identifiers.</li>
@@ -139,7 +142,7 @@
       Google ML Kit data disclosure:
       <a href="https://developers.google.com/ml-kit/android-data-disclosure">https://developers.google.com/ml-kit/android-data-disclosure</a>
     </p>
-    <p class="sub">We do not send your selected image content to Google AdMob, Google Analytics for Firebase, Firebase Crashlytics, or remote AI services.</p>
+    <p class="sub">We do not send your selected photo or video content, video frames, face regions, or processed results to Google AdMob, Google Analytics for Firebase, Firebase Crashlytics, or remote AI services.</p>
 
     <h2>5. Children</h2>
     <p>
@@ -148,7 +151,7 @@
 
     <h2>6. Your Rights</h2>
     <ul>
-      <li>You may delete locally saved outputs at any time.</li>
+      <li>You may delete locally saved outputs at any time. Unsaved video drafts are removed when you close or replace the current media, cancel processing, or encounter a processing failure, with periodic cleanup for stale cache files.</li>
       <li>You may revoke media permissions via system settings.</li>
       <li>You may reset or delete your advertising ID in Android system settings where supported.</li>
       <li>If a consent form is shown in your region, you may update your consent choices through the privacy options provided by the App or Google form when available.</li>
