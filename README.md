@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/snapmosaic-feature-graphic-1024x500.png" alt="SnapMosaic - Private photo masking, on device" width="1024">
+  <img src="assets/snapmosaic-feature-graphic-1024x500.png" alt="SnapMosaic - Private photo and video masking, on device" width="1024">
 </p>
 
 # SnapMosaic
 
-SnapMosaic is a local-first Android image privacy editor for quick masking before you save or share a photo.
+SnapMosaic is a local-first Android privacy editor for photos and videos.
 
-Use mosaic, blur, or solid block effects to cover sensitive areas such as faces, names, addresses, IDs, license plates, receipts, screenshots, and other private details. SnapMosaic does not require an account, and selected image content is processed locally by default.
+Use on-device smart detection or manual tools to mask private details in photos, add repeating text watermarks or face Emoji stickers, and automatically mask faces in videos. SnapMosaic does not require an account, and selected media is processed locally.
 
 ## Official Links
 
@@ -22,11 +22,12 @@ Use mosaic, blur, or solid block effects to cover sensitive areas such as faces,
 
 ## What SnapMosaic Does
 
-- Applies mosaic, blur, and block masking to selected image areas.
-- Supports brush, rectangle, and circle selection modes.
-- Lets users adjust effect strength and tool size.
-- Supports undo, redo, local save, and Android system share.
-- Offers privacy-oriented export behavior, including optional metadata removal when saving.
+- Detects faces, QR codes, barcodes, and sensitive text in photos on device.
+- Applies mosaic, blur, block masking, and marker highlighting with brush, rectangle, or circle tools.
+- Adds repeating user text watermarks and per-face Emoji stickers.
+- Automatically detects, tracks, and masks faces in videos on device.
+- Supports preview, undo/redo for photo edits, local save, and Android system share.
+- Offers optional photo metadata removal when saving.
 
 ## Repository Scope
 
@@ -57,6 +58,6 @@ Public website assets live in `assets/`:
 
 ## 中文说明
 
-SnapMosaic 是一款本地优先的 Android 图片隐私处理工具，用于在保存或分享照片前快速隐藏敏感区域。
+SnapMosaic 是一款本地优先的 Android 照片与视频隐私处理工具，支持设备端照片智能打码、用户文字水印、人脸 Emoji 贴纸和视频人脸自动打码。
 
 这个仓库用于托管 SnapMosaic 的公开官网、隐私政策和服务条款。推特、应用商店和 App 内设置页建议使用 GitHub Pages 地址，而不是 GitHub 仓库地址。
