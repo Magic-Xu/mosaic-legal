@@ -1,0 +1,6 @@
+# These are maintenance sources, not pages of the public website.
+exclude:
+  - content
+  - tools
+  - design-qa.md
+  - README.md

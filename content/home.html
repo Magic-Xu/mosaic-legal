@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="$locale" dir="$direction">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b0a10">
+  <title>$page_title</title>
+  <meta name="description" content="$description">
+  <link rel="canonical" href="$canonical">
+$alternates
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$page_title">
+  <meta property="og:description" content="$description">
+  <meta property="og:url" content="$canonical">
+  <meta property="og:image" content="$social_image">
+  <meta property="og:site_name" content="SnapMosaic">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="${prefix}assets/snapmosaic-play-icon-512.png">
+  <link rel="preload" href="${prefix}assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="${prefix}assets/site.css">
+  <script src="${prefix}assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">$skip</a>
+  <header class="site-header">
+    <a class="brand" href="$home_url" aria-label="SnapMosaic · $home_label">
+      <img src="${prefix}assets/snapmosaic-play-icon-512.png" alt="" width="42" height="42">
+      <span>SnapMosaic</span>
+    </a>
+    <nav class="primary-nav" aria-label="$home_label">
+      <a href="#features">$nav_features</a>
+      <a href="#privacy">$nav_privacy</a>
+      <a href="#faq">$nav_faq</a>
+    </nav>
+    <div class="header-actions">
+      <details class="language-picker">
+        <summary aria-label="$language_label: $native">
+          <span class="language-native">$native</span><span class="language-short">$language_label</span>
+          <img class="icon" src="${prefix}assets/icons/caret-down.svg" alt="" width="16" height="16">
+        </summary>
+        <nav class="language-options" aria-label="$language_label">
+$language_links
+        </nav>
+      </details>
+      <a class="button button-small header-download" href="$play_url">$nav_download</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow">$hero_eyebrow</p>
+        <h1 id="hero-heading">$hero_title<span>$hero_accent</span></h1>
+        <p class="hero-description">$hero_description</p>
+        <a class="button button-primary" href="$play_url">
+          <img class="icon" src="${prefix}assets/icons/google-play-logo.svg" alt="" width="25" height="25">
+          $cta
+        </a>
+        <a class="text-link hero-explore" href="#features">$explore $arrow</a>
+        <p class="hero-proof">$proof</p>
+      </div>
+      <figure class="hero-figure wrap">
+        <div class="hero-stage" dir="ltr">
+          <div class="capture hero-editor">
+            <img src="${prefix}assets/product/hero-${image_lang}.png" alt="$hero_image_alt" width="1220" height="2656" fetchpriority="high">
+          </div>
+          <div class="hero-detail">
+            <div class="capture detail-crop">
+              <img src="${prefix}assets/product/words-${image_lang}.png" alt="$words_image_alt" width="1220" height="2656">
+            </div>
+          </div>
+        </div>
+        <figcaption><strong>$hero_caption</strong><span>$screenshot_note</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="privacy-section wrap" id="privacy" aria-labelledby="privacy-heading">
+      <div>
+        <p class="eyebrow">$privacy_eyebrow</p>
+        <h2 id="privacy-heading">$privacy_title<span>$privacy_accent</span></h2>
+      </div>
+      <div class="privacy-copy">
+        <p>$privacy_description</p>
+        <a class="text-link" href="./privacy.html">$privacy_link $arrow</a>
+      </div>
+    </section>
+
+    <section class="tools-section wrap" id="features" aria-labelledby="tools-heading">
+      <p class="eyebrow">$nav_features</p>
+      <h2 id="tools-heading">$tools_title</h2>
+      <div class="tool-tabs" aria-label="$nav_features">
+$tool_buttons
+      </div>
+      <div class="tool-panels">
+$tool_panels
+      </div>
+    </section>
+
+    <section class="faq-section wrap" id="faq" aria-labelledby="faq-heading">
+      <div class="faq-intro">
+        <p class="eyebrow">$nav_faq</p>
+        <h2 id="faq-heading">$faq_title</h2>
+        <a class="text-link" href="mailto:snapmosaic.help@outlook.com">$support $arrow</a>
+      </div>
+      <div class="faq-list">
+$faq_items
+      </div>
+    </section>
+
+    <section class="closing wrap" aria-labelledby="closing-heading">
+      <img class="closing-icon" src="${prefix}assets/snapmosaic-play-icon-512.png" alt="" width="68" height="68" loading="lazy">
+      <h2 id="closing-heading">$closing_title</h2>
+      <p>$closing_description</p>
+      <a class="button button-primary" href="$play_url">$cta</a>
+      <p class="free-note">$free_note</p>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span class="footer-brand">© 2026 SnapMosaic</span>
+    <nav aria-label="$nav_privacy">
+      <a href="./privacy.html">$privacy_label</a>
+      <a href="./terms.html">$terms_label</a>
+      <a href="mailto:snapmosaic.help@outlook.com">$support</a>
+      <a href="https://x.com/snapmosaic_app" rel="noopener noreferrer">X / Twitter</a>
+    </nav>
+  </footer>
+</body>
+</html>
