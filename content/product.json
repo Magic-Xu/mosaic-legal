@@ -1,0 +1,347 @@
+{
+  "en": {
+    "description": "Hide private details with smart photo redaction, face stickers and watermarks.",
+    "smart": {
+      "title": "SMART DETECTION, YOUR FINAL SAY",
+      "body": "Find faces, QR codes, barcodes and common sensitive text. Apply suggested masks with the Smart tool, then tap individual areas to adjust or remove them. Add a manual mask wherever you need one."
+    },
+    "styles": {
+      "title": "CHOOSE HOW TO COVER IT",
+      "body": "Use mosaic, blur or a solid block, with a different effect for each area. Draw with a brush or shape, adjust the effect, zoom in for detail, and undo or redo your edits. Use the marker to highlight what you want people to notice."
+    },
+    "watermark": {
+      "title": "ADD YOUR OWN TEXT WATERMARK",
+      "body": "Place a repeating text watermark across your image to state its purpose or intended use. Customize the text, color, opacity, size, angle and spacing."
+    },
+    "export": {
+      "title": "SAVE AND SHARE WITH CONTROL",
+      "body": "Export as JPEG, PNG or WebP. Choose an output size, save a new image or share through Android. Remove EXIF and GPS metadata at export to keep location details out of the shared file."
+    },
+    "privacyAnswer": "No account is required. Your selected photos are processed on your device and are not uploaded to SnapMosaic servers for editing. Ads, purchases and supporting services may use a network connection; see the privacy policy for details.",
+    "freeAnswer": "Photo editing tools are free to use, and free exports include a SnapMosaic brand watermark by default. An optional one-time Pro purchase removes that brand watermark and in-app ads.",
+    "privacyLabel": "Privacy Policy",
+    "termsLabel": "Terms of Service"
+  },
+  "zh-CN": {
+    "description": "智能识别图片隐私，精细选择遮挡文字，搭配人脸贴纸、自定义水印和导出位置保护，分享更安心。",
+    "smart": {
+      "title": "智能识别，由你决定怎么遮挡",
+      "body": "识别人脸、二维码、条形码和常见敏感文字。使用智能工具应用建议遮挡，再点选各个区域调整效果或取消遮挡；也可以手动补充需要保护的部分。"
+    },
+    "styles": {
+      "title": "多种遮挡样式，按区域自由调整",
+      "body": "马赛克、模糊、纯色色块自由选择，不同区域可以使用不同效果。支持画笔与形状标记、效果调节、画面缩放，以及撤销和重做；还可以用荧光笔突出想让别人注意的内容。"
+    },
+    "watermark": {
+      "title": "自定义文字水印，注明使用范围",
+      "body": "在图片上添加重复文字水印，说明图片用途或使用范围。内容、颜色、透明度、大小、角度和疏密均可调整。"
+    },
+    "export": {
+      "title": "保存与分享，多一份隐私保护",
+      "body": "支持 JPEG、PNG、WebP 和多种输出尺寸。保存为新图片，或通过 Android 系统分享。导出时可移除 EXIF 与 GPS 元数据，避免分享文件携带位置信息。"
+    },
+    "privacyAnswer": "你选择的图片在设备上处理，不会为了编辑而上传至 SnapMosaic 服务器。广告、购买及相关服务可能需要网络连接，详情请参阅隐私政策。",
+    "freeAnswer": "图片编辑工具可免费使用，免费导出默认带有 SnapMosaic 品牌水印。可选一次性购买 Pro，移除品牌水印和应用内广告。",
+    "privacyLabel": "隐私政策",
+    "termsLabel": "服务条款"
+  },
+  "zh-Hant": {
+    "description": "智慧辨識照片隱私，精細選擇要遮住的文字，搭配人臉貼圖、自訂浮水印與匯出位置資訊保護。",
+    "smart": {
+      "title": "智慧辨識，由你決定怎麼遮",
+      "body": "辨識人臉、QR Code、條碼與常見敏感文字。使用智慧工具套用建議遮罩，再點選各個區域調整效果或取消遮罩；也可以手動補上需要保護的部分。"
+    },
+    "styles": {
+      "title": "多種遮罩樣式，逐區自由調整",
+      "body": "馬賽克、模糊、純色色塊自由選擇，不同區域可使用不同效果。支援筆刷與形狀、效果調整、畫面縮放、復原與重做；還能用螢光筆強調重點。"
+    },
+    "watermark": {
+      "title": "自訂文字浮水印，註明用途",
+      "body": "在圖片上加入重複文字浮水印，說明圖片用途或使用範圍。文字、顏色、不透明度、大小、角度與間距都能調整。"
+    },
+    "export": {
+      "title": "保存與分享，多一份隱私保護",
+      "body": "支援 JPEG、PNG、WebP 與多種輸出尺寸。儲存為新圖片，或透過 Android 系統分享。匯出時可移除 EXIF 與 GPS 中繼資料，避免分享檔案夾帶位置資訊。"
+    },
+    "privacyAnswer": "選取的圖片在裝置上處理，不會為了編輯而上傳至 SnapMosaic 伺服器。廣告、購買與相關服務可能需要網路連線，詳情請參閱隱私權政策。",
+    "freeAnswer": "圖片編輯工具可免費使用，免費匯出的圖片預設含有 SnapMosaic 品牌浮水印。可選擇一次性購買 Pro，移除品牌浮水印與應用程式內廣告。",
+    "privacyLabel": "隱私權政策",
+    "termsLabel": "服務條款"
+  },
+  "es": {
+    "description": "Oculta datos privados en fotos con detección, stickers y marcas de agua.",
+    "smart": {
+      "title": "DETECTA Y DECIDE",
+      "body": "Detecta rostros, códigos QR, códigos de barras y textos sensibles habituales. Aplica las áreas sugeridas con la herramienta inteligente y toca cada una para ajustarla o quitarla. Añade áreas manualmente donde las necesites."
+    },
+    "styles": {
+      "title": "ELIGE EL EFECTO",
+      "body": "Usa mosaico, desenfoque o un bloque de color, con un efecto diferente en cada área. Dibuja con pinceles o formas, ajusta el efecto, amplía la imagen y deshaz o rehace cambios. Destaca detalles con el resaltador."
+    },
+    "watermark": {
+      "title": "TU PROPIA MARCA DE AGUA",
+      "body": "Añade texto repetido para indicar el uso previsto de una imagen. Personaliza texto, color, opacidad, tamaño, ángulo y espaciado."
+    },
+    "export": {
+      "title": "GUARDA Y COMPARTE",
+      "body": "Exporta en JPEG, PNG o WebP y elige el tamaño de salida. Guarda una imagen nueva o comparte mediante Android. Puedes eliminar los metadatos EXIF y GPS al exportar para que el archivo compartido no incluya datos de ubicación."
+    },
+    "privacyAnswer": "No necesitas una cuenta. Tus fotos se procesan en tu dispositivo y no se suben a servidores de SnapMosaic para editarlas. Los anuncios, las compras y los servicios relacionados pueden usar la red. Consulta la política de privacidad.",
+    "freeAnswer": "Las herramientas de edición de fotos son gratuitas y las exportaciones gratuitas incluyen la marca de agua de SnapMosaic de forma predeterminada. Una compra única y opcional de Pro elimina esa marca y los anuncios de la app.",
+    "privacyLabel": "Política de privacidad de",
+    "termsLabel": "Términos del servicio de"
+  },
+  "pt-BR": {
+    "description": "Oculte dados privados em fotos com detecção, emojis e marcas d’água.",
+    "smart": {
+      "title": "DETECTE E DECIDA",
+      "body": "Encontre rostos, códigos QR, códigos de barras e textos sensíveis comuns. Aplique as áreas sugeridas com a ferramenta inteligente e toque em cada uma para ajustar ou remover. Adicione áreas manualmente onde precisar."
+    },
+    "styles": {
+      "title": "ESCOLHA O EFEITO",
+      "body": "Use mosaico, desfoque ou uma cor sólida, com um efeito diferente em cada área. Desenhe com pincéis ou formas, ajuste o efeito, amplie a imagem e desfaça ou refaça alterações. Destaque detalhes com o marca-texto."
+    },
+    "watermark": {
+      "title": "SUA PRÓPRIA MARCA D’ÁGUA",
+      "body": "Adicione texto repetido para indicar a finalidade da imagem. Ajuste texto, cor, opacidade, tamanho, ângulo e espaçamento."
+    },
+    "export": {
+      "title": "SALVE E COMPARTILHE",
+      "body": "Exporte em JPEG, PNG ou WebP e escolha o tamanho de saída. Salve uma nova imagem ou compartilhe pelo Android. Remova metadados EXIF e GPS ao exportar para evitar que o arquivo compartilhado contenha dados de localização."
+    },
+    "privacyAnswer": "Não é preciso criar uma conta. Suas fotos são processadas no dispositivo e não são enviadas aos servidores do SnapMosaic para edição. Anúncios, compras e serviços relacionados podem usar a rede. Consulte a política de privacidade.",
+    "freeAnswer": "As ferramentas de edição de fotos são gratuitas, e as exportações gratuitas incluem a marca d’água do SnapMosaic por padrão. Uma compra única e opcional do Pro remove essa marca e os anúncios do app.",
+    "privacyLabel": "Política de Privacidade do",
+    "termsLabel": "Termos de Serviço do"
+  },
+  "hi": {
+    "description": "फोटो में निजी जानकारी छिपाएं। स्मार्ट पहचान, फेस स्टिकर और वॉटरमार्क।",
+    "smart": {
+      "title": "पहचानें और खुद तय करें",
+      "body": "चेहरे, QR कोड, बारकोड और आम संवेदनशील टेक्स्ट पहचानें। स्मार्ट टूल से सुझाए गए हिस्सों को ढकें, फिर हर हिस्से पर टैप करके उसे बदलें या हटाएं। ज़रूरत हो तो मैन्युअल रूप से भी ढकें।"
+    },
+    "styles": {
+      "title": "अपना असर चुनें",
+      "body": "हर हिस्से में अलग मोज़ेक, ब्लर या ठोस रंग लगाएं। ब्रश या आकृतियों से बनाएं, असर बदलें, ज़ूम करें और बदलाव पूर्ववत या फिर से करें। हाइलाइटर से ज़रूरी बातें उभारें।"
+    },
+    "watermark": {
+      "title": "अपना टेक्स्ट वॉटरमार्क",
+      "body": "तस्वीर के इस्तेमाल का उद्देश्य बताने के लिए दोहराया जाने वाला टेक्स्ट जोड़ें। टेक्स्ट, रंग, अपारदर्शिता, आकार, कोण और दूरी बदलें।"
+    },
+    "export": {
+      "title": "सेव और शेयर करें",
+      "body": "JPEG, PNG या WebP में एक्सपोर्ट करें और आउटपुट आकार चुनें। नई तस्वीर सेव करें या Android से साझा करें। साझा फ़ाइल में स्थान की जानकारी जाने से रोकने के लिए एक्सपोर्ट करते समय EXIF और GPS मेटाडेटा हटा सकते हैं।"
+    },
+    "privacyAnswer": "अकाउंट की ज़रूरत नहीं है। फोटो आपके डिवाइस पर प्रोसेस होती हैं और संपादन के लिए SnapMosaic के सर्वर पर अपलोड नहीं होतीं। विज्ञापन, खरीदारी और संबंधित सेवाएं नेटवर्क इस्तेमाल कर सकती हैं। गोपनीयता नीति देखें।",
+    "freeAnswer": "फोटो संपादन टूल मुफ़्त हैं और मुफ़्त एक्सपोर्ट में डिफ़ॉल्ट रूप से SnapMosaic का ब्रांड वॉटरमार्क शामिल होता है। Pro की वैकल्पिक एक बार की खरीद से यह ब्रांड वॉटरमार्क और ऐप के विज्ञापन हट जाते हैं।",
+    "privacyLabel": "गोपनीयता नीति",
+    "termsLabel": "सेवा की शर्तें"
+  },
+  "ur": {
+    "description": "تصاویر کی نجی معلومات چھپائیں۔ ذہین شناخت، چہرے کے اسٹیکرز اور واٹرمارک۔",
+    "smart": {
+      "title": "شناخت کریں اور خود فیصلہ کریں",
+      "body": "چہرے، QR کوڈ، بارکوڈ اور عام حساس متن تلاش کریں۔ اسمارٹ ٹول سے تجویز کردہ حصے ڈھانپیں، پھر ہر حصے پر ٹیپ کرکے اسے بدلیں یا ہٹائیں۔ ضرورت ہو تو مزید حصے دستی طور پر ڈھانپیں۔"
+    },
+    "styles": {
+      "title": "اپنا انداز منتخب کریں",
+      "body": "ہر حصے میں الگ موزیک، بلر یا یک رنگی پردہ استعمال کریں۔ برش یا اشکال سے بنائیں، اثر بدلیں، زوم کریں اور تبدیلیاں واپس یا دوبارہ کریں۔ ہائی لائٹر سے اہم باتیں نمایاں کریں۔"
+    },
+    "watermark": {
+      "title": "اپنا تحریری واٹرمارک",
+      "body": "تصویر کا مقصد بتانے کے لیے بار بار دکھائی دینے والا متن شامل کریں۔ متن، رنگ، غیر شفافیت، سائز، زاویہ اور فاصلہ بدلیں۔"
+    },
+    "export": {
+      "title": "محفوظ اور شیئر کریں",
+      "body": "JPEG، PNG یا WebP میں ایکسپورٹ کریں اور تصویر کا سائز چنیں۔ نئی تصویر محفوظ کریں یا Android کے ذریعے شیئر کریں۔ ایکسپورٹ کے وقت EXIF اور GPS میٹاڈیٹا ہٹا سکتے ہیں تاکہ شیئر کردہ فائل میں مقام کی معلومات شامل نہ ہوں۔"
+    },
+    "privacyAnswer": "اکاؤنٹ ضروری نہیں۔ تصاویر آپ کے آلے پر پروسیس ہوتی ہیں اور ترمیم کے لیے SnapMosaic کے سرورز پر اپ لوڈ نہیں ہوتیں۔ اشتہارات، خریداری اور متعلقہ خدمات نیٹ ورک استعمال کر سکتی ہیں۔ رازداری کی پالیسی دیکھیں۔",
+    "freeAnswer": "تصاویر کی ترمیم کے ٹولز مفت ہیں، اور مفت ایکسپورٹ میں بطور ڈیفالٹ SnapMosaic کا برانڈ واٹرمارک شامل ہوتا ہے۔ Pro کی اختیاری، ایک بار کی خریداری سے یہ برانڈ واٹرمارک اور ایپ کے اشتہارات ہٹ جاتے ہیں۔",
+    "privacyLabel": "رازداری کی پالیسی",
+    "termsLabel": "سروس کی شرائط"
+  },
+  "fr": {
+    "description": "Masquez les données privées de vos photos avec détection, emojis et filigranes.",
+    "smart": {
+      "title": "DÉTECTEZ, PUIS DÉCIDEZ",
+      "body": "Repérez les visages, codes QR, codes-barres et textes sensibles courants. Appliquez les masques proposés avec l’outil intelligent, puis touchez chaque zone pour la modifier ou la retirer. Ajoutez des zones manuellement si nécessaire."
+    },
+    "styles": {
+      "title": "CHOISISSEZ VOTRE EFFET",
+      "body": "Utilisez la mosaïque, le flou ou un aplat de couleur, avec un effet différent par zone. Dessinez au pinceau ou avec des formes, réglez l’effet, zoomez, annulez et rétablissez vos retouches. Soulignez les détails avec le surligneur."
+    },
+    "watermark": {
+      "title": "VOTRE PROPRE FILIGRANE",
+      "body": "Ajoutez un texte répété pour préciser l’usage prévu de l’image. Réglez le texte, la couleur, l’opacité, la taille, l’angle et l’espacement."
+    },
+    "export": {
+      "title": "ENREGISTREZ ET PARTAGEZ",
+      "body": "Exportez en JPEG, PNG ou WebP et choisissez les dimensions. Enregistrez une nouvelle image ou partagez-la via Android. Retirez les métadonnées EXIF et GPS à l’export pour éviter d’inclure la localisation dans le fichier partagé."
+    },
+    "privacyAnswer": "Aucun compte requis. Vos photos sont traitées sur votre appareil et ne sont pas envoyées aux serveurs de SnapMosaic pour être retouchées. Les publicités, achats et services associés peuvent utiliser le réseau. Consultez la politique de confidentialité.",
+    "freeAnswer": "Les outils de retouche photo sont gratuits, et les exports gratuits incluent par défaut le filigrane de marque SnapMosaic. Un achat unique et facultatif de Pro retire ce filigrane et les publicités de l’application.",
+    "privacyLabel": "Politique de confidentialité de",
+    "termsLabel": "Conditions d&#x27;utilisation de"
+  },
+  "ja": {
+    "description": "写真やスクリーンショットの個人情報を隠す。文字の選択、顔スタンプ、透かし、位置情報の削除に対応。",
+    "smart": {
+      "title": "検出結果を自分で確認",
+      "body": "顔、QR コード、バーコード、一般的な機密テキストを検出。スマートツールで提案された領域を隠し、個別にタップして調整や解除ができます。必要な場所には手動で追加できます。"
+    },
+    "styles": {
+      "title": "領域ごとに異なる効果",
+      "body": "モザイク、ぼかし、単色での塗りつぶしに対応。ブラシや図形、効果の調整、拡大表示、元に戻す・やり直しを使えます。蛍光ペンで注目してほしい部分を強調することもできます。"
+    },
+    "watermark": {
+      "title": "自分の文字を透かしに",
+      "body": "繰り返し表示する文字の透かしで、画像の用途を明示。文字、色、不透明度、サイズ、角度、間隔を調整できます。"
+    },
+    "export": {
+      "title": "保存と共有を細かく設定",
+      "body": "JPEG、PNG、WebP と出力サイズを選び、新しい画像として保存するか Android から共有できます。書き出し時に EXIF と GPS メタデータを削除し、共有ファイルに位置情報が残るのを防げます。"
+    },
+    "privacyAnswer": "アカウント登録は不要です。選択した画像は端末内で処理され、編集のために SnapMosaic のサーバーにアップロードされません。広告、購入、関連サービスではネットワークを使用する場合があります。詳細はプライバシーポリシーをご確認ください。",
+    "freeAnswer": "画像編集ツールは無料で利用でき、無料の書き出しには標準で SnapMosaic のブランド透かしが入ります。任意の一度きりの Pro 購入で、この透かしとアプリ内広告を削除できます。",
+    "privacyLabel": "プライバシーポリシー",
+    "termsLabel": "利用規約"
+  },
+  "ko": {
+    "description": "사진 속 개인정보를 가리세요. 글자 선택, 얼굴 스티커, 워터마크, 위치정보 제거를 지원합니다.",
+    "smart": {
+      "title": "감지 결과를 직접 확인",
+      "body": "얼굴, QR 코드, 바코드, 일반적인 민감한 텍스트를 찾습니다. 스마트 도구로 제안된 영역을 가린 뒤 각 영역을 눌러 조정하거나 해제하세요. 필요한 곳에 수동으로 가림 영역을 추가할 수도 있습니다."
+    },
+    "styles": {
+      "title": "영역마다 다른 효과",
+      "body": "모자이크, 블러, 단색 가리기를 선택하세요. 브러시와 도형, 효과 조정, 확대, 실행 취소와 다시 실행을 지원합니다. 형광펜으로 중요한 부분을 강조할 수도 있습니다."
+    },
+    "watermark": {
+      "title": "나만의 텍스트 워터마크",
+      "body": "반복되는 텍스트 워터마크로 이미지의 용도를 표시하세요. 문구, 색상, 불투명도, 크기, 각도, 간격을 조정할 수 있습니다."
+    },
+    "export": {
+      "title": "저장과 공유 설정",
+      "body": "JPEG, PNG, WebP와 출력 크기를 선택하고 새 이미지로 저장하거나 Android를 통해 공유하세요. 내보낼 때 EXIF와 GPS 메타데이터를 제거하여 공유 파일에 위치정보가 포함되지 않도록 할 수 있습니다."
+    },
+    "privacyAnswer": "계정이 필요하지 않습니다. 선택한 사진은 기기에서 처리되며 편집을 위해 SnapMosaic 서버에 업로드되지 않습니다. 광고, 구매 및 관련 서비스는 네트워크를 사용할 수 있습니다. 자세한 내용은 개인정보처리방침을 확인하세요.",
+    "freeAnswer": "사진 편집 도구는 무료로 사용할 수 있으며, 무료로 내보낸 사진에는 기본적으로 SnapMosaic 브랜드 워터마크가 포함됩니다. 선택 사항인 Pro를 한 번 구매하면 브랜드 워터마크와 앱 내 광고가 제거됩니다.",
+    "privacyLabel": "개인정보 처리방침",
+    "termsLabel": "서비스 약관"
+  },
+  "id": {
+    "description": "Sembunyikan data pribadi di foto dengan deteksi, stiker wajah, dan watermark.",
+    "smart": {
+      "title": "DETEKSI, LALU TENTUKAN",
+      "body": "Temukan wajah, kode QR, barcode, dan teks sensitif yang umum. Terapkan area yang disarankan dengan alat cerdas, lalu ketuk tiap area untuk menyesuaikan atau menghapusnya. Tambahkan area secara manual jika diperlukan."
+    },
+    "styles": {
+      "title": "EFEK SESUAI KEBUTUHAN",
+      "body": "Gunakan mosaik, blur, atau blok warna solid, dengan efek berbeda untuk setiap area. Gunakan kuas atau bentuk, atur efek, perbesar gambar, serta urungkan dan ulangi edit. Sorot bagian penting dengan penanda."
+    },
+    "watermark": {
+      "title": "WATERMARK TEKS ANDA",
+      "body": "Tambahkan teks berulang untuk menjelaskan tujuan penggunaan gambar. Atur teks, warna, opasitas, ukuran, sudut, dan jaraknya."
+    },
+    "export": {
+      "title": "SIMPAN DAN BAGIKAN",
+      "body": "Ekspor sebagai JPEG, PNG, atau WebP dan pilih ukuran hasilnya. Simpan gambar baru atau bagikan melalui Android. Hapus metadata EXIF dan GPS saat ekspor agar file yang dibagikan tidak membawa data lokasi."
+    },
+    "privacyAnswer": "Tidak perlu akun. Foto diproses di perangkat Anda dan tidak diunggah ke server SnapMosaic untuk diedit. Iklan, pembelian, dan layanan pendukung dapat menggunakan jaringan. Lihat kebijakan privasi.",
+    "freeAnswer": "Alat edit foto dapat digunakan gratis, dan ekspor gratis menyertakan watermark merek SnapMosaic secara default. Pembelian Pro satu kali yang opsional menghapus watermark merek tersebut dan iklan dalam aplikasi.",
+    "privacyLabel": "Kebijakan Privasi",
+    "termsLabel": "Ketentuan Layanan"
+  },
+  "th": {
+    "description": "ซ่อนข้อมูลส่วนตัวในภาพด้วยการตรวจจับ สติกเกอร์ใบหน้า และลายน้ำ",
+    "smart": {
+      "title": "ตรวจจับแล้วเลือกได้เอง",
+      "body": "ค้นหาใบหน้า คิวอาร์โค้ด บาร์โค้ด และข้อความส่วนตัวที่พบบ่อย ใช้เครื่องมืออัจฉริยะปิดบริเวณที่แนะนำ แล้วแตะแต่ละจุดเพื่อปรับหรือยกเลิก เพิ่มพื้นที่ปิดด้วยตนเองได้ตามต้องการ"
+    },
+    "styles": {
+      "title": "เลือกเอฟเฟกต์ที่เหมาะ",
+      "body": "ใช้โมเสก เบลอ หรือสีทึบ โดยเลือกต่างกันได้ในแต่ละบริเวณ วาดด้วยแปรงหรือรูปทรง ปรับเอฟเฟกต์ ซูม เลิกทำและทำซ้ำ ใช้ปากกาเน้นข้อความเพื่อชี้จุดสำคัญ"
+    },
+    "watermark": {
+      "title": "ลายน้ำข้อความของคุณ",
+      "body": "เพิ่มข้อความซ้ำเพื่อระบุวัตถุประสงค์การใช้ภาพ ปรับข้อความ สี ความทึบ ขนาด มุม และระยะห่างได้"
+    },
+    "export": {
+      "title": "บันทึกและแชร์",
+      "body": "ส่งออกเป็น JPEG, PNG หรือ WebP และเลือกขนาด บันทึกเป็นภาพใหม่หรือแชร์ผ่าน Android ลบข้อมูลเมตา EXIF และ GPS ขณะส่งออกได้ เพื่อไม่ให้ไฟล์ที่แชร์มีข้อมูลตำแหน่ง"
+    },
+    "privacyAnswer": "ไม่ต้องมีบัญชี ภาพจะประมวลผลบนอุปกรณ์และไม่ถูกอัปโหลดไปยังเซิร์ฟเวอร์ SnapMosaic เพื่อแก้ไข โฆษณา การซื้อ และบริการที่เกี่ยวข้องอาจใช้เครือข่าย โปรดดูนโยบายความเป็นส่วนตัว",
+    "freeAnswer": "เครื่องมือแก้ไขภาพใช้งานได้ฟรี และภาพที่ส่งออกฟรีจะมีลายน้ำแบรนด์ SnapMosaic เป็นค่าเริ่มต้น คุณสามารถเลือกซื้อ Pro แบบชำระครั้งเดียวเพื่อลบลายน้ำแบรนด์นี้และโฆษณาในแอป",
+    "privacyLabel": "นโยบายความเป็นส่วนตัวของ",
+    "termsLabel": "ข้อกำหนดในการให้บริการของ"
+  },
+  "vi": {
+    "description": "Ẩn thông tin riêng tư trong ảnh với nhận diện, nhãn dán và dấu chìm.",
+    "smart": {
+      "title": "NHẬN DIỆN VÀ TỰ QUYẾT ĐỊNH",
+      "body": "Tìm khuôn mặt, mã QR, mã vạch và văn bản nhạy cảm thường gặp. Áp dụng vùng che được đề xuất bằng công cụ thông minh, rồi chạm từng vùng để chỉnh hoặc bỏ che. Thêm vùng che thủ công khi cần."
+    },
+    "styles": {
+      "title": "CHỌN HIỆU ỨNG",
+      "body": "Dùng khảm điểm ảnh, làm mờ hoặc khối màu đặc, với hiệu ứng riêng cho từng vùng. Vẽ bằng cọ hoặc hình dạng, chỉnh hiệu ứng, phóng to, hoàn tác và làm lại. Dùng bút đánh dấu để làm nổi bật chi tiết."
+    },
+    "watermark": {
+      "title": "DẤU CHÌM VĂN BẢN RIÊNG",
+      "body": "Thêm văn bản lặp lại để nêu mục đích sử dụng ảnh. Tùy chỉnh nội dung, màu, độ mờ, kích thước, góc và khoảng cách."
+    },
+    "export": {
+      "title": "LƯU VÀ CHIA SẺ",
+      "body": "Xuất JPEG, PNG hoặc WebP và chọn kích thước đầu ra. Lưu ảnh mới hoặc chia sẻ qua Android. Xóa siêu dữ liệu EXIF và GPS khi xuất để tệp chia sẻ không kèm vị trí."
+    },
+    "privacyAnswer": "Không cần tài khoản. Ảnh được xử lý trên thiết bị của bạn, không tải lên máy chủ SnapMosaic để chỉnh sửa. Quảng cáo, giao dịch mua và dịch vụ liên quan có thể dùng mạng. Xem chính sách quyền riêng tư.",
+    "freeAnswer": "Các công cụ chỉnh sửa ảnh được dùng miễn phí, và ảnh xuất miễn phí mặc định có dấu chìm thương hiệu SnapMosaic. Bạn có thể tùy chọn mua Pro một lần để xóa dấu chìm thương hiệu này và quảng cáo trong ứng dụng.",
+    "privacyLabel": "Chính sách quyền riêng tư của",
+    "termsLabel": "Điều khoản dịch vụ của"
+  },
+  "ms": {
+    "description": "Lindungi maklumat peribadi dalam foto dengan pengesanan, pelekat dan tera air.",
+    "smart": {
+      "title": "KESAN DAN TENTUKAN",
+      "body": "Kesan wajah, kod QR, kod bar dan teks sensitif yang lazim. Gunakan alat pintar untuk menutup kawasan yang dicadangkan, kemudian ketik setiap kawasan untuk melaras atau membuangnya. Tambah kawasan secara manual jika perlu."
+    },
+    "styles": {
+      "title": "PILIH KESAN ANDA",
+      "body": "Gunakan mozek, kabur atau blok warna padu dengan kesan berbeza bagi setiap kawasan. Lukis dengan berus atau bentuk, laraskan kesan, zum serta buat asal dan buat semula suntingan. Serlahkan butiran dengan pen penyerlah."
+    },
+    "watermark": {
+      "title": "TERA AIR TEKS SENDIRI",
+      "body": "Tambah teks berulang untuk menyatakan tujuan penggunaan imej. Laraskan teks, warna, kelegapan, saiz, sudut dan jarak."
+    },
+    "export": {
+      "title": "SIMPAN DAN KONGSI",
+      "body": "Eksport dalam JPEG, PNG atau WebP dan pilih saiz output. Simpan imej baharu atau kongsi melalui Android. Buang metadata EXIF dan GPS semasa eksport supaya fail yang dikongsi tidak menyertakan lokasi."
+    },
+    "privacyAnswer": "Tiada akaun diperlukan. Foto diproses pada peranti anda dan tidak dimuat naik ke pelayan SnapMosaic untuk disunting. Iklan, pembelian dan perkhidmatan berkaitan mungkin menggunakan rangkaian. Rujuk dasar privasi.",
+    "freeAnswer": "Alat penyuntingan foto boleh digunakan secara percuma, dan eksport percuma mengandungi tera air jenama SnapMosaic secara lalai. Pembelian Pro sekali sahaja adalah pilihan untuk membuang tera air jenama tersebut dan iklan dalam aplikasi.",
+    "privacyLabel": "Dasar Privasi",
+    "termsLabel": "Terma Perkhidmatan"
+  },
+  "fil": {
+    "description": "Takpan ang pribadong detalye sa larawan gamit ang detection, emoji at watermark.",
+    "smart": {
+      "title": "TUKLASIN AT PUMILI",
+      "body": "Tukuyin ang mga mukha, QR code, barcode at karaniwang sensitibong teksto. Ilapat ang mga iminungkahing takip gamit ang smart tool, saka i-tap ang bawat bahagi para ayusin o alisin ito. Magdagdag ng takip nang manwal kung kailangan."
+    },
+    "styles": {
+      "title": "PILIIN ANG EPEKTO",
+      "body": "Gumamit ng mosaic, blur o solidong kulay, na may magkakaibang epekto sa bawat bahagi. Gumuhit gamit ang brush o hugis, ayusin ang epekto, mag-zoom, at mag-undo o redo. Idiin ang mahahalagang detalye gamit ang highlighter."
+    },
+    "watermark": {
+      "title": "SARILING TEXT WATERMARK",
+      "body": "Maglagay ng paulit-ulit na teksto para ipakita ang layunin ng larawan. Ayusin ang teksto, kulay, opacity, laki, anggulo at pagitan."
+    },
+    "export": {
+      "title": "I-SAVE AT IBAHAGI",
+      "body": "Mag-export bilang JPEG, PNG o WebP at pumili ng laki. Mag-save ng bagong larawan o magbahagi sa Android. Alisin ang EXIF at GPS metadata sa pag-export upang walang kasamang lokasyon ang ibinahaging file."
+    },
+    "privacyAnswer": "Hindi kailangan ng account. Pinoproseso ang mga larawan sa iyong device at hindi ina-upload sa mga server ng SnapMosaic para i-edit. Maaaring gumamit ng network ang mga ad, pagbili at kaugnay na serbisyo. Tingnan ang patakaran sa privacy.",
+    "freeAnswer": "Libre ang mga tool sa pag-edit ng larawan, at may SnapMosaic brand watermark ang mga libreng export bilang default. Ang opsyonal na minsanang pagbili ng Pro ay nag-aalis ng brand watermark na ito at mga ad sa app.",
+    "privacyLabel": "Patakaran sa Privacy ng",
+    "termsLabel": "Mga Tuntunin ng Serbisyo ng"
+  }
+}

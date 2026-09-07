@@ -1,63 +1,68 @@
-<p align="center">
-  <img src="assets/snapmosaic-feature-graphic-1024x500.png" alt="SnapMosaic - Private photo and video masking, on device" width="1024">
-</p>
+# SnapMosaic website
 
-# SnapMosaic
+The official product website and legal pages for SnapMosaic, an Android photo privacy editor. Published with GitHub Pages from the repository root on `main`.
 
-SnapMosaic is a local-first Android privacy editor for photos and videos.
-
-Use on-device smart detection or manual tools to mask private details in photos, add repeating text watermarks or face Emoji stickers, and automatically mask faces in videos. SnapMosaic does not require an account, and selected media is processed locally.
-
-## Official Links
-
-- Website: <https://magic-xu.github.io/mosaic-legal/>
-- Google Play: <https://play.google.com/store/apps/details?id=com.magic.snapmosaic>
-- X / Twitter: <https://x.com/snapmosaic_app>
-- Privacy Policy: <https://magic-xu.github.io/mosaic-legal/privacy.html>
-- Terms of Service: <https://magic-xu.github.io/mosaic-legal/terms.html>
-- 中文站点: <https://magic-xu.github.io/mosaic-legal/zh-CN/>
-- 中文隐私政策: <https://magic-xu.github.io/mosaic-legal/zh-CN/privacy.html>
-- 中文服务条款: <https://magic-xu.github.io/mosaic-legal/zh-CN/terms.html>
+- [Website](https://magic-xu.github.io/mosaic-legal/)
+- [Google Play](https://play.google.com/store/apps/details?id=com.magic.snapmosaic)
+- [Privacy policy](https://magic-xu.github.io/mosaic-legal/privacy.html)
+- [Terms of service](https://magic-xu.github.io/mosaic-legal/terms.html)
 - Support: <snapmosaic.help@outlook.com>
 
-## What SnapMosaic Does
+## Product content
 
-- Detects faces, QR codes, barcodes, and sensitive text in photos on device.
-- Applies mosaic, blur, block masking, and marker highlighting with brush, rectangle, or circle tools.
-- Adds repeating user text watermarks and per-face Emoji stickers.
-- Automatically detects, tracks, and masks faces in videos on device.
-- Supports preview, undo/redo for photo edits, local save, and Android system share.
-- Offers optional photo metadata removal when saving.
+The homepage presents SnapMosaic 2.0 photo and screenshot editing: smart detection, precise word selection, face emoji stickers, masking styles, user text watermarks, and export controls. Editing tools are free. Optional one-time Pro removes the SnapMosaic brand watermark and in-app ads.
 
-## Repository Scope
+Selected photos are edited on the device. No account is required. The privacy policy describes third-party services and data handling in detail.
 
-This repository hosts the public SnapMosaic website and legal pages through GitHub Pages. It is intended for:
+## Languages and routes
 
-- Social profile links and public product introduction.
-- App store website and privacy policy fields.
-- In-app settings links for privacy, terms, support, and feedback.
-- Versioned public references for privacy and terms updates.
+All 15 app languages have a homepage, privacy policy, and terms of service. English lives at the root; other languages use their language directory. Existing legal URLs remain valid.
 
-The GitHub Pages source is the repository root on the `main` branch.
+| Language | Route |
+| --- | --- |
+| English | `/` |
+| 简体中文 | `/zh-CN/` |
+| 繁體中文 | `/zh-Hant/` |
+| Español | `/es/` |
+| Português (Brasil) | `/pt-BR/` |
+| हिन्दी | `/hi/` |
+| اردو | `/ur/` |
+| Français | `/fr/` |
+| 日本語 | `/ja/` |
+| 한국어 | `/ko/` |
+| Bahasa Indonesia | `/id/` |
+| ไทย | `/th/` |
+| Tiếng Việt | `/vi/` |
+| Bahasa Melayu | `/ms/` |
+| Filipino | `/fil/` |
+
+The Android legacy locale `in` maps to the standard web locale `id`. Urdu pages use right-to-left layout. Language switching preserves the current homepage section. The site does not redirect visitors based on their browser language.
+
+## Editing and preview
+
+Requires Python 3; no package installation or frontend build service is needed.
+
+```sh
+python3 tools/build_site.py
+python3 tools/build_site.py --check
+python3 -m http.server 8797 --bind 127.0.0.1
+```
+
+Open <http://127.0.0.1:8797/> or a language route to preview. Commit the generated HTML and sitemap together with their sources.
+
+- `content/home.html`: shared homepage template.
+- `content/site.json`: localized navigation, hero, feature copy, and FAQ labels.
+- `content/product.json`: product descriptions and explanations adapted from the approved 2.0.0 store material.
+- `assets/site.css` and `assets/site.js`: responsive styling and progressive enhancement for the language menu and keyboard-accessible feature tabs.
+- `tools/build_site.py`: generates 15 static homepages and `sitemap.xml`; maintains the existing legal-page home links and theme metadata.
+- `assets/legal.css`: shared legal-page appearance. Legal text remains in each language's HTML file and is not generated from homepage copy.
+
+Keep locale keys complete in both JSON files. Update the shared template and regenerate instead of editing generated homepages by hand. Review legal translations and effective dates separately when legal content changes.
 
 ## Assets
 
-Public website assets live in `assets/`:
+`assets/product/` contains authentic English and Simplified Chinese app captures and approved store feature graphics. Screenshot pixels are preserved; CSS crops focus attention on the relevant controls. English captures illustrate the other language homepages, with a localized screenshot-language note. This does not change the app's language support.
 
-- `assets/snapmosaic-play-icon-512.png`
-- `assets/snapmosaic-feature-graphic-1024x500.png`
-- `assets/screenshots/*.png` for current ASO preview images
-- `assets/screenshots/*.jpg` for archived raw app screenshots
+The SnapMosaic logo is the supplied Play icon. Inter and Phosphor icons are self-hosted; their licenses are included in `assets/fonts/Inter-LICENSE.txt` and `assets/icons/LICENSE`. Existing legacy asset URLs remain available.
 
-## Maintenance Notes
-
-- Keep English and zh-CN pages consistent in meaning.
-- Update the effective date in both languages when legal content changes.
-- Use `https://magic-xu.github.io/mosaic-legal/privacy.html` as the English privacy policy URL for app store forms.
-- Use `https://magic-xu.github.io/mosaic-legal/` as the public website URL for social profiles.
-
-## 中文说明
-
-SnapMosaic 是一款本地优先的 Android 照片与视频隐私处理工具，支持设备端照片智能打码、用户文字水印、人脸 Emoji 贴纸和视频人脸自动打码。
-
-这个仓库用于托管 SnapMosaic 的公开官网、隐私政策和服务条款。推特、应用商店和 App 内设置页建议使用 GitHub Pages 地址，而不是 GitHub 仓库地址。
+GitHub Pages excludes the source content, generation tools, README, and design QA report via `_config.yml`. The published pages do not load analytics, third-party fonts, or a client-side framework.

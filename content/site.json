@@ -1,0 +1,917 @@
+{
+  "en": {
+    "native": "English",
+    "nav": [
+      "Features",
+      "Privacy",
+      "FAQ",
+      "Download",
+      "Language"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · Photo privacy",
+      "Your photo.",
+      "Your rules.",
+      "Hide private details before you share.\nSmart detection and precise control, on your device.",
+      "Get it on Google Play",
+      "Explore the tools",
+      "Android · No account required",
+      "Smart detection. Your final say."
+    ],
+    "privacy": [
+      "On-device photo editing",
+      "Private details.",
+      "Personal control.",
+      "Your selected photos stay on your device for editing. Review each mask, adjust the result, and share when you are ready.",
+      "How privacy works"
+    ],
+    "toolsTitle": "A thoughtful touch. Every detail.",
+    "tabs": [
+      "Precise text",
+      "Face stickers",
+      "Mask styles",
+      "Your watermark",
+      "Private export"
+    ],
+    "words": [
+      "Only hide what you choose.",
+      "Long press a detected line. Select just the words to hide, and keep the rest readable."
+    ],
+    "faces": [
+      "Hide faces. Keep the smiles.",
+      "Cover detected faces with emoji stickers. Choose a different expression for each face and keep the mood of a group photo."
+    ],
+    "faq": [
+      "A few things to know.",
+      "Is SnapMosaic free to use?",
+      "Are my photos uploaded for editing?",
+      "How do I restore my Pro purchase?",
+      "Use the Google Play account you purchased with, then open the Pro page in SnapMosaic settings and choose Restore purchases. An active purchase removes the SnapMosaic brand watermark and in-app ads."
+    ],
+    "closing": [
+      "Ready when you are.",
+      "A little privacy, before your next share."
+    ],
+    "ui": [
+      "Skip to content",
+      "App screenshots shown in English.",
+      "Contact support",
+      "Home",
+      "Photo editing tools are free. Pro is optional."
+    ]
+  },
+  "zh-CN": {
+    "native": "简体中文",
+    "nav": [
+      "功能",
+      "隐私",
+      "常见问题",
+      "下载",
+      "语言"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · 图片隐私保护",
+      "你的照片，",
+      "由你决定。",
+      "分享之前，藏好私密细节。智能识别与精细控制，图片在你的设备上处理。",
+      "在 Google Play 下载",
+      "探索编辑工具",
+      "Android · 无需注册账号",
+      "智能识别，最后由你决定。"
+    ],
+    "privacy": [
+      "图片在本机处理",
+      "私密细节，",
+      "自己掌控。",
+      "你选择的图片在设备上完成编辑。检查每一处遮挡，调整处理效果，准备好后再分享。",
+      "了解隐私处理方式"
+    ],
+    "toolsTitle": "每一处细节，都恰到好处。",
+    "tabs": [
+      "精细选词",
+      "人脸贴纸",
+      "遮挡样式",
+      "文字水印",
+      "隐私导出"
+    ],
+    "words": [
+      "只藏需要隐藏的部分。",
+      "长按已识别的一行文字，选择需要遮挡的片段，让其余内容保持清楚。"
+    ],
+    "faces": [
+      "藏住人脸，保留好心情。",
+      "用表情贴纸遮挡已识别的人脸。每张脸都可以选择不同表情，让合照保留原有的趣味。"
+    ],
+    "faq": [
+      "你可能想了解。",
+      "SnapMosaic 可以免费使用吗？",
+      "编辑时会上传我的图片吗？",
+      "如何恢复已购买的 Pro？",
+      "使用购买时的 Google Play 账号，在 SnapMosaic 设置中打开 Pro 页面，选择“恢复购买”。有效的购买可移除 SnapMosaic 品牌水印和应用内广告。"
+    ],
+    "closing": [
+      "准备好，就分享。",
+      "下一次分享前，多一份隐私保护。"
+    ],
+    "ui": [
+      "跳转到正文",
+      "应用截图为简体中文界面。",
+      "联系支持",
+      "首页",
+      "图片编辑工具免费，Pro 可选。"
+    ]
+  },
+  "zh-Hant": {
+    "native": "繁體中文",
+    "nav": [
+      "功能",
+      "隱私",
+      "常見問題",
+      "下載",
+      "語言"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · 圖片隱私保護",
+      "你的照片，",
+      "由你決定。",
+      "分享之前，藏好私密細節。智慧辨識與精細控制，圖片在你的裝置上處理。",
+      "在 Google Play 下載",
+      "探索編輯工具",
+      "Android · 無需註冊帳號",
+      "智慧辨識，最後由你決定。"
+    ],
+    "privacy": [
+      "圖片在裝置上處理",
+      "私密細節，",
+      "自己掌控。",
+      "你選擇的圖片在裝置上完成編輯。檢查每一處遮擋，調整處理效果，準備好後再分享。",
+      "瞭解隱私處理方式"
+    ],
+    "toolsTitle": "每一處細節，都恰到好處。",
+    "tabs": [
+      "精細選字",
+      "臉部貼圖",
+      "遮擋樣式",
+      "文字浮水印",
+      "隱私匯出"
+    ],
+    "words": [
+      "只藏需要隱藏的部分。",
+      "長按已辨識的一行文字，選擇需要遮擋的片段，讓其餘內容保持清楚。"
+    ],
+    "faces": [
+      "藏住臉孔，保留好心情。",
+      "用表情貼圖遮擋已辨識的臉孔。每張臉都可以選擇不同表情，讓合照保留原有的趣味。"
+    ],
+    "faq": [
+      "你可能想瞭解。",
+      "SnapMosaic 可以免費使用嗎？",
+      "編輯時會上傳我的圖片嗎？",
+      "如何恢復已購買的 Pro？",
+      "使用購買時的 Google Play 帳號，在 SnapMosaic 設定中開啟 Pro 頁面，選擇「恢復購買」。有效的購買可移除 SnapMosaic 品牌浮水印和應用程式內廣告。"
+    ],
+    "closing": [
+      "準備好，就分享。",
+      "下一次分享前，多一份隱私保護。"
+    ],
+    "ui": [
+      "跳至正文",
+      "應用程式截圖為英文介面。",
+      "聯絡支援",
+      "首頁",
+      "圖片編輯工具免費，Pro 為選購項目。"
+    ]
+  },
+  "es": {
+    "native": "Español",
+    "nav": [
+      "Funciones",
+      "Privacidad",
+      "Preguntas",
+      "Descargar",
+      "Idioma"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · Privacidad en fotos",
+      "Tu foto.",
+      "Tus reglas.",
+      "Oculta los detalles privados antes de compartir. Detección inteligente y control preciso, en tu dispositivo.",
+      "Descargar en Google Play",
+      "Explora las herramientas",
+      "Android · Sin crear una cuenta",
+      "Detección inteligente. Tú decides."
+    ],
+    "privacy": [
+      "Edición en tu dispositivo",
+      "Detalles privados.",
+      "Tú tienes el control.",
+      "Las fotos que eliges se editan en tu dispositivo. Revisa cada área oculta, ajusta el resultado y comparte cuando quieras.",
+      "Cómo cuidamos tu privacidad"
+    ],
+    "toolsTitle": "Cada detalle, a tu manera.",
+    "tabs": [
+      "Selección de texto",
+      "Stickers de caras",
+      "Estilos",
+      "Tu marca de agua",
+      "Exportación privada"
+    ],
+    "words": [
+      "Oculta solo lo que elijas.",
+      "Mantén presionada una línea detectada. Selecciona las palabras que quieras ocultar y deja el resto legible."
+    ],
+    "faces": [
+      "Oculta caras. Conserva las sonrisas.",
+      "Cubre las caras detectadas con stickers de emoji. Elige una expresión distinta para cada persona y conserva el ambiente de la foto."
+    ],
+    "faq": [
+      "Lo que conviene saber.",
+      "¿SnapMosaic es gratis?",
+      "¿Se suben mis fotos para editarlas?",
+      "¿Cómo restauro mi compra de Pro?",
+      "Usa la cuenta de Google Play con la que compraste Pro. En los ajustes de SnapMosaic, abre la página de Pro y selecciona Restaurar compras. Una compra activa elimina la marca de agua de SnapMosaic y los anuncios de la app."
+    ],
+    "closing": [
+      "Comparte cuando quieras.",
+      "Un poco de privacidad, antes de compartir."
+    ],
+    "ui": [
+      "Ir al contenido",
+      "Las capturas de la app se muestran en inglés.",
+      "Contactar con soporte",
+      "Inicio",
+      "Las herramientas de edición son gratis. Pro es opcional."
+    ]
+  },
+  "pt-BR": {
+    "native": "Português (Brasil)",
+    "nav": [
+      "Recursos",
+      "Privacidade",
+      "Dúvidas",
+      "Baixar",
+      "Idioma"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · Privacidade em fotos",
+      "Sua foto.",
+      "Suas regras.",
+      "Oculte detalhes privados antes de compartilhar. Detecção inteligente e controle preciso, no seu dispositivo.",
+      "Baixar no Google Play",
+      "Explore as ferramentas",
+      "Android · Sem criar uma conta",
+      "Detecção inteligente. A decisão é sua."
+    ],
+    "privacy": [
+      "Edição no seu dispositivo",
+      "Detalhes privados.",
+      "Controle nas suas mãos.",
+      "As fotos selecionadas são editadas no seu dispositivo. Confira cada área ocultada, ajuste o resultado e compartilhe quando quiser.",
+      "Como funciona a privacidade"
+    ],
+    "toolsTitle": "Cada detalhe, do seu jeito.",
+    "tabs": [
+      "Seleção de texto",
+      "Adesivos de rosto",
+      "Estilos",
+      "Sua marca d’água",
+      "Exportação privada"
+    ],
+    "words": [
+      "Oculte apenas o que escolher.",
+      "Pressione e segure uma linha detectada. Selecione as palavras que deseja ocultar e mantenha o restante legível."
+    ],
+    "faces": [
+      "Oculte rostos. Preserve os sorrisos.",
+      "Cubra rostos detectados com adesivos de emoji. Escolha uma expressão para cada pessoa e mantenha o clima da foto em grupo."
+    ],
+    "faq": [
+      "Algumas coisas para saber.",
+      "O SnapMosaic é gratuito?",
+      "Minhas fotos são enviadas para edição?",
+      "Como restauro minha compra do Pro?",
+      "Use a conta do Google Play com a qual comprou o Pro. Nas configurações do SnapMosaic, abra a página do Pro e escolha Restaurar compras. Uma compra ativa remove a marca d’água do SnapMosaic e os anúncios no app."
+    ],
+    "closing": [
+      "Compartilhe quando quiser.",
+      "Um pouco de privacidade antes de compartilhar."
+    ],
+    "ui": [
+      "Pular para o conteúdo",
+      "As capturas do app estão em inglês.",
+      "Falar com o suporte",
+      "Início",
+      "As ferramentas de edição são gratuitas. O Pro é opcional."
+    ]
+  },
+  "hi": {
+    "native": "हिन्दी",
+    "nav": [
+      "सुविधाएँ",
+      "गोपनीयता",
+      "सवाल",
+      "डाउनलोड",
+      "भाषा"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · फ़ोटो की गोपनीयता",
+      "आपकी फ़ोटो।",
+      "आपके नियम।",
+      "शेयर करने से पहले निजी जानकारी छिपाएँ। स्मार्ट पहचान और बारीक नियंत्रण, आपके डिवाइस पर।",
+      "Google Play से डाउनलोड करें",
+      "टूल देखें",
+      "Android · खाते की ज़रूरत नहीं",
+      "स्मार्ट पहचान। आखिरी फ़ैसला आपका।"
+    ],
+    "privacy": [
+      "डिवाइस पर फ़ोटो एडिटिंग",
+      "निजी जानकारी।",
+      "नियंत्रण आपके हाथ में।",
+      "चुनी गई फ़ोटो आपके डिवाइस पर ही एडिट होती हैं। हर छिपाए गए हिस्से को जाँचें, परिणाम सुधारें और तैयार होने पर शेयर करें।",
+      "गोपनीयता कैसे काम करती है"
+    ],
+    "toolsTitle": "हर बारीकी, आपके तरीके से।",
+    "tabs": [
+      "टेक्स्ट चुनें",
+      "चेहरे के स्टिकर",
+      "छिपाने के तरीके",
+      "अपना वॉटरमार्क",
+      "निजी एक्सपोर्ट"
+    ],
+    "words": [
+      "सिर्फ़ चुना हुआ हिस्सा छिपाएँ।",
+      "पहचानी गई पंक्ति को देर तक दबाएँ। छिपाने वाले शब्द चुनें और बाकी टेक्स्ट पढ़ने योग्य रखें।"
+    ],
+    "faces": [
+      "चेहरे छिपाएँ। मुस्कान बनाए रखें।",
+      "पहचाने गए चेहरों को इमोजी स्टिकर से ढकें। हर चेहरे के लिए अलग भाव चुनें और ग्रुप फ़ोटो का मज़ा बनाए रखें।"
+    ],
+    "faq": [
+      "कुछ ज़रूरी बातें।",
+      "क्या SnapMosaic मुफ़्त है?",
+      "क्या एडिट करने के लिए मेरी फ़ोटो अपलोड होती हैं?",
+      "अपनी Pro खरीदारी कैसे बहाल करूँ?",
+      "वही Google Play खाता इस्तेमाल करें जिससे आपने खरीदारी की थी। SnapMosaic की सेटिंग में Pro पेज खोलें और खरीदारी बहाल करने का विकल्प चुनें। सक्रिय खरीदारी से SnapMosaic का ब्रांड वॉटरमार्क और ऐप के विज्ञापन हट जाते हैं।"
+    ],
+    "closing": [
+      "तैयार हों, तो शेयर करें।",
+      "अगली बार शेयर करने से पहले, थोड़ी गोपनीयता।"
+    ],
+    "ui": [
+      "मुख्य सामग्री पर जाएँ",
+      "ऐप के स्क्रीनशॉट अंग्रेज़ी में हैं।",
+      "सहायता से संपर्क करें",
+      "होम",
+      "फ़ोटो एडिटिंग टूल मुफ़्त हैं। Pro वैकल्पिक है।"
+    ]
+  },
+  "ur": {
+    "native": "اردو",
+    "nav": [
+      "خصوصیات",
+      "رازداری",
+      "سوالات",
+      "ڈاؤن لوڈ",
+      "زبان"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · تصاویر کی رازداری",
+      "آپ کی تصویر۔",
+      "آپ کے اصول۔",
+      "شیئر کرنے سے پہلے نجی تفصیلات چھپائیں۔ اسمارٹ شناخت اور باریک کنٹرول، آپ کے اپنے آلے پر۔",
+      "Google Play سے ڈاؤن لوڈ کریں",
+      "ٹولز دیکھیں",
+      "Android · اکاؤنٹ ضروری نہیں",
+      "اسمارٹ شناخت۔ آخری فیصلہ آپ کا۔"
+    ],
+    "privacy": [
+      "آلے پر تصاویر کی ترمیم",
+      "نجی تفصیلات۔",
+      "کنٹرول آپ کے ہاتھ میں۔",
+      "منتخب تصاویر کی ترمیم آپ کے آلے پر ہوتی ہے۔ ہر چھپائے گئے حصے کو دیکھیں، نتیجہ درست کریں اور تیار ہونے پر شیئر کریں۔",
+      "رازداری کیسے کام کرتی ہے"
+    ],
+    "toolsTitle": "ہر تفصیل، آپ کی مرضی سے۔",
+    "tabs": [
+      "متن کا انتخاب",
+      "چہرے کے اسٹیکرز",
+      "چھپانے کے انداز",
+      "آپ کا واٹرمارک",
+      "نجی ایکسپورٹ"
+    ],
+    "words": [
+      "صرف منتخب حصہ چھپائیں۔",
+      "شناخت شدہ سطر کو دبا کر رکھیں۔ چھپانے والے الفاظ منتخب کریں اور باقی متن پڑھنے کے قابل رہنے دیں۔"
+    ],
+    "faces": [
+      "چہرے چھپائیں۔ مسکراہٹیں برقرار رکھیں۔",
+      "شناخت شدہ چہروں کو ایموجی اسٹیکرز سے ڈھانپیں۔ ہر چہرے کے لیے الگ تاثر چنیں اور گروپ تصویر کا خوشگوار انداز برقرار رکھیں۔"
+    ],
+    "faq": [
+      "چند ضروری باتیں۔",
+      "کیا SnapMosaic مفت ہے؟",
+      "کیا ترمیم کے لیے میری تصاویر اپ لوڈ ہوتی ہیں؟",
+      "اپنی Pro خریداری کیسے بحال کروں؟",
+      "وہی Google Play اکاؤنٹ استعمال کریں جس سے خریداری کی تھی۔ SnapMosaic کی ترتیبات میں Pro صفحہ کھولیں اور خریداری بحال کرنے کا اختیار منتخب کریں۔ فعال خریداری سے SnapMosaic کا برانڈ واٹرمارک اور ایپ کے اشتہارات ہٹ جاتے ہیں۔"
+    ],
+    "closing": [
+      "تیار ہوں تو شیئر کریں۔",
+      "اگلی بار شیئر کرنے سے پہلے، تھوڑی رازداری۔"
+    ],
+    "ui": [
+      "مرکزی مواد پر جائیں",
+      "ایپ کے اسکرین شاٹس انگریزی میں ہیں۔",
+      "معاونت سے رابطہ کریں",
+      "مرکزی صفحہ",
+      "تصاویر کی ترمیم کے ٹولز مفت ہیں۔ Pro اختیاری ہے۔"
+    ]
+  },
+  "fr": {
+    "native": "Français",
+    "nav": [
+      "Fonctions",
+      "Confidentialité",
+      "Questions",
+      "Télécharger",
+      "Langue"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · Confidentialité des photos",
+      "Votre photo.",
+      "Vos règles.",
+      "Masquez les détails privés avant de partager. Détection intelligente et contrôle précis, sur votre appareil.",
+      "Télécharger sur Google Play",
+      "Découvrir les outils",
+      "Android · Aucun compte requis",
+      "Détection intelligente. Vous décidez."
+    ],
+    "privacy": [
+      "Retouche sur votre appareil",
+      "Détails privés.",
+      "Vous gardez le contrôle.",
+      "Les photos choisies sont retouchées sur votre appareil. Vérifiez chaque zone masquée, ajustez le résultat et partagez quand vous le souhaitez.",
+      "Comprendre la confidentialité"
+    ],
+    "toolsTitle": "Chaque détail, à votre façon.",
+    "tabs": [
+      "Sélection de texte",
+      "Autocollants visage",
+      "Styles de masquage",
+      "Votre filigrane",
+      "Export privé"
+    ],
+    "words": [
+      "Masquez seulement ce que vous choisissez.",
+      "Appuyez longuement sur une ligne détectée. Sélectionnez les mots à masquer et gardez le reste lisible."
+    ],
+    "faces": [
+      "Masquez les visages. Gardez les sourires.",
+      "Couvrez les visages détectés avec des autocollants emoji. Choisissez une expression pour chaque personne et préservez l’ambiance de la photo de groupe."
+    ],
+    "faq": [
+      "Quelques réponses utiles.",
+      "SnapMosaic est-il gratuit ?",
+      "Mes photos sont-elles envoyées pour être retouchées ?",
+      "Comment restaurer mon achat Pro ?",
+      "Utilisez le compte Google Play ayant servi à l’achat. Dans les réglages de SnapMosaic, ouvrez la page Pro et choisissez Restaurer les achats. Un achat actif supprime le filigrane de marque SnapMosaic et les publicités de l’application."
+    ],
+    "closing": [
+      "Partagez quand vous voulez.",
+      "Un peu de confidentialité avant de partager."
+    ],
+    "ui": [
+      "Aller au contenu",
+      "Les captures de l’application sont en anglais.",
+      "Contacter l’assistance",
+      "Accueil",
+      "Les outils de retouche sont gratuits. Pro est facultatif."
+    ]
+  },
+  "ja": {
+    "native": "日本語",
+    "nav": [
+      "機能",
+      "プライバシー",
+      "よくある質問",
+      "ダウンロード",
+      "言語"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · 写真のプライバシー",
+      "あなたの写真。",
+      "あなたのルール。",
+      "共有する前に、プライベートな情報を隠す。スマートな検出と細かな調整を、あなたの端末で。",
+      "Google Play でダウンロード",
+      "ツールを見る",
+      "Android · アカウント登録不要",
+      "スマートに検出。最後はあなたが決める。"
+    ],
+    "privacy": [
+      "端末内で写真を編集",
+      "プライベートな情報。",
+      "自分でコントロール。",
+      "選んだ写真は端末内で編集されます。隠した部分を一つずつ確認し、仕上がりを調整してから共有できます。",
+      "プライバシーの仕組み"
+    ],
+    "toolsTitle": "細部まで、思いどおりに。",
+    "tabs": [
+      "文字を選択",
+      "顔スタンプ",
+      "隠し方を選択",
+      "文字の透かし",
+      "安全に書き出し"
+    ],
+    "words": [
+      "隠したい部分だけを選ぶ。",
+      "検出された文字列を長押し。隠したい文字だけを選び、ほかの内容は読みやすく残せます。"
+    ],
+    "faces": [
+      "顔を隠して、楽しさはそのまま。",
+      "検出した顔を絵文字スタンプでカバー。顔ごとに表情を選んで、集合写真の雰囲気を残せます。"
+    ],
+    "faq": [
+      "知っておきたいこと。",
+      "SnapMosaic は無料ですか？",
+      "編集のために写真がアップロードされますか？",
+      "Pro の購入を復元するには？",
+      "購入時と同じ Google Play アカウントを使用し、SnapMosaic の設定から Pro ページを開いて購入の復元を選んでください。有効な購入により、SnapMosaic のブランド透かしとアプリ内広告が削除されます。"
+    ],
+    "closing": [
+      "準備ができたら、共有。",
+      "次の共有の前に、プライバシーへのひと工夫。"
+    ],
+    "ui": [
+      "本文にスキップ",
+      "アプリのスクリーンショットは英語表示です。",
+      "サポートに連絡",
+      "ホーム",
+      "写真編集ツールは無料。Pro の購入は任意です。"
+    ]
+  },
+  "ko": {
+    "native": "한국어",
+    "nav": [
+      "기능",
+      "개인정보",
+      "자주 묻는 질문",
+      "다운로드",
+      "언어"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · 사진 개인정보 보호",
+      "나의 사진.",
+      "나의 방식.",
+      "공유하기 전에 사적인 정보를 가리세요. 스마트 감지와 세밀한 조정을 내 기기에서 처리합니다.",
+      "Google Play에서 다운로드",
+      "도구 살펴보기",
+      "Android · 계정 등록 불필요",
+      "스마트하게 감지하고, 직접 결정하세요."
+    ],
+    "privacy": [
+      "기기 내 사진 편집",
+      "사적인 정보.",
+      "내 손안의 제어.",
+      "선택한 사진은 기기에서 편집됩니다. 가려진 영역을 하나씩 확인하고 결과를 조정한 뒤 준비되면 공유하세요.",
+      "개인정보 처리 방식"
+    ],
+    "toolsTitle": "작은 디테일까지, 내 방식대로.",
+    "tabs": [
+      "글자 선택",
+      "얼굴 스티커",
+      "가리기 스타일",
+      "텍스트 워터마크",
+      "개인정보 보호 내보내기"
+    ],
+    "words": [
+      "선택한 부분만 가리세요.",
+      "감지된 글줄을 길게 누르세요. 가릴 글자만 선택하고 나머지 내용은 읽기 쉽게 남겨두세요."
+    ],
+    "faces": [
+      "얼굴은 가리고, 즐거움은 그대로.",
+      "감지된 얼굴을 이모지 스티커로 가리세요. 얼굴마다 다른 표정을 골라 단체 사진의 분위기를 살릴 수 있습니다."
+    ],
+    "faq": [
+      "알아두면 좋은 내용.",
+      "SnapMosaic은 무료인가요?",
+      "편집할 때 사진이 업로드되나요?",
+      "Pro 구매를 어떻게 복원하나요?",
+      "구매할 때 사용한 Google Play 계정으로 로그인하세요. SnapMosaic 설정에서 Pro 페이지를 열고 구매 복원을 선택하세요. 유효한 구매가 확인되면 SnapMosaic 브랜드 워터마크와 앱 내 광고가 제거됩니다."
+    ],
+    "closing": [
+      "준비되면 공유하세요.",
+      "다음 공유 전에, 개인정보를 한 번 더 보호하세요."
+    ],
+    "ui": [
+      "본문으로 건너뛰기",
+      "앱 스크린샷은 영어로 표시됩니다.",
+      "지원 문의",
+      "홈",
+      "사진 편집 도구는 무료이며 Pro는 선택 사항입니다."
+    ]
+  },
+  "id": {
+    "native": "Bahasa Indonesia",
+    "nav": [
+      "Fitur",
+      "Privasi",
+      "Pertanyaan",
+      "Unduh",
+      "Bahasa"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · Privasi foto",
+      "Foto Anda.",
+      "Aturan Anda.",
+      "Sembunyikan detail pribadi sebelum berbagi. Deteksi cerdas dan kontrol presisi, di perangkat Anda.",
+      "Unduh di Google Play",
+      "Jelajahi alat",
+      "Android · Tanpa perlu akun",
+      "Deteksi cerdas. Anda yang memutuskan."
+    ],
+    "privacy": [
+      "Edit foto di perangkat",
+      "Detail pribadi.",
+      "Kendali di tangan Anda.",
+      "Foto yang dipilih diedit di perangkat Anda. Periksa setiap area yang ditutupi, sesuaikan hasilnya, lalu bagikan saat siap.",
+      "Cara kerja privasi"
+    ],
+    "toolsTitle": "Setiap detail, sesuai keinginan.",
+    "tabs": [
+      "Pilih teks",
+      "Stiker wajah",
+      "Gaya penutup",
+      "Tanda air Anda",
+      "Ekspor privat"
+    ],
+    "words": [
+      "Sembunyikan hanya yang Anda pilih.",
+      "Tekan lama baris yang terdeteksi. Pilih kata yang ingin disembunyikan dan biarkan sisanya tetap terbaca."
+    ],
+    "faces": [
+      "Sembunyikan wajah. Pertahankan senyuman.",
+      "Tutupi wajah yang terdeteksi dengan stiker emoji. Pilih ekspresi berbeda untuk setiap wajah dan pertahankan suasana foto bersama."
+    ],
+    "faq": [
+      "Beberapa hal yang perlu diketahui.",
+      "Apakah SnapMosaic gratis?",
+      "Apakah foto saya diunggah untuk diedit?",
+      "Bagaimana cara memulihkan pembelian Pro?",
+      "Gunakan akun Google Play yang dipakai saat membeli. Buka halaman Pro di pengaturan SnapMosaic, lalu pilih Pulihkan pembelian. Pembelian aktif menghapus tanda air merek SnapMosaic dan iklan dalam aplikasi."
+    ],
+    "closing": [
+      "Bagikan saat Anda siap.",
+      "Sedikit privasi sebelum berbagi lagi."
+    ],
+    "ui": [
+      "Lewati ke konten",
+      "Tangkapan layar aplikasi ditampilkan dalam bahasa Inggris.",
+      "Hubungi dukungan",
+      "Beranda",
+      "Alat edit foto gratis. Pro bersifat opsional."
+    ]
+  },
+  "th": {
+    "native": "ไทย",
+    "nav": [
+      "ฟีเจอร์",
+      "ความเป็นส่วนตัว",
+      "คำถาม",
+      "ดาวน์โหลด",
+      "ภาษา"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · ความเป็นส่วนตัวของภาพ",
+      "ภาพของคุณ",
+      "คุณเป็นคนกำหนด",
+      "ซ่อนข้อมูลส่วนตัวก่อนแชร์ ตรวจจับอัจฉริยะและปรับแต่งอย่างละเอียดบนอุปกรณ์ของคุณ",
+      "ดาวน์โหลดบน Google Play",
+      "สำรวจเครื่องมือ",
+      "Android · ไม่ต้องสร้างบัญชี",
+      "ตรวจจับอัจฉริยะ คุณตัดสินใจขั้นสุดท้าย"
+    ],
+    "privacy": [
+      "แก้ไขภาพบนอุปกรณ์",
+      "ข้อมูลส่วนตัว",
+      "คุณควบคุมได้",
+      "ภาพที่เลือกจะถูกแก้ไขบนอุปกรณ์ของคุณ ตรวจสอบแต่ละส่วนที่ปิดบัง ปรับผลลัพธ์ แล้วแชร์เมื่อพร้อม",
+      "วิธีดูแลความเป็นส่วนตัว"
+    ],
+    "toolsTitle": "ทุกรายละเอียด ในแบบของคุณ",
+    "tabs": [
+      "เลือกข้อความ",
+      "สติกเกอร์ใบหน้า",
+      "รูปแบบปิดบัง",
+      "ลายน้ำของคุณ",
+      "ส่งออกแบบส่วนตัว"
+    ],
+    "words": [
+      "ซ่อนเฉพาะส่วนที่คุณเลือก",
+      "กดค้างที่บรรทัดข้อความที่ตรวจพบ เลือกคำที่ต้องการซ่อน แล้วคงส่วนที่เหลือให้อ่านได้ชัดเจน"
+    ],
+    "faces": [
+      "ซ่อนใบหน้า เก็บรอยยิ้มไว้",
+      "ปิดบังใบหน้าที่ตรวจพบด้วยสติกเกอร์อีโมจิ เลือกสีหน้าต่างกันให้แต่ละคน และคงบรรยากาศสนุกของภาพหมู่ไว้"
+    ],
+    "faq": [
+      "เรื่องที่คุณอาจอยากรู้",
+      "SnapMosaic ใช้ฟรีหรือไม่?",
+      "ภาพของฉันถูกอัปโหลดเพื่อแก้ไขหรือไม่?",
+      "จะกู้คืนการซื้อ Pro ได้อย่างไร?",
+      "ใช้บัญชี Google Play ที่ใช้ซื้อ เปิดหน้า Pro ในการตั้งค่า SnapMosaic แล้วเลือกกู้คืนการซื้อ การซื้อที่ยังมีผลจะนำลายน้ำแบรนด์ SnapMosaic และโฆษณาในแอปออก"
+    ],
+    "closing": [
+      "พร้อมเมื่อไร ก็แชร์ได้",
+      "เพิ่มความเป็นส่วนตัวก่อนแชร์ครั้งต่อไป"
+    ],
+    "ui": [
+      "ข้ามไปยังเนื้อหา",
+      "ภาพหน้าจอแอปแสดงเป็นภาษาอังกฤษ",
+      "ติดต่อฝ่ายช่วยเหลือ",
+      "หน้าหลัก",
+      "เครื่องมือแก้ไขภาพใช้ได้ฟรี การซื้อ Pro เป็นทางเลือก"
+    ]
+  },
+  "vi": {
+    "native": "Tiếng Việt",
+    "nav": [
+      "Tính năng",
+      "Quyền riêng tư",
+      "Câu hỏi",
+      "Tải xuống",
+      "Ngôn ngữ"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · Quyền riêng tư cho ảnh",
+      "Ảnh của bạn.",
+      "Bạn quyết định.",
+      "Ẩn thông tin riêng tư trước khi chia sẻ. Nhận diện thông minh và điều chỉnh chính xác, ngay trên thiết bị.",
+      "Tải trên Google Play",
+      "Khám phá công cụ",
+      "Android · Không cần tài khoản",
+      "Nhận diện thông minh. Bạn quyết định cuối cùng."
+    ],
+    "privacy": [
+      "Chỉnh sửa ảnh trên thiết bị",
+      "Thông tin riêng tư.",
+      "Bạn nắm quyền kiểm soát.",
+      "Ảnh bạn chọn được chỉnh sửa ngay trên thiết bị. Kiểm tra từng vùng che, điều chỉnh kết quả rồi chia sẻ khi sẵn sàng.",
+      "Cách bảo vệ quyền riêng tư"
+    ],
+    "toolsTitle": "Từng chi tiết, theo ý bạn.",
+    "tabs": [
+      "Chọn văn bản",
+      "Nhãn dán khuôn mặt",
+      "Kiểu che",
+      "Dấu chìm của bạn",
+      "Xuất ảnh riêng tư"
+    ],
+    "words": [
+      "Chỉ ẩn phần bạn chọn.",
+      "Nhấn giữ một dòng đã nhận diện. Chọn những từ cần ẩn và giữ phần còn lại dễ đọc."
+    ],
+    "faces": [
+      "Ẩn khuôn mặt. Giữ niềm vui.",
+      "Che khuôn mặt đã nhận diện bằng nhãn dán emoji. Chọn biểu cảm riêng cho mỗi người và giữ không khí vui vẻ của ảnh nhóm."
+    ],
+    "faq": [
+      "Một vài điều cần biết.",
+      "SnapMosaic có miễn phí không?",
+      "Ảnh có được tải lên để chỉnh sửa không?",
+      "Làm sao khôi phục giao dịch mua Pro?",
+      "Dùng tài khoản Google Play đã mua Pro. Mở trang Pro trong phần cài đặt SnapMosaic rồi chọn khôi phục giao dịch mua. Giao dịch còn hiệu lực sẽ xóa dấu chìm thương hiệu SnapMosaic và quảng cáo trong ứng dụng."
+    ],
+    "closing": [
+      "Sẵn sàng thì chia sẻ.",
+      "Thêm chút riêng tư trước lần chia sẻ tiếp theo."
+    ],
+    "ui": [
+      "Chuyển đến nội dung",
+      "Ảnh chụp màn hình ứng dụng hiển thị bằng tiếng Anh.",
+      "Liên hệ hỗ trợ",
+      "Trang chủ",
+      "Công cụ chỉnh sửa ảnh miễn phí. Pro là tùy chọn."
+    ]
+  },
+  "ms": {
+    "native": "Bahasa Melayu",
+    "nav": [
+      "Ciri",
+      "Privasi",
+      "Soalan",
+      "Muat turun",
+      "Bahasa"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · Privasi foto",
+      "Foto anda.",
+      "Pilihan anda.",
+      "Sembunyikan butiran peribadi sebelum berkongsi. Pengesanan pintar dan kawalan tepat, pada peranti anda.",
+      "Muat turun di Google Play",
+      "Terokai alat",
+      "Android · Tidak perlu akaun",
+      "Pengesanan pintar. Anda yang menentukan."
+    ],
+    "privacy": [
+      "Sunting foto pada peranti",
+      "Butiran peribadi.",
+      "Kawalan di tangan anda.",
+      "Foto yang dipilih disunting pada peranti anda. Semak setiap bahagian yang ditutup, laraskan hasilnya dan kongsi apabila sedia.",
+      "Cara privasi berfungsi"
+    ],
+    "toolsTitle": "Setiap butiran, mengikut pilihan anda.",
+    "tabs": [
+      "Pilih teks",
+      "Pelekat wajah",
+      "Gaya penutup",
+      "Tera air anda",
+      "Eksport peribadi"
+    ],
+    "words": [
+      "Sembunyikan hanya bahagian pilihan anda.",
+      "Tekan lama baris yang dikesan. Pilih perkataan untuk disembunyikan dan biarkan selebihnya mudah dibaca."
+    ],
+    "faces": [
+      "Sembunyikan wajah. Kekalkan senyuman.",
+      "Tutup wajah yang dikesan dengan pelekat emoji. Pilih ekspresi berbeza untuk setiap wajah dan kekalkan suasana foto berkumpulan."
+    ],
+    "faq": [
+      "Beberapa perkara untuk diketahui.",
+      "Adakah SnapMosaic percuma?",
+      "Adakah foto saya dimuat naik untuk disunting?",
+      "Bagaimanakah saya memulihkan pembelian Pro?",
+      "Gunakan akaun Google Play yang digunakan semasa membeli. Buka halaman Pro dalam tetapan SnapMosaic dan pilih Pulihkan pembelian. Pembelian yang aktif membuang tera air jenama SnapMosaic dan iklan dalam aplikasi."
+    ],
+    "closing": [
+      "Kongsi apabila anda sedia.",
+      "Sedikit privasi sebelum perkongsian seterusnya."
+    ],
+    "ui": [
+      "Langkau ke kandungan",
+      "Tangkapan skrin aplikasi dipaparkan dalam bahasa Inggeris.",
+      "Hubungi sokongan",
+      "Laman utama",
+      "Alat suntingan foto adalah percuma. Pro ialah pilihan tambahan."
+    ]
+  },
+  "fil": {
+    "native": "Filipino",
+    "nav": [
+      "Mga feature",
+      "Privacy",
+      "Mga tanong",
+      "I-download",
+      "Wika"
+    ],
+    "hero": [
+      "SnapMosaic 2.0 · Privacy ng larawan",
+      "Larawan mo.",
+      "Mga patakaran mo.",
+      "Itago ang pribadong detalye bago magbahagi. Matalinong pagtukoy at eksaktong kontrol, sa iyong device.",
+      "I-download sa Google Play",
+      "Tuklasin ang mga tool",
+      "Android · Hindi kailangan ng account",
+      "Matalinong pagtukoy. Ikaw ang magpapasya."
+    ],
+    "privacy": [
+      "Pag-edit sa iyong device",
+      "Pribadong detalye.",
+      "Kontrolado mo.",
+      "Sa iyong device ine-edit ang mga napiling larawan. Suriin ang bawat natakpang bahagi, ayusin ang resulta, at magbahagi kapag handa ka na.",
+      "Paano gumagana ang privacy"
+    ],
+    "toolsTitle": "Bawat detalye, ayon sa gusto mo.",
+    "tabs": [
+      "Pumili ng teksto",
+      "Sticker sa mukha",
+      "Estilo ng takip",
+      "Sariling watermark",
+      "Pribadong pag-export"
+    ],
+    "words": [
+      "Itago lang ang pinili mo.",
+      "Pindutin nang matagal ang natukoy na linya. Piliin ang mga salitang itatago at panatilihing nababasa ang iba."
+    ],
+    "faces": [
+      "Itago ang mukha. Panatilihin ang saya.",
+      "Takpan ang natukoy na mga mukha ng emoji sticker. Pumili ng ibang ekspresyon para sa bawat mukha at panatilihin ang saya ng grupo."
+    ],
+    "faq": [
+      "Ilang bagay na dapat malaman.",
+      "Libre bang gamitin ang SnapMosaic?",
+      "Ina-upload ba ang mga larawan ko para i-edit?",
+      "Paano ko maibabalik ang pagbili ko ng Pro?",
+      "Gamitin ang Google Play account na ginamit mo sa pagbili. Buksan ang Pro page sa settings ng SnapMosaic at piliin ang Ibalik ang mga binili. Inaalis ng aktibong pagbili ang brand watermark ng SnapMosaic at mga ad sa app."
+    ],
+    "closing": [
+      "Magbahagi kapag handa ka na.",
+      "Kaunting privacy bago ang susunod na pagbabahagi."
+    ],
+    "ui": [
+      "Lumaktaw sa nilalaman",
+      "Nasa Ingles ang mga screenshot ng app.",
+      "Makipag-ugnayan sa suporta",
+      "Home",
+      "Libre ang mga tool sa pag-edit. Opsyonal ang Pro."
+    ]
+  }
+}

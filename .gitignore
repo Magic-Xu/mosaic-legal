@@ -3,3 +3,6 @@
 # JetBrains IDE local project files
 .idea/
 *.iml
+
+# Local visual QA report references machine-local screenshots.
+/design-qa.md
