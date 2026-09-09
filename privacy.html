@@ -47,7 +47,7 @@
         </nav>
       </details>
       <h1>SnapMosaic Privacy Policy</h1>
-      <p class="meta">Effective date: <time datetime="2026-09-03">2026-09-03</time></p>
+      <p class="meta">Effective date: <time datetime="2026-09-09">2026-09-09</time></p>
       <p>Welcome to SnapMosaic (the App). SnapMosaic is a local-first privacy editor for photos and videos. It provides mosaic, blur, block masking, marker highlighting, user-added text watermarks, face emoji stickers, and automatic video face masking. This Privacy Policy explains how information is handled.</p>
     </header>
 
@@ -60,7 +60,7 @@
           <li>Pro entitlement status and whether one rewarded SnapMosaic-brand-watermark-free export remains unused are stored locally. Google Play processes purchases and returns product and active purchase status to the App; we do not receive or store payment card details, order numbers, or purchase tokens.</li>
           <li>Processed video drafts may be stored temporarily in the App&#x27;s private cache until you save, replace, close, cancel, or encounter a processing failure.</li>
           <li>Your selected photo and video content is not uploaded to our servers.</li>
-          <li>If you choose Report a problem, the App creates a local diagnostic text file containing random report/session IDs, creation time, app and Android versions, API level, device manufacturer/model, locale, install source, current screen, media type, processing stage and operation identifier, stable outcome/reason, and up to 250 recent sanitized operational log entries. A payment report may also contain Google Play Billing response codes and names, product ID, purchase-state counts, and projected Pro status. Reports exclude selected media, URIs, file paths, file names, recognized text, user-entered text, account details, payment credentials, order numbers, and purchase tokens.</li>
+          <li>If you choose Report a problem, the App creates a local diagnostic text file containing random report/session IDs, creation time, app and Android versions, API level, device manufacturer/model, locale, install source, current screen, media type, processing stage and operation identifier, stable outcome/reason, and up to 500 recent sanitized operational log entries. A payment report may also contain Google Play Billing response codes and names, product ID, purchase-state counts, and projected Pro status. Reports exclude selected media, URIs, file paths, file names, recognized text, user-entered text, account details, payment credentials, order numbers, and purchase tokens.</li>
           <li>When ads, analytics, crash monitoring, or on-device ML features are enabled, third-party SDKs may automatically collect data such as IP address, device or advertising identifiers, app/ad interactions, app usage events, crash logs, diagnostics, SDK usage, and model download status as described below.</li>
         </ul>
       </section>
@@ -121,6 +121,7 @@
           <li>Unsaved video drafts are removed when you close or replace the current media, cancel processing, or processing fails, and stale cache files are cleaned periodically.</li>
           <li>The App keeps only the most recently prepared diagnostic report in its diagnostic cache; creating a new report deletes the previous one. Android may clear cached files, and clearing App data or uninstalling removes App-private copies. Once you send or share a report, the receiving app or service controls its copy and retention.</li>
           <li>Third-party SDK data is retained and deleted under the applicable provider&#x27;s policies and controls. No transmission or storage method can be guaranteed completely secure.</li>
+          <li>To help investigate unexpected exits, the App automatically keeps sanitized diagnostic snapshots for the current and previous process in private local storage while it runs. Each snapshot is limited to 140,000 characters and up to 250 log entries. The previous snapshot is excluded from reports once it is more than 48 hours old and is removed on the next read or startup. These snapshots are excluded from Android backup and are not uploaded automatically. When you choose Report a problem, the report may include both snapshots; you decide whether to send or share it. Clearing App data or uninstalling removes the private snapshots.</li>
         </ul>
       </section>
 
