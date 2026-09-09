@@ -47,7 +47,7 @@
         </nav>
       </details>
       <h1>Patakaran sa Privacy ng SnapMosaic</h1>
-      <p class="meta">Petsa ng bisa: <time datetime="2026-09-03">2026-09-03</time></p>
+      <p class="meta">Petsa ng bisa: <time datetime="2026-09-09">2026-09-09</time></p>
       <p>Ang SnapMosaic (ang App) ay isang privacy tool para sa larawan at video na nagpoproseso sa device. Kabilang dito ang mosaic, blur, pantakip, marker, text watermark na idinagdag ng user, face emoji sticker, at awtomatikong pagtatakip ng mukha sa video. Ipinapaliwanag ng patakarang ito ang paghawak sa impormasyon.</p>
     </header>
 
@@ -57,7 +57,7 @@
           <li>Ang mga larawan at video na pinili sa Android o ibinahagi mula sa ibang app ay pinoproseso sa device at hindi ina-upload sa server ng developer.</li>
           <li>Ang edits, text watermark na inilagay mo, at data ng detection, tracking, at masking ay ginagamit nang lokal para gawin ang resulta. Sa kasalukuyang editing session lang nananatili ang text at isinasama lang kapag nag-save o nag-share ka.</li>
           <li>Maaaring ilagay sa pribadong storage ang wika, export at metadata settings, editor preferences, Pro status, availability ng isang hindi pa nagagamit na rewarded export na walang SnapMosaic brand watermark, at video drafts. Google Play ang nagpoproseso ng purchase; hindi kami nagtatago ng card, order number, o purchase token.</li>
-          <li>Kapag pinili ang Report a problem, gumagawa ang App ng lokal na diagnostic file na may random ID, oras, bersyon, API, manufacturer/model, wika, install source, screen, uri ng media, yugto, operation, resulta, at hanggang 250 sanitized operational logs. Maaaring may Google Play Billing code, product ID, bilang ng purchase states, at tinatayang Pro status ang payment report. Hindi kasama ang media, URI, path, filename, recognized o entered text, account, at payment data.</li>
+          <li>Kapag pinili ang Report a problem, gumagawa ang App ng lokal na diagnostic file na may random ID, oras, bersyon, API, manufacturer/model, wika, install source, screen, uri ng media, yugto, operation, resulta, at hanggang 500 sanitized operational logs. Maaaring may Google Play Billing code, product ID, bilang ng purchase states, at tinatayang Pro status ang payment report. Hindi kasama ang media, URI, path, filename, recognized o entered text, account, at payment data.</li>
           <li>Maaaring awtomatikong mangolekta ang ads, analytics, crash, o on-device ML SDK ng IP, device/advertising identifiers, interactions, usage events, crash, diagnostics, SDK usage, at model download status.</li>
         </ul>
       </section>
@@ -105,6 +105,7 @@
           <li>Nananatili ang settings at Pro status hanggang mapalitan, ma-clear ang data, o ma-uninstall. Nananatili ang isang hindi pa nagagamit na rewarded export hanggang matagumpay na makagawa ng bagong photo file, ma-clear ang data, o ma-uninstall. Pang-session lang ang text watermark; nananatili ang saved result hanggang burahin mo.</li>
           <li>Binubura ang unsaved video draft kapag isinara/pinalitan ang media, kinansela, o nag-fail; regular na nililinis ang lumang cache. Pinakabagong diagnostic lang ang itinatago.</li>
           <li>Pagkatapos mag-share, kontrolado ng tatanggap ang kopya. Sumusunod ang SDK data sa patakaran ng provider. Walang paraang ganap na ligtas.</li>
+          <li>Upang masuri ang mga hindi inaasahang pagsara, awtomatikong nagtatago ang app ng diagnostic snapshot na inalisan ng sensitibong impormasyon para sa kasalukuyan at nakaraang proseso sa pribadong lokal na storage habang tumatakbo. Bawat snapshot ay limitado sa 140,000 character at 250 log entry. Hindi na isinasama sa ulat ang nakaraang snapshot kapag lampas na sa 48 oras at binubura ito sa susunod na pagbasa o pagbukas ng app. Hindi kasama ang mga snapshot sa Android backup at hindi awtomatikong ina-upload. Kapag pinili mong mag-ulat ng problema, maaaring isama ang dalawang snapshot; ikaw ang magpapasyang ipadala o ibahagi ang ulat. Mabubura ang mga pribadong kopya kapag nilinis ang data o in-uninstall ang app.</li>
         </ul>
       </section>
 
