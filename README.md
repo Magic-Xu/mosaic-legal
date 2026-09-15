@@ -45,19 +45,25 @@ Requires Python 3; no package installation or frontend build service is needed.
 ```sh
 python3 tools/build_site.py
 python3 tools/build_site.py --check
+python3 -m unittest discover -s tools/tests
 python3 -m http.server 8797 --bind 127.0.0.1
 ```
 
-Open <http://127.0.0.1:8797/> or a language route to preview. Commit the generated HTML and sitemap together with their sources.
+Open <http://127.0.0.1:8797/> or a language route to preview. Commit the generated HTML and sitemap together with their sources. The build and check commands do not commit or push. After review and publication approval, merge the website branch into `main` to publish with GitHub Pages.
 
 - `content/home.html`: shared homepage template.
 - `content/site.json`: localized navigation, hero, feature copy, and FAQ labels.
 - `content/product.json`: product descriptions and explanations adapted from the approved 2.0.0 store material.
 - `assets/site.css` and `assets/site.js`: responsive styling and progressive enhancement for the language menu and keyboard-accessible feature tabs.
-- `tools/build_site.py`: generates 15 static homepages and `sitemap.xml`; maintains the existing legal-page home links and theme metadata.
-- `assets/legal.css`: shared legal-page appearance. Legal text remains in each language's HTML file and is not generated from homepage copy.
+- `tools/build_site.py`: the single build/check entry point for 15 static homepages, 30 legal pages, and `sitemap.xml`.
+- `content/legal/<locale>.json`: the editable privacy-policy and terms text for each app language.
+- `content/legal.json`: the shared legal effective date (`effectiveDate`, `YYYY-MM-DD`).
+- `tools/render_legal_pages.py`: renders the legal JSON with the existing theme metadata and localized homepage links.
+- `assets/legal.css`: shared legal-page appearance.
 
-Keep locale keys complete in both JSON files. Update the shared template and regenerate instead of editing generated homepages by hand. Review legal translations and effective dates separately when legal content changes.
+Keep the site, product, and legal locales complete. Edit the appropriate JSON source or shared template, then regenerate; the HTML files are build outputs. Legal changes must reflect actual app behavior across all 15 languages. Update the effective date when the policy takes effect.
+
+This repository owns the website and legal sources. The Android repository checks this checkout with `python3 tools/release/validate_store_listing.py --legal-root /path/to/mosaic-legal`; that check is read-only. When reviewing a website feature worktree, pass its path so the App release check validates the candidate pages. Validate published content and dates after GitHub Pages deploys.
 
 ## Assets
 

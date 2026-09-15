@@ -1,0 +1,92 @@
+{
+  "locale": "pt-BR",
+  "name": "Português (Brasil)",
+  "direction": "ltr",
+  "languageLabel": "Idioma da página",
+  "effectiveDateLabel": "Data de vigência",
+  "privacy": {
+    "title": "Política de Privacidade do SnapMosaic",
+    "intro": "O SnapMosaic (o App) é uma ferramenta de privacidade para fotos e vídeos com processamento local. Ele oferece mosaico, desfoque, cobertura, marca-texto, marcas d'água de texto adicionadas pelo usuário, emojis sobre rostos e mascaramento automático de rostos em vídeo. Esta política explica como as informações são tratadas.",
+    "sections": [
+      {
+        "title": "Informações que acessamos ou tratamos",
+        "paragraphs": ["Não exigimos conta e não operamos sistema próprio de contas ou armazenamento em nuvem."],
+        "items": [
+          "Fotos e vídeos escolhidos no Android ou compartilhados com o App são processados no dispositivo e não são enviados aos servidores do desenvolvedor.",
+          "Edições, texto de marca d'água inserido pelo usuário e dados de detecção, rastreamento e mascaramento são usados localmente para gerar o resultado. O texto inserido fica apenas na sessão de edição e só entra no arquivo quando você salva ou compartilha.",
+          "Idioma, exportação, remoção de metadados, preferências do editor, status Pro, disponibilidade de uma exportação premiada sem a marca SnapMosaic e rascunhos de vídeo podem ficar no armazenamento privado local. O Google Play processa compras; não guardamos cartão, número do pedido ou token de compra.",
+          "Ao escolher Relatar um problema, o App cria localmente um diagnóstico com IDs aleatórios, horário, versões, API, fabricante/modelo, idioma, origem da instalação, tela, tipo de mídia, etapa, operação, resultado e até 500 logs operacionais sanitizados. Relatórios de pagamento podem incluir códigos do Google Play Billing, ID do produto, contagens de estados e status Pro estimado. Não incluem mídia, URI, caminhos, nomes de arquivo, texto reconhecido ou digitado, conta ou credenciais de pagamento.",
+          "SDKs de anúncios, análise, falhas e aprendizado de máquina podem coletar automaticamente IP, identificadores do dispositivo ou de publicidade, interações, eventos de uso, falhas, diagnósticos, uso do SDK e status de download de modelos."
+        ]
+      },
+      {
+        "title": "Permissões e finalidade",
+        "paragraphs": ["O App pode solicitar estas capacidades somente quando a função correspondente for usada:"],
+        "items": ["Acesso a fotos ou mídia para escolher fotos e vídeos.", "Gravação de mídia para salvar resultados no álbum local.", "Compartilhamento do sistema para receber uma imagem enviada por você, compartilhar resultados ou entregar um diagnóstico a outro app."],
+        "note": "As permissões são usadas sob demanda, não para coleta em segundo plano."
+      },
+      {
+        "title": "Como tratamos os dados",
+        "items": [
+          "Edição de fotos, processamento de vídeo e detecção de rostos, QR/códigos de barras e sugestões de texto sensível pelo Google ML Kit ocorrem no dispositivo.",
+          "Os resultados são gravados na biblioteca de mídia do aparelho. Não enviamos suas fotos ou vídeos sem uma ação explícita de compartilhamento.",
+          "O diagnóstico fica no cache e não é enviado automaticamente. O App tenta abrir um e-mail preparado ou, se não for possível, a tela de compartilhamento do Android. Você revisa, escolhe o destinatário e pode cancelar; o app receptor controla a cópia recebida.",
+          "Um novo diagnóstico remove o relatório anterior do cache.",
+          "Com o reforço de privacidade ativado, tentamos remover EXIF, GPS e outros metadados ao salvar uma foto."
+        ]
+      },
+      {
+        "title": "Serviços de terceiros",
+        "paragraphs": ["O App e este site jurídico usam:"],
+        "items": [
+          "Google AdMob / Mobile Ads para anúncios; Google Analytics for Firebase para uso e desempenho agregados; Firebase Crashlytics para estabilidade; Google ML Kit para detecção local; Google Play Billing para preço, compra Pro única e restauração; e GitHub Pages para hospedar o site.",
+          "Conforme o serviço, Google ou GitHub podem tratar IP, dados do dispositivo ou navegador, identificadores, interações, localização aproximada inferida da rede, falhas, diagnósticos, métricas e status de modelos segundo suas políticas.",
+          "Esses dados podem ser usados para publicidade, análise, prevenção a fraudes, segurança e conformidade. Quando exigido, poderemos usar o Google UMP para solicitar e gerenciar consentimento de anúncios."
+        ],
+        "links": [
+          {"key": "google_privacy", "label": "Privacidade do Google"},
+          {"key": "admob_disclosure", "label": "Divulgação de dados do Google Mobile Ads"},
+          {"key": "firebase_analytics", "label": "Google Analytics for Firebase"},
+          {"key": "firebase_crashlytics", "label": "Firebase Crashlytics"},
+          {"key": "firebase_disclosure", "label": "Divulgação de dados do Firebase para Android"},
+          {"key": "mlkit_disclosure", "label": "Divulgação de dados do Google ML Kit"},
+          {"key": "github_privacy", "label": "Declaração de Privacidade do GitHub"}
+        ],
+        "note": "Não enviamos fotos ou vídeos escolhidos, quadros de vídeo, regiões de rosto ou resultados ao AdMob, Play Billing, Analytics, Crashlytics ou a serviços remotos de IA."
+      },
+      {
+        "title": "Segurança, retenção e exclusão",
+        "items": [
+          "Configurações, direitos em cache e arquivos temporários ficam no armazenamento privado; o backup do Android está desativado. Os SDKs do Google usam o transporte criptografado que documentam.",
+          "Configurações e status Pro permanecem até serem substituídos, os dados serem limpos ou o App ser desinstalado. Uma exportação premiada não usada permanece até um novo arquivo de foto ser gerado com sucesso, os dados serem limpos ou o App ser desinstalado. O texto da marca d'água dura só a sessão; resultados salvos ficam até você apagá-los.",
+          "Rascunhos de vídeo não salvos são excluídos ao fechar ou substituir a mídia, cancelar ou ocorrer falha; caches antigos são limpos periodicamente. Só o diagnóstico mais recente é mantido.",
+          "Depois que um relatório é compartilhado, o destinatário controla a cópia. Dados de SDK seguem a política do fornecedor. Nenhum método é totalmente seguro.",
+          "Para investigar encerramentos inesperados, o app mantém automaticamente registros de diagnóstico sanitizados do processo atual e do anterior no armazenamento local privado durante a execução. Cada registro tem no máximo 140.000 caracteres e 250 entradas de log. O registro anterior deixa de ser incluído em relatórios após 48 horas e é removido na próxima leitura ou inicialização. Esses registros não entram no backup do Android nem são enviados automaticamente. Ao escolher Relatar um problema, o relatório pode incluir ambos; você decide se deseja enviá-lo ou compartilhá-lo. Limpar os dados do app ou desinstalá-lo remove as cópias privadas."
+        ]
+      },
+      {"title": "Crianças e adolescentes", "paragraphs": ["O App é destinado ao público em geral. Se você for menor de idade, use-o com orientação de um responsável."]},
+      {
+        "title": "Suas escolhas e direitos",
+        "items": ["Você pode apagar resultados e dados locais, desinstalar o App e revogar permissões de mídia no Android.", "Você pode redefinir ou excluir o ID de publicidade quando o Android permitir.", "Se houver formulário de consentimento, altere suas escolhas pelas opções do App ou do Google.", "Você pode consultar compras, pedir reembolsos elegíveis no Google Play e restaurar a compra da conta atual.", "Você pode falar conosco sobre privacidade. Como não operamos conta ou nuvem própria, normalmente não identificamos nem apagamos dados que existem só no seu aparelho; dados de terceiros seguem o processo do fornecedor."]
+      },
+      {"title": "Atualizações desta política", "paragraphs": ["Podemos atualizar esta política quando o App mudar. A nova versão e a data serão publicadas aqui; mudanças relevantes também serão comunicadas no App ou na loja quando a lei ou a plataforma exigir."]},
+      {"title": "Contato", "contact": {"publisherLabel": "Desenvolvedor/editor", "contactLabel": "Fale conosco por e-mail ou GitHub Issues", "emailLabel": "E-mail"}}
+    ]
+  },
+  "terms": {
+    "title": "Termos de Serviço do SnapMosaic",
+    "intro": "Ao usar o SnapMosaic (o App), você concorda com estes Termos de Serviço.",
+    "sections": [
+      {"title": "Escopo do serviço", "paragraphs": ["O App oferece recursos de privacidade para fotos e vídeos: mosaico, desfoque, cobertura, marca-texto, marcas d'água de texto do usuário, emojis em rostos, detecção local, mascaramento automático de rostos em vídeo, prévia, salvamento local e compartilhamento do sistema."]},
+      {"title": "Licença", "paragraphs": ["Sujeito a estes Termos, concedemos uma licença pessoal, não exclusiva e revogável para usar o App em dispositivos compatíveis."]},
+      {"title": "Responsabilidades do usuário", "items": ["Você deve ter direitos legítimos sobre as fotos e vídeos processados ou compartilhados.", "Não use o App para atos ilegais, infratores ou impróprios.", "Você responde pelo conteúdo que processa e distribui.", "A detecção automática pode deixar de detectar, atrasar ou mascarar algo incorretamente. Confira o resultado antes de salvar ou compartilhar."]},
+      {"title": "Propriedade intelectual", "paragraphs": ["O App, sua interface, código e marca pertencem ao desenvolvedor ou aos titulares. Não copie, faça engenharia reversa, distribua ou use fora da autorização.", "Você mantém os direitos sobre fotos, vídeos, textos e outros conteúdos. A propriedade não é transferida: você instrui o App a processar localmente e só salvar ou compartilhar quando decidir."]},
+      {"title": "Serviços e links de terceiros", "paragraphs": ["O App pode abrir páginas de terceiros, como a loja. Cada fornecedor opera e responde por suas páginas."]},
+      {"title": "Compras, anúncios e marcas d'água", "items": ["Fotos exportadas gratuitamente incluem a marca d'água da SnapMosaic e o App pode mostrar anúncios.", "O SnapMosaic Pro é uma compra única opcional e não consumível do Google Play. Enquanto válida, remove a marca d'água da SnapMosaic das fotos exportadas e os anúncios do App.", "Concluir um anúncio premiado elegível concede uma exportação de foto sem a marca d'água da SnapMosaic. No máximo uma exportação não usada é mantida; ela só é consumida quando um novo arquivo é gerado com sucesso e não remove outros anúncios.", "Pro e a recompensa removem somente a marca d'água da SnapMosaic. Não removem nem alteram uma marca d'água de texto que você adicionou.", "O Google Play cuida de preço, pagamento, recibos, cancelamento e reembolsos. Pagamento pendente não libera Pro até ser concluído; se houver reembolso ou revogação, a marca d'água e os anúncios podem voltar após a próxima conciliação.", "Atualmente não oferecemos assinatura."]},
+      {"title": "Isenção de responsabilidade", "items": ["O App é fornecido no estado em que se encontra, sem garantia de operação contínua ou sem erros.", "Não garantimos detectar todos os rostos ou dados sensíveis.", "Na extensão permitida por lei, não respondemos por danos indiretos decorrentes do uso ou da impossibilidade de uso.", "Nada exclui direitos irrenunciáveis previstos na legislação de consumo aplicável."]},
+      {"title": "Alterações", "paragraphs": ["Podemos atualizar estes Termos e a data quando o produto evoluir. O uso continuado significa aceitação da versão atualizada."]},
+      {"title": "Encerramento", "paragraphs": ["Se você violar estes Termos, poderemos restringir ou encerrar sua licença de uso."]},
+      {"title": "Contato", "contact": {"publisherLabel": "Desenvolvedor/editor", "contactLabel": "Fale conosco por e-mail ou GitHub Issues", "emailLabel": "E-mail"}}
+    ]
+  }
+}

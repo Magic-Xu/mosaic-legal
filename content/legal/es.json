@@ -1,0 +1,102 @@
+{
+  "locale": "es",
+  "name": "Español",
+  "direction": "ltr",
+  "languageLabel": "Idioma de la página",
+  "effectiveDateLabel": "Fecha de entrada en vigor",
+  "privacy": {
+    "title": "Política de privacidad de SnapMosaic",
+    "intro": "SnapMosaic (la Aplicación) es una herramienta de privacidad para fotos y vídeos que funciona principalmente de forma local. Ofrece mosaico, desenfoque, bloques, resaltado, marcas de agua de texto añadidas por el usuario, pegatinas emoji para rostros y ocultación automática de rostros en vídeo. Esta política explica cómo se trata la información.",
+    "sections": [
+      {
+        "title": "Información que consultamos o tratamos",
+        "paragraphs": ["No exigimos una cuenta ni operamos un sistema propio de cuentas o almacenamiento en la nube."],
+        "items": [
+          "Las fotos y los vídeos que eliges en Android o compartes con la Aplicación se procesan en tu dispositivo y no se suben a servidores del desarrollador.",
+          "Las ediciones, el texto de marca de agua que añades y los datos de detección, seguimiento y ocultación se usan localmente para crear el resultado. El texto introducido se conserva solo durante la sesión de edición y se incorpora únicamente cuando guardas o compartes.",
+          "El idioma, los ajustes de exportación y eliminación de metadatos, las preferencias del editor, el estado Pro, la disponibilidad de una exportación recompensada sin la marca de agua de SnapMosaic y los borradores de vídeo pueden guardarse en el almacenamiento privado local. Google Play gestiona las compras; no guardamos tarjetas, números de pedido ni tokens de compra.",
+          "Si eliges Informar de un problema, se crea localmente un archivo de diagnóstico con identificadores aleatorios, fecha, versiones, API, fabricante/modelo, idioma, origen de instalación, pantalla, tipo de medio, etapa y resultado, además de hasta 500 registros operativos depurados. Los informes de pago pueden incluir códigos de Google Play Billing, ID del producto, recuentos de estados y estado Pro previsto. Se excluyen medios, URI, rutas, nombres de archivo, texto reconocido o introducido, datos de cuenta y credenciales de pago.",
+          "Los SDK de publicidad, analítica, fallos o aprendizaje automático pueden recopilar automáticamente dirección IP, identificadores del dispositivo o publicidad, interacciones, eventos de uso, fallos, diagnósticos, uso del SDK y estado de descarga de modelos."
+        ]
+      },
+      {
+        "title": "Permisos y finalidad",
+        "paragraphs": ["La Aplicación puede solicitar estas capacidades solo al usar la función correspondiente:"],
+        "items": [
+          "Acceso a fotos o medios para elegir fotos y vídeos.",
+          "Escritura de medios para guardar resultados en el álbum local.",
+          "Compartir del sistema para recibir una imagen que envías expresamente, compartir resultados o entregar un diagnóstico a otra aplicación."
+        ],
+        "note": "Estos permisos se usan cuando los solicitas, no para recopilar datos en segundo plano."
+      },
+      {
+        "title": "Cómo tratamos los datos",
+        "items": [
+          "La edición de fotos, el procesamiento de vídeo y la detección de rostros, códigos QR/de barras y sugerencias de texto sensible mediante Google ML Kit se realizan en el dispositivo.",
+          "Los resultados se guardan en la biblioteca multimedia del dispositivo. No enviamos tus fotos o vídeos salvo que tú uses la función de compartir.",
+          "Los diagnósticos permanecen en la caché y no se envían solos. La Aplicación intenta abrir un correo preparado o, si no es posible, el panel de compartir de Android. Tú revisas, eliges el destinatario y puedes cancelar; la aplicación receptora controla su copia.",
+          "Al crear un nuevo diagnóstico se borra el anterior de la caché.",
+          "Si activas la mejora de privacidad, intentamos eliminar EXIF, GPS y otros metadatos al guardar una foto."
+        ]
+      },
+      {
+        "title": "Servicios de terceros",
+        "paragraphs": ["La Aplicación y este sitio jurídico utilizan:"],
+        "items": [
+          "Google AdMob / Mobile Ads para anuncios; Google Analytics for Firebase para uso y rendimiento agregados; Firebase Crashlytics para estabilidad; Google ML Kit para detección local; Google Play Billing para precios, compra Pro única y restauración; y GitHub Pages para alojar este sitio.",
+          "Según el servicio, Google o GitHub pueden tratar IP, información del dispositivo o navegador, identificadores, interacciones, ubicación aproximada inferida de la red, registros de fallos, diagnósticos, métricas y estado de modelos conforme a sus políticas.",
+          "Estos datos pueden usarse para publicidad, analítica, prevención del fraude, seguridad y cumplimiento. Cuando sea obligatorio, podremos usar Google UMP para solicitar y gestionar el consentimiento publicitario."
+        ],
+        "links": [
+          {"key": "google_privacy", "label": "Privacidad de Google"},
+          {"key": "admob_disclosure", "label": "Divulgación de datos de Google Mobile Ads"},
+          {"key": "firebase_analytics", "label": "Google Analytics for Firebase"},
+          {"key": "firebase_crashlytics", "label": "Firebase Crashlytics"},
+          {"key": "firebase_disclosure", "label": "Divulgación de datos de Firebase para Android"},
+          {"key": "mlkit_disclosure", "label": "Divulgación de datos de Google ML Kit"},
+          {"key": "github_privacy", "label": "Declaración de privacidad de GitHub"}
+        ],
+        "note": "No enviamos tus fotos o vídeos seleccionados, fotogramas, regiones faciales ni resultados a AdMob, Play Billing, Analytics, Crashlytics o servicios remotos de IA."
+      },
+      {
+        "title": "Seguridad, conservación y eliminación",
+        "items": [
+          "Los ajustes, derechos en caché y archivos temporales se guardan en el almacenamiento privado; la copia de seguridad de Android está desactivada. Los SDK de Google usan el transporte cifrado que documentan.",
+          "Los ajustes y el estado Pro permanecen hasta que se sustituyen, borras los datos o desinstalas. Una exportación recompensada sin usar permanece hasta que se genera correctamente un nuevo archivo de foto, borras los datos o desinstalas. El texto de marca de agua dura solo la sesión; los resultados guardados permanecen hasta que los borras.",
+          "Los borradores de vídeo sin guardar se eliminan al cerrar o sustituir el medio, cancelar o fallar; la caché antigua se limpia periódicamente. Solo se conserva el diagnóstico más reciente.",
+          "Tras compartir un informe, el destinatario controla su copia. Los datos de SDK se conservan conforme a las políticas del proveedor. Ningún método es totalmente seguro.",
+          "Para investigar cierres inesperados, la aplicación conserva automáticamente instantáneas de diagnóstico depuradas del proceso actual y del anterior en el almacenamiento local privado mientras se ejecuta. Cada instantánea tiene un límite de 140.000 caracteres y 250 registros. La anterior deja de incluirse en los informes al superar las 48 horas y se elimina en la siguiente lectura o inicio. No se incluyen en las copias de seguridad de Android ni se suben automáticamente. Al elegir Informar de un problema, el informe puede incluir ambas instantáneas; tú decides si enviarlo o compartirlo. Borrar los datos de la aplicación o desinstalarla elimina estas copias privadas."
+        ]
+      },
+      {"title": "Menores", "paragraphs": ["La Aplicación se dirige a usuarios generales. Si eres menor, úsala con la orientación de tu tutor."]},
+      {
+        "title": "Tus opciones y derechos",
+        "items": [
+          "Puedes borrar resultados, datos locales o la Aplicación, y revocar permisos multimedia desde Android.",
+          "Puedes restablecer o eliminar el ID de publicidad donde Android lo permita.",
+          "Si aparece un formulario de consentimiento, puedes cambiar tus opciones desde la Aplicación o el formulario de Google.",
+          "Puedes revisar compras, solicitar reembolsos elegibles en Google Play y restaurar la compra del usuario actual.",
+          "Puedes contactarnos por privacidad. Como no operamos cuentas ni nube propia, normalmente no podemos identificar o borrar datos que solo están en tu dispositivo; los datos de terceros siguen el proceso de cada proveedor."
+        ]
+      },
+      {"title": "Cambios de esta política", "paragraphs": ["Podemos actualizar esta política cuando cambie la Aplicación. Publicaremos la nueva versión y fecha aquí, y comunicaremos cambios importantes en la Aplicación o la tienda cuando lo exijan la ley o la plataforma."]},
+      {"title": "Contacto", "contact": {"publisherLabel": "Desarrollador/editor", "contactLabel": "Contáctanos por correo o GitHub Issues", "emailLabel": "Correo"}}
+    ]
+  },
+  "terms": {
+    "title": "Términos del servicio de SnapMosaic",
+    "intro": "Al usar SnapMosaic (la Aplicación), aceptas estos Términos del servicio.",
+    "sections": [
+      {"title": "Alcance del servicio", "paragraphs": ["La Aplicación ofrece edición privada de fotos y vídeos: mosaico, desenfoque, bloques, resaltado, marcas de agua de texto del usuario, emoji en rostros, detección local, ocultación automática de rostros en vídeo, vista previa, guardado local y compartir del sistema."]},
+      {"title": "Licencia", "paragraphs": ["Sujeto a estos Términos, te concedemos una licencia personal, no exclusiva y revocable para usar la Aplicación en dispositivos compatibles."]},
+      {"title": "Responsabilidades del usuario", "items": ["Debes tener derechos legítimos sobre las fotos y vídeos que tratas o compartes.", "No uses la Aplicación para actos ilegales, infractores o indebidos.", "Eres responsable del contenido que procesas y distribuyes.", "La detección automática puede omitir, retrasar u ocultar incorrectamente contenido. Revisa el resultado antes de guardarlo o compartirlo."]},
+      {"title": "Propiedad intelectual", "paragraphs": ["La Aplicación, su interfaz, código y marca pertenecen al desarrollador o a sus titulares. No puedes copiarlos, aplicar ingeniería inversa, distribuirlos ni usarlos fuera de lo autorizado.", "Conservas tus derechos sobre fotos, vídeos, texto y demás contenido. No nos transfieres su propiedad: indicas a la Aplicación que lo procese localmente y solo lo guarde o comparta cuando tú lo decidas."]},
+      {"title": "Servicios y enlaces de terceros", "paragraphs": ["La Aplicación puede enlazar a páginas de terceros, como la tienda. Cada proveedor opera y responde de sus páginas."]},
+      {"title": "Compras, anuncios y marcas de agua", "items": ["Las fotos exportadas en la versión gratuita incluyen la marca de agua de SnapMosaic y la Aplicación puede mostrar anuncios.", "SnapMosaic Pro es una compra única opcional y no consumible de Google Play. Mientras sea válida, elimina la marca de agua de SnapMosaic de las fotos exportadas y los anuncios de la Aplicación.", "Completar un anuncio recompensado elegible concede una exportación de foto sin la marca de agua de SnapMosaic. Se conserva como máximo una exportación sin usar; se consume solo cuando se genera correctamente un archivo nuevo y no quita otros anuncios.", "Pro y la recompensa eliminan solo la marca de agua de SnapMosaic. No eliminan ni modifican una marca de agua de texto que tú hayas añadido.", "Google Play gestiona precio, pago, recibos, cancelación y reembolsos. Un pago pendiente no concede Pro hasta completarse; si se reembolsa o revoca, la marca de agua y los anuncios pueden volver tras la siguiente conciliación.", "Actualmente no ofrecemos suscripciones."]},
+      {"title": "Exención de responsabilidad", "items": ["La Aplicación se ofrece tal cual, sin garantizar funcionamiento continuo o sin errores.", "No garantizamos detectar todos los rostros o datos sensibles.", "En la medida permitida por la ley, no respondemos por daños indirectos derivados del uso o imposibilidad de uso.", "Nada excluye derechos irrenunciables de la legislación de consumo aplicable."]},
+      {"title": "Cambios", "paragraphs": ["Podemos actualizar estos Términos y su fecha cuando evolucione el producto. El uso continuado supone aceptar la versión actualizada."]},
+      {"title": "Terminación", "paragraphs": ["Si incumples estos Términos, podremos restringir o terminar tu licencia de uso."]},
+      {"title": "Contacto", "contact": {"publisherLabel": "Desarrollador/editor", "contactLabel": "Contáctanos por correo o GitHub Issues", "emailLabel": "Correo"}}
+    ]
+  }
+}
