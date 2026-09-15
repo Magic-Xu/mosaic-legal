@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Generate static, independently addressable homepages for GitHub Pages."""
+"""Generate static homepages and legal pages for GitHub Pages."""
 import argparse
 import html
 import json
-import re
 from pathlib import Path
 from string import Template
 from urllib.parse import quote
+
+from render_legal_pages import LOCALES, build as build_legal
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://magic-xu.github.io/mosaic-legal/"
@@ -17,8 +18,8 @@ e = html.escape
 def build(check=False):
     sites = json.loads((ROOT / "content/site.json").read_text())
     products = json.loads((ROOT / "content/product.json").read_text())
-    if sites.keys() != products.keys():
-        raise ValueError("Site and product locales must match")
+    if sites.keys() != products.keys() or set(sites) != set(LOCALES):
+        raise ValueError("Site, product, and legal locales must match")
     template = Template((ROOT / "content/home.html").read_text())
     expected_lengths = {"nav": 5, "hero": 8, "privacy": 5, "tabs": 5,
                         "words": 2, "faces": 2, "faq": 5, "closing": 2, "ui": 5}
@@ -106,14 +107,6 @@ def build(check=False):
                       faq_items=faq_items, arrow=arrow)
         rendered = "\n".join(line.rstrip() for line in template.substitute(fields).splitlines()) + "\n"
         output(ROOT / routes[code] / "index.html", rendered)
-        # Keep the existing policy text; connect its brand link to its own homepage.
-        for name in ("privacy", "terms"):
-            path = ROOT / routes[code] / f"{name}.html"
-            text = path.read_text()
-            text = text.replace('name="color-scheme" content="light"', 'name="color-scheme" content="dark"')
-            text = re.sub(r'<p class="brand">.*?</p>',
-                          '<p class="brand"><a href="./index.html">SnapMosaic</a></p>', text, count=1)
-            output(path, text)
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for route in routes.values():
@@ -121,9 +114,12 @@ def build(check=False):
             sitemap += f"  <url><loc>{BASE}{route}{page}</loc></url>\n"
     sitemap += "</urlset>\n"
     output(ROOT / "sitemap.xml", sitemap)
+    legal_valid = build_legal(check=check)
+    if not legal_valid:
+        raise SystemExit("Legal page generation or verification failed")
     if stale:
         raise SystemExit("Generated files are stale: " + ", ".join(stale))
-    print(f'{"Verified" if check else "Generated"} {len(sites)} localized homepages and legal navigation.')
+    print(f'{"Verified" if check else "Generated"} {len(sites)} localized homepages and 30 legal pages.')
 
 
 if __name__ == "__main__":

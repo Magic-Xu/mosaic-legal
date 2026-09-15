@@ -1,5 +1,8 @@
 .DS_Store
 
+# Python build and test caches
+__pycache__/
+
 # JetBrains IDE local project files
 .idea/
 *.iml

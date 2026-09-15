@@ -1,0 +1,186 @@
+{
+  "locale": "en",
+  "name": "English",
+  "direction": "ltr",
+  "languageLabel": "Page language",
+  "effectiveDateLabel": "Effective date",
+  "privacy": {
+    "title": "SnapMosaic Privacy Policy",
+    "intro": "Welcome to SnapMosaic (the App). SnapMosaic is a local-first privacy editor for photos and videos. It provides mosaic, blur, block masking, marker highlighting, user-added text watermarks, face emoji stickers, and automatic video face masking. This Privacy Policy explains how information is handled.",
+    "sections": [
+      {
+        "title": "Information We Access or Process",
+        "paragraphs": ["We do not require account registration and do not operate our own account or cloud storage service."],
+        "items": [
+          "Photos and videos you choose through Android, or share into the App from another app, are processed locally on your device.",
+          "Photo edits, including strokes, shapes, effects, marker highlighting, user-added text watermarks, and face emoji stickers, and video face detection, tracking, and masking data are used locally to render results. User-entered watermark text is kept for the current editing session and is included in an output only when you save or share that output.",
+          "App settings such as language, export format, resolution, metadata-removal preference, recent editor tools, effects, colors, strengths, sizes, and face-sticker defaults may be stored in the App's private local storage.",
+          "Pro entitlement status and whether one rewarded SnapMosaic-brand-watermark-free export remains unused are stored locally. Google Play processes purchases and returns product and active purchase status to the App; we do not receive or store payment card details, order numbers, or purchase tokens.",
+          "Processed video drafts may be stored temporarily in the App's private cache until you save, replace, close, cancel, or encounter a processing failure.",
+          "Your selected photo and video content is not uploaded to our servers.",
+          "If you choose Report a problem, the App creates a local diagnostic text file containing random report/session IDs, creation time, app and Android versions, API level, device manufacturer/model, locale, install source, current screen, media type, processing stage and operation identifier, stable outcome/reason, and up to 500 recent sanitized operational log entries. A payment report may also contain Google Play Billing response codes and names, product ID, purchase-state counts, and projected Pro status. Reports exclude selected media, URIs, file paths, file names, recognized text, user-entered text, account details, payment credentials, order numbers, and purchase tokens.",
+          "When ads, analytics, crash monitoring, or on-device ML features are enabled, third-party SDKs may automatically collect data such as IP address, device or advertising identifiers, app/ad interactions, app usage events, crash logs, diagnostics, SDK usage, and model download status as described below."
+        ]
+      },
+      {
+        "title": "Permissions and Purpose",
+        "paragraphs": ["The App may request system capabilities only for core features:"],
+        "items": [
+          "Photos/Media access: select photos or videos from the system picker or gallery.",
+          "Media write access: save edited photos or processed videos to your local album.",
+          "System share: receive an image you explicitly share into SnapMosaic, share output media, or hand a diagnostic attachment to another app when you explicitly choose to do so."
+        ],
+        "note": "These permissions are used on demand and not for background data collection."
+      },
+      {
+        "title": "Data Processing",
+        "items": [
+          "Photo editing and video processing are performed locally.",
+          "Smart detection for faces, QR/barcodes, and sensitive text suggestions in photos is performed on device using Google ML Kit models.",
+          "Automatic video face detection and tracking is performed on device using Google ML Kit models; video decoding, masking, and export are performed on device.",
+          "Saved output is written to your device media library.",
+          "We do not send your photo or video content externally without your explicit sharing action.",
+          "A diagnostic report stays in the App cache and is not sent automatically. The App first tries to open a compatible email app with the support address, subject, message, and attachment prepared. If no email app is available or launch fails, the Android system share sheet opens with the subject, message, and attachment, and you choose the receiving app. Only the receiving external app gets temporary read access to the attachment and handles it under its own terms and privacy policy. You can review, send or share, or cancel. Creating a new report removes older report files from the App cache.",
+          "If privacy enhancement is enabled for photo export, the App attempts to remove metadata such as EXIF/GPS information when saving output."
+        ]
+      },
+      {
+        "title": "Third-Party Services",
+        "paragraphs": ["The App and this legal website use the following third-party services:"],
+        "items": [
+          "Google AdMob / Google Mobile Ads SDK, provided by Google LLC, to display ads in the App.",
+          "Google Analytics for Firebase, provided by Google LLC, to understand aggregate app usage, active users, feature usage, and app performance.",
+          "Firebase Crashlytics, provided by Google LLC, to monitor crashes, non-fatal errors, and app stability.",
+          "Google ML Kit, provided by Google LLC, to support on-device smart detection of faces, QR/barcodes, and text regions in photos and faces in video frames.",
+          "Google Play Billing, provided by Google LLC, to display localized prices, process the optional one-time Pro purchase, acknowledge completed purchases, and restore active purchase status.",
+          "GitHub Pages, provided by GitHub, Inc., hosts this public website and these legal documents. When you visit, GitHub may process request and log data such as IP address, device/browser information, and access time under its own privacy statement.",
+          "The Google Mobile Ads SDK may collect or share data such as IP address, device or advertising identifiers, app interactions, ad interactions, and diagnostics.",
+          "Google Analytics for Firebase may collect app interactions, app performance data, device information, identifiers, and approximate location derived from network information.",
+          "Firebase Crashlytics may collect crash logs, stack traces, diagnostic information, device information, app version, and identifiers. The App may add sanitized context such as random diagnostic IDs, current screen, media type, operation stage/identifier, outcome, and stable failure reason; it does not attach selected media or user-entered text.",
+          "Google ML Kit may collect SDK usage, diagnostics, performance metrics, error codes, device information, app information, and model download status for service quality, debugging, and abuse prevention.",
+          "These data may be used for advertising, analytics, fraud prevention, security, and compliance purposes.",
+          "Where required by applicable law or platform policy, we may use Google's User Messaging Platform (UMP) to request and manage advertising consent choices."
+        ],
+        "links": [
+          {"key": "google_privacy", "label": "Google privacy information"},
+          {"key": "admob_disclosure", "label": "Google Mobile Ads SDK data disclosure"},
+          {"key": "firebase_analytics", "label": "Google Analytics for Firebase"},
+          {"key": "firebase_crashlytics", "label": "Firebase Crashlytics"},
+          {"key": "firebase_disclosure", "label": "Firebase Android data disclosure"},
+          {"key": "mlkit_disclosure", "label": "Google ML Kit data disclosure"},
+          {"key": "github_privacy", "label": "GitHub Privacy Statement"}
+        ],
+        "note": "We do not send your selected photo or video content, video frames, face regions, or processed results to Google AdMob, Google Play Billing, Google Analytics for Firebase, Firebase Crashlytics, or remote AI services."
+      },
+      {
+        "title": "Security, Retention, and Deletion",
+        "items": [
+          "Local settings, cached entitlements, and temporary files are kept in App-private storage. Android backup is disabled for the App. Network traffic handled by the listed Google SDKs uses their documented encrypted transport.",
+          "Settings and cached Pro status remain until overwritten, you clear the App's data, or uninstall the App. One unused rewarded export remains until a new photo file is generated successfully, you clear the App's data, or uninstall the App.",
+          "User-entered watermark text is limited to the current editing session. Saved outputs remain in your media library until you delete them.",
+          "Unsaved video drafts are removed when you close or replace the current media, cancel processing, or processing fails, and stale cache files are cleaned periodically.",
+          "The App keeps only the most recently prepared diagnostic report in its diagnostic cache; creating a new report deletes the previous one. Android may clear cached files, and clearing App data or uninstalling removes App-private copies. Once you send or share a report, the receiving app or service controls its copy and retention.",
+          "Third-party SDK data is retained and deleted under the applicable provider's policies and controls. No transmission or storage method can be guaranteed completely secure.",
+          "To help investigate unexpected exits, the App automatically keeps sanitized diagnostic snapshots for the current and previous process in private local storage while it runs. Each snapshot is limited to 140,000 characters and up to 250 log entries. The previous snapshot is excluded from reports once it is more than 48 hours old and is removed on the next read or startup. These snapshots are excluded from Android backup and are not uploaded automatically. When you choose Report a problem, the report may include both snapshots; you decide whether to send or share it. Clearing App data or uninstalling removes the private snapshots."
+        ]
+      },
+      {
+        "title": "Children",
+        "paragraphs": ["The App is intended for general users. If you are a minor, please use the App under guardian guidance."]
+      },
+      {
+        "title": "Your Choices and Rights",
+        "items": [
+          "You may delete locally saved outputs, clear the App's local data, or uninstall the App at any time.",
+          "You may revoke media permissions via system settings.",
+          "You may reset or delete your advertising ID in Android system settings where supported.",
+          "If a consent form is shown in your region, you may update your consent choices through the privacy options provided by the App or Google form when available.",
+          "You may review purchases and request eligible refunds through Google Play. The App also provides a restore-purchase action for the current Google Play account.",
+          "You may contact us with privacy questions or requests. Because SnapMosaic has no developer-operated account or cloud storage, we generally cannot identify or delete local-only data on your behalf; use the device controls described above. Requests about data held by a third-party service are subject to that provider's process."
+        ]
+      },
+      {
+        "title": "Policy Updates",
+        "paragraphs": ["We may update this policy as the App evolves. Updates will be posted on this page with a new effective date. Material changes will also be communicated through the App or store listing when required by applicable law or platform policy."]
+      },
+      {
+        "title": "Contact",
+        "contact": {
+          "publisherLabel": "Developer/Publisher",
+          "contactLabel": "For questions, contact us by email or GitHub Issues",
+          "emailLabel": "Email"
+        }
+      }
+    ]
+  },
+  "terms": {
+    "title": "SnapMosaic Terms of Service",
+    "intro": "Welcome to SnapMosaic (the App). By using the App, you agree to these Terms of Service.",
+    "sections": [
+      {
+        "title": "Service Scope",
+        "paragraphs": ["The App provides privacy-focused photo and video features, including mosaic, blur, block masking, marker highlighting, user-added text watermarks, face emoji stickers, on-device smart detection, automatic video face masking, local preview and save, and system share."]
+      },
+      {
+        "title": "License",
+        "paragraphs": ["Subject to these Terms, we grant you a personal, non-exclusive, revocable license to use the App on compatible devices."]
+      },
+      {
+        "title": "User Responsibilities",
+        "items": [
+          "You are responsible for having lawful rights to process and share photos and videos.",
+          "You must not use the App for illegal or infringing activities.",
+          "You are responsible for the content you process and distribute using the App.",
+          "Automatic detection may miss, delay, or incorrectly mask faces or other sensitive content. You are responsible for reviewing the final result before saving, sharing, or distributing it."
+        ]
+      },
+      {
+        "title": "Intellectual Property",
+        "paragraphs": [
+          "The App and related assets, including UI, code, and branding, are owned by the developer or rights holders. You may not copy, reverse engineer, distribute, or use them beyond authorized scope.",
+          "You retain your rights in photos, videos, text, and other content you provide. Using the App does not transfer ownership of that content to us. You instruct the App to process it locally and, only when you choose, save it to your device or pass it to another app through Android sharing."
+        ]
+      },
+      {
+        "title": "Third-Party Services and Links",
+        "paragraphs": ["The App may provide links to third-party pages, for example app store rating pages. Third-party pages are operated independently by their providers."]
+      },
+      {
+        "title": "Purchases, Ads, and Watermarks",
+        "items": [
+          "Free photo exports include a SnapMosaic brand watermark, and the App may display ads.",
+          "SnapMosaic Pro is an optional, non-consumable one-time purchase processed by Google Play. While Google Play reports the purchase as valid, Pro removes the SnapMosaic brand watermark from photo exports and removes in-App ads.",
+          "Completing an eligible rewarded ad grants one photo export without the SnapMosaic brand watermark. At most one unused export is retained; it is consumed only after a new file is successfully generated and does not remove other ads.",
+          "Pro and rewarded access remove only the SnapMosaic brand watermark. They do not remove or alter a text watermark that you intentionally add to an image.",
+          "Localized price, payment, receipts, cancellation, and eligible refunds are handled under Google Play's terms. Pending payments do not grant Pro until Google Play reports the purchase as completed. If a purchase is refunded, revoked, or otherwise no longer reported as valid, the App may restore the SnapMosaic brand watermark and ads after the next successful purchase reconciliation.",
+          "The App currently offers no subscription."
+        ]
+      },
+      {
+        "title": "Disclaimer",
+        "items": [
+          "The App is provided as is without guarantees of uninterrupted or error-free operation.",
+          "We do not guarantee that automatic detection or masking will identify every face or sensitive area in every frame or image.",
+          "To the extent permitted by law, we are not liable for indirect damages resulting from use or inability to use the App.",
+          "Nothing in these Terms excludes rights or remedies that cannot lawfully be excluded under applicable consumer law."
+        ]
+      },
+      {
+        "title": "Changes to Terms",
+        "paragraphs": ["We may update these Terms as the product evolves. Updated versions will be posted here with a new effective date. Continued use means acceptance of the updated Terms."]
+      },
+      {
+        "title": "Termination",
+        "paragraphs": ["If you violate these Terms, we may restrict or terminate your license to use the App."]
+      },
+      {
+        "title": "Contact",
+        "contact": {
+          "publisherLabel": "Developer/Publisher",
+          "contactLabel": "For questions, contact us by email or GitHub Issues",
+          "emailLabel": "Email"
+        }
+      }
+    ]
+  }
+}
