@@ -22,7 +22,7 @@ The image export and video export were also opened locally after saving. The vid
 
 ## Sources and processing
 
-Raw screenshots, UI hierarchies and recordings are retained outside the published repository at `../../website-media-capture/2026-10-04/` relative to this checkout. The recordings were made with scrcpy. The only screenshot processing is removal of the system status bar and WebP compression. Videos use the same status-bar crop, H.264 encoding and a corrected BT.709 color tag; the quick start joins actual recorded segments. No app interface or interaction was generated or redrawn. The export recording ends before the QA advertising result screen; it demonstrates preferences, not completion of a purchase or an ad reward.
+Raw screenshots, UI hierarchies and recordings are retained outside the published repository in `website-media-capture/2026-10-04/` under the shared SnapMosaic workspace, alongside the primary `mosaic-legal` checkout. The recordings were made with scrcpy. The only screenshot processing is removal of the system status bar and WebP compression. Videos use the same status-bar crop, H.264 encoding and a corrected BT.709 color tag; the quick start joins actual recorded segments. No app interface or interaction was generated or redrawn. The export recording ends before the QA advertising result screen; it demonstrates preferences, not completion of a purchase or an ad reward.
 
 All imported content is fictional project material:
 
