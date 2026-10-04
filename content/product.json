@@ -7,7 +7,7 @@
     },
     "styles": {
       "title": "CHOOSE HOW TO COVER IT",
-      "body": "Use mosaic, blur or a solid block, with a different effect for each area. Draw with a brush or shape, adjust the effect, zoom in for detail, and undo or redo your edits. Use the marker to highlight what you want people to notice."
+      "body": "Use mosaic, blur or a solid block, with a different effect for each area. Draw with a brush or rectangle, adjust the effect, zoom in for detail, and undo or redo your edits. The marker highlights content and keeps it readable."
     },
     "watermark": {
       "title": "ADD YOUR OWN TEXT WATERMARK",
@@ -30,7 +30,7 @@
     },
     "styles": {
       "title": "多种遮挡样式，按区域自由调整",
-      "body": "马赛克、模糊、纯色色块自由选择，不同区域可以使用不同效果。支持画笔与形状标记、效果调节、画面缩放，以及撤销和重做；还可以用荧光笔突出想让别人注意的内容。"
+      "body": "马赛克、模糊、实色遮挡可按区域分别设置。用矩形或涂抹补上遗漏内容，调节效果、放大检查，并随时撤销或重做。荧光笔用于强调，底下的内容仍可读。"
     },
     "watermark": {
       "title": "自定义文字水印，注明使用范围",
@@ -53,7 +53,7 @@
     },
     "styles": {
       "title": "多種遮罩樣式，逐區自由調整",
-      "body": "馬賽克、模糊、純色色塊自由選擇，不同區域可使用不同效果。支援筆刷與形狀、效果調整、畫面縮放、復原與重做；還能用螢光筆強調重點。"
+      "body": "馬賽克、模糊、實色遮擋可依區域分別設定。用矩形或塗抹補上遺漏內容，調整效果、放大檢查，並隨時復原或重做。螢光筆用於強調，底下的內容仍可讀。"
     },
     "watermark": {
       "title": "自訂文字浮水印，註明用途",
@@ -76,7 +76,7 @@
     },
     "styles": {
       "title": "ELIGE EL EFECTO",
-      "body": "Usa mosaico, desenfoque o un bloque de color, con un efecto diferente en cada área. Dibuja con pinceles o formas, ajusta el efecto, amplía la imagen y deshaz o rehace cambios. Destaca detalles con el resaltador."
+      "body": "Usa mosaico, desenfoque o un bloque de color, con un efecto diferente en cada área. Dibuja con pinceles o formas, ajusta el efecto, amplía la imagen y deshaz o rehace cambios. Destaca detalles con el resaltador. El marcador mantiene el contenido legible; úsalo para resaltar, no para ocultar información sensible."
     },
     "watermark": {
       "title": "TU PROPIA MARCA DE AGUA",
@@ -99,7 +99,7 @@
     },
     "styles": {
       "title": "ESCOLHA O EFEITO",
-      "body": "Use mosaico, desfoque ou uma cor sólida, com um efeito diferente em cada área. Desenhe com pincéis ou formas, ajuste o efeito, amplie a imagem e desfaça ou refaça alterações. Destaque detalhes com o marca-texto."
+      "body": "Use mosaico, desfoque ou uma cor sólida, com um efeito diferente em cada área. Desenhe com pincéis ou formas, ajuste o efeito, amplie a imagem e desfaça ou refaça alterações. Destaque detalhes com o marca-texto. O marcador mantém o conteúdo legível; use-o para destacar, não para ocultar informações sensíveis."
     },
     "watermark": {
       "title": "SUA PRÓPRIA MARCA D’ÁGUA",
@@ -122,7 +122,7 @@
     },
     "styles": {
       "title": "अपना असर चुनें",
-      "body": "हर हिस्से में अलग मोज़ेक, ब्लर या ठोस रंग लगाएं। ब्रश या आकृतियों से बनाएं, असर बदलें, ज़ूम करें और बदलाव पूर्ववत या फिर से करें। हाइलाइटर से ज़रूरी बातें उभारें।"
+      "body": "हर हिस्से में अलग मोज़ेक, ब्लर या ठोस रंग लगाएं। ब्रश या आकृतियों से बनाएं, असर बदलें, ज़ूम करें और बदलाव पूर्ववत या फिर से करें। हाइलाइटर से ज़रूरी बातें उभारें। मार्कर से सामग्री पढ़ने योग्य रहती है। इसका इस्तेमाल उभारने के लिए करें, संवेदनशील जानकारी छिपाने के लिए नहीं।"
     },
     "watermark": {
       "title": "अपना टेक्स्ट वॉटरमार्क",
@@ -141,11 +141,11 @@
     "description": "تصاویر کی نجی معلومات چھپائیں۔ ذہین شناخت، چہرے کے اسٹیکرز اور واٹرمارک۔",
     "smart": {
       "title": "شناخت کریں اور خود فیصلہ کریں",
-      "body": "چہرے، QR کوڈ، بارکوڈ اور عام حساس متن تلاش کریں۔ اسمارٹ ٹول سے تجویز کردہ حصے ڈھانپیں، پھر ہر حصے پر ٹیپ کرکے اسے بدلیں یا ہٹائیں۔ ضرورت ہو تو مزید حصے دستی طور پر ڈھانپیں۔"
+      "body": "چہرے، QR کوڈ، بارکوڈ اور عام حساس متن تلاش کریں۔ اسمارٹ ٹول سے تجویز کردہ حصے ڈھانپیں، پھر ہر حصے پر ٹیپ کرکے اسے بدلیں یا ہٹائیں۔ ضرورت ہو تو مزید حصے دستی طور پر ڈھانپیں۔ تھائی اور اردو متن کی شناخت فی الحال دستیاب نہیں؛ چہروں اور کوڈز کی شناخت الگ کام کرتی ہے۔"
     },
     "styles": {
       "title": "اپنا انداز منتخب کریں",
-      "body": "ہر حصے میں الگ موزیک، بلر یا یک رنگی پردہ استعمال کریں۔ برش یا اشکال سے بنائیں، اثر بدلیں، زوم کریں اور تبدیلیاں واپس یا دوبارہ کریں۔ ہائی لائٹر سے اہم باتیں نمایاں کریں۔"
+      "body": "ہر حصے میں الگ موزیک، بلر یا یک رنگی پردہ استعمال کریں۔ برش یا اشکال سے بنائیں، اثر بدلیں، زوم کریں اور تبدیلیاں واپس یا دوبارہ کریں۔ ہائی لائٹر سے اہم باتیں نمایاں کریں۔ مارکر سے مواد پڑھنے کے قابل رہتا ہے۔ اسے نمایاں کرنے کے لیے استعمال کریں، حساس معلومات چھپانے کے لیے نہیں۔"
     },
     "watermark": {
       "title": "اپنا تحریری واٹرمارک",
@@ -168,7 +168,7 @@
     },
     "styles": {
       "title": "CHOISISSEZ VOTRE EFFET",
-      "body": "Utilisez la mosaïque, le flou ou un aplat de couleur, avec un effet différent par zone. Dessinez au pinceau ou avec des formes, réglez l’effet, zoomez, annulez et rétablissez vos retouches. Soulignez les détails avec le surligneur."
+      "body": "Utilisez la mosaïque, le flou ou un aplat de couleur, avec un effet différent par zone. Dessinez au pinceau ou avec des formes, réglez l’effet, zoomez, annulez et rétablissez vos retouches. Soulignez les détails avec le surligneur. Le surligneur laisse le contenu lisible : il sert à le mettre en valeur, pas à masquer des informations sensibles."
     },
     "watermark": {
       "title": "VOTRE PROPRE FILIGRANE",
@@ -191,7 +191,7 @@
     },
     "styles": {
       "title": "領域ごとに異なる効果",
-      "body": "モザイク、ぼかし、単色での塗りつぶしに対応。ブラシや図形、効果の調整、拡大表示、元に戻す・やり直しを使えます。蛍光ペンで注目してほしい部分を強調することもできます。"
+      "body": "モザイク、ぼかし、単色での塗りつぶしに対応。ブラシや図形、効果の調整、拡大表示、元に戻す・やり直しを使えます。蛍光ペンで注目してほしい部分を強調することもできます。 マーカーは文字を読めるまま強調する機能です。機密情報を隠す場合はマスクを使ってください。"
     },
     "watermark": {
       "title": "自分の文字を透かしに",
@@ -214,7 +214,7 @@
     },
     "styles": {
       "title": "영역마다 다른 효과",
-      "body": "모자이크, 블러, 단색 가리기를 선택하세요. 브러시와 도형, 효과 조정, 확대, 실행 취소와 다시 실행을 지원합니다. 형광펜으로 중요한 부분을 강조할 수도 있습니다."
+      "body": "모자이크, 블러, 단색 가리기를 선택하세요. 브러시와 도형, 효과 조정, 확대, 실행 취소와 다시 실행을 지원합니다. 형광펜으로 중요한 부분을 강조할 수도 있습니다. 마커는 내용을 읽을 수 있게 유지합니다. 민감한 정보를 숨길 때는 가리기 효과를 사용하세요."
     },
     "watermark": {
       "title": "나만의 텍스트 워터마크",
@@ -237,7 +237,7 @@
     },
     "styles": {
       "title": "EFEK SESUAI KEBUTUHAN",
-      "body": "Gunakan mosaik, blur, atau blok warna solid, dengan efek berbeda untuk setiap area. Gunakan kuas atau bentuk, atur efek, perbesar gambar, serta urungkan dan ulangi edit. Sorot bagian penting dengan penanda."
+      "body": "Gunakan mosaik, blur, atau blok warna solid, dengan efek berbeda untuk setiap area. Gunakan kuas atau bentuk, atur efek, perbesar gambar, serta urungkan dan ulangi edit. Sorot bagian penting dengan penanda. Penanda membuat isi tetap terbaca. Gunakan untuk menyorot, bukan menyembunyikan informasi sensitif."
     },
     "watermark": {
       "title": "WATERMARK TEKS ANDA",
@@ -256,11 +256,11 @@
     "description": "ซ่อนข้อมูลส่วนตัวในภาพด้วยการตรวจจับ สติกเกอร์ใบหน้า และลายน้ำ",
     "smart": {
       "title": "ตรวจจับแล้วเลือกได้เอง",
-      "body": "ค้นหาใบหน้า คิวอาร์โค้ด บาร์โค้ด และข้อความส่วนตัวที่พบบ่อย ใช้เครื่องมืออัจฉริยะปิดบริเวณที่แนะนำ แล้วแตะแต่ละจุดเพื่อปรับหรือยกเลิก เพิ่มพื้นที่ปิดด้วยตนเองได้ตามต้องการ"
+      "body": "ค้นหาใบหน้า คิวอาร์โค้ด บาร์โค้ด และข้อความส่วนตัวที่พบบ่อย ใช้เครื่องมืออัจฉริยะปิดบริเวณที่แนะนำ แล้วแตะแต่ละจุดเพื่อปรับหรือยกเลิก เพิ่มพื้นที่ปิดด้วยตนเองได้ตามต้องการ การรู้จำข้อความภาษาไทยและภาษาอูรดูยังไม่รองรับ ส่วนการตรวจจับใบหน้าและโค้ดยังใช้งานได้แยกกัน"
     },
     "styles": {
       "title": "เลือกเอฟเฟกต์ที่เหมาะ",
-      "body": "ใช้โมเสก เบลอ หรือสีทึบ โดยเลือกต่างกันได้ในแต่ละบริเวณ วาดด้วยแปรงหรือรูปทรง ปรับเอฟเฟกต์ ซูม เลิกทำและทำซ้ำ ใช้ปากกาเน้นข้อความเพื่อชี้จุดสำคัญ"
+      "body": "ใช้โมเสก เบลอ หรือสีทึบ โดยเลือกต่างกันได้ในแต่ละบริเวณ วาดด้วยแปรงหรือรูปทรง ปรับเอฟเฟกต์ ซูม เลิกทำและทำซ้ำ ใช้ปากกาเน้นข้อความเพื่อชี้จุดสำคัญ ปากกาเน้นข้อความยังคงทำให้อ่านเนื้อหาได้ ใช้เพื่อเน้น ไม่ใช่เพื่อซ่อนข้อมูลส่วนตัว"
     },
     "watermark": {
       "title": "ลายน้ำข้อความของคุณ",
@@ -283,7 +283,7 @@
     },
     "styles": {
       "title": "CHỌN HIỆU ỨNG",
-      "body": "Dùng khảm điểm ảnh, làm mờ hoặc khối màu đặc, với hiệu ứng riêng cho từng vùng. Vẽ bằng cọ hoặc hình dạng, chỉnh hiệu ứng, phóng to, hoàn tác và làm lại. Dùng bút đánh dấu để làm nổi bật chi tiết."
+      "body": "Dùng khảm điểm ảnh, làm mờ hoặc khối màu đặc, với hiệu ứng riêng cho từng vùng. Vẽ bằng cọ hoặc hình dạng, chỉnh hiệu ứng, phóng to, hoàn tác và làm lại. Dùng bút đánh dấu để làm nổi bật chi tiết. Bút đánh dấu vẫn để nội dung đọc được. Dùng để làm nổi bật, không dùng để che thông tin nhạy cảm."
     },
     "watermark": {
       "title": "DẤU CHÌM VĂN BẢN RIÊNG",
@@ -306,7 +306,7 @@
     },
     "styles": {
       "title": "PILIH KESAN ANDA",
-      "body": "Gunakan mozek, kabur atau blok warna padu dengan kesan berbeza bagi setiap kawasan. Lukis dengan berus atau bentuk, laraskan kesan, zum serta buat asal dan buat semula suntingan. Serlahkan butiran dengan pen penyerlah."
+      "body": "Gunakan mozek, kabur atau blok warna padu dengan kesan berbeza bagi setiap kawasan. Lukis dengan berus atau bentuk, laraskan kesan, zum serta buat asal dan buat semula suntingan. Serlahkan butiran dengan pen penyerlah. Pen penanda membiarkan kandungan boleh dibaca. Gunakannya untuk menyerlahkan, bukan menyembunyikan maklumat sensitif."
     },
     "watermark": {
       "title": "TERA AIR TEKS SENDIRI",
@@ -329,7 +329,7 @@
     },
     "styles": {
       "title": "PILIIN ANG EPEKTO",
-      "body": "Gumamit ng mosaic, blur o solidong kulay, na may magkakaibang epekto sa bawat bahagi. Gumuhit gamit ang brush o hugis, ayusin ang epekto, mag-zoom, at mag-undo o redo. Idiin ang mahahalagang detalye gamit ang highlighter."
+      "body": "Gumamit ng mosaic, blur o solidong kulay, na may magkakaibang epekto sa bawat bahagi. Gumuhit gamit ang brush o hugis, ayusin ang epekto, mag-zoom, at mag-undo o redo. Idiin ang mahahalagang detalye gamit ang highlighter. Nababasa pa rin ang nilalaman sa marker. Gamitin ito sa pag-highlight, hindi sa pagtatago ng sensitibong impormasyon."
     },
     "watermark": {
       "title": "SARILING TEXT WATERMARK",

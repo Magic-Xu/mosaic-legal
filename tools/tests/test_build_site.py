@@ -31,14 +31,62 @@ class SiteBuildTest(unittest.TestCase):
     def test_build_from_sources_preserves_public_routes_and_theme(self):
         self.build()
         self.build("--check")
-        self.assertEqual(45, len([p for p in self.root.rglob("*.html")
+        self.assertEqual(225, len([p for p in self.root.rglob("*.html")
                                   if "content" not in p.relative_to(self.root).parts]))
         for page in [*self.root.rglob("privacy.html"), *self.root.rglob("terms.html")]:
             text = page.read_text()
             self.assertIn('name="color-scheme" content="dark"', text)
-            self.assertIn('<a href="./index.html">SnapMosaic</a>', text)
+            self.assertIn('class="brand" href="./index.html"', text)
+            self.assertIn('class="primary-nav"', text)
+            self.assertIn('href="./guide/index.html"', text)
             self.assertTrue((page.parent / "index.html").is_file())
         self.assertIn('dir="rtl"', (self.root / "ur/privacy.html").read_text())
+
+    def test_guides_keep_locale_routes_and_article_anchors(self):
+        self.build()
+        sites = json.loads((self.root / "content/site.json").read_text())
+        sitemap = (self.root / "sitemap.xml").read_text()
+        for code in sites:
+            route = "" if code == "en" else code + "/"
+            home = self.root / route / "index.html"
+            self.assertIn('href="./guide/index.html"', home.read_text())
+            article = self.root / route / "guide/quickstart.html"
+            content = article.read_text()
+            for anchor in ("choose", "smart", "refine", "export", "review"):
+                self.assertIn(f'id="{anchor}"', content)
+            self.assertIn(f'hreflang="{code}"', content)
+            for destination in ('../index.html', '../guide/index.html', '../privacy.html', '../faq.html'):
+                self.assertIn(f'href="{destination}"', content)
+            faq = self.root / route / 'faq.html'
+            self.assertTrue(faq.exists())
+            self.assertIn('href="./faq.html" aria-current="page"', faq.read_text())
+            self.assertIn(f'{route}guide/quickstart.html</loc>', sitemap)
+            self.assertTrue((article.parent / "index.html").exists())
+            for chapter in ("smart-detection.html", "manual-masking.html", "export.html",
+                            "decorations.html", "batch.html", "custom-rules.html",
+                            "recognition-help.html", "pro.html", "video.html"):
+                chapter_text = (article.parent / chapter).read_text()
+                self.assertIn(f'{route}guide/{chapter}</loc>', sitemap)
+                self.assertIn(f'href="./{chapter}" aria-current="page"', chapter_text)
+                for anchor in (("faces", "watermark") if chapter == "decorations.html" else
+                               ("use", "options") if chapter in ("smart-detection.html", "manual-masking.html", "export.html") else ("use",)):
+                    self.assertIn(f'id="{anchor}"', chapter_text)
+        self.assertIn('dir="rtl"', (self.root / "ur/guide/quickstart.html").read_text())
+
+    def test_changed_guide_source_is_detected_and_regenerated(self):
+        self.build()
+        source = self.root / "content/guide.json"
+        data = json.loads(source.read_text())
+        data["zh-CN"]["steps"][0]["body"] += " 测试更新。"
+        source.write_text(json.dumps(data, ensure_ascii=False))
+        result = self.build("--check", success=False)
+        self.assertIn("zh-CN/guide/quickstart.html", result.stderr)
+        self.build()
+        self.build("--check")
+        self.assertIn("测试更新。", (self.root / "zh-CN/guide/quickstart.html").read_text())
+        del data["ur"]
+        source.write_text(json.dumps(data, ensure_ascii=False))
+        self.build(success=False)
 
     def test_changed_legal_source_is_detected_and_regenerated(self):
         self.build()

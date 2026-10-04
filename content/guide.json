@@ -1,0 +1,1172 @@
+{
+  "en": {
+    "nav": "User guide",
+    "overview": "Guide overview",
+    "quickstart": "Quick start",
+    "lead": "Instructions for SnapMosaic on Android. Start with the quick start, or choose a chapter for a specific feature.",
+    "start": "Read the quick start",
+    "toc": "On this page",
+    "articleLead": "Choose an image, cover private details, and export a copy. Follow these four steps in SnapMosaic for Android.",
+    "before": "Before you start",
+    "beforeBody": "Install SnapMosaic from Google Play. You can use the sample photo to practise, without opening your own photos. No account or Pro purchase is required.",
+    "checkTitle": "One last look before you share",
+    "checks": [
+      "Check faces, names, phone numbers, addresses, and codes at a readable zoom level.",
+      "Make sure each detail you want to hide is fully covered. An outline alone does not hide anything in the export.",
+      "Open the saved image and check the result before sending it."
+    ],
+    "help": "Need a hand?",
+    "helpBody": "Open the question-mark menu in the app to replay the guide or check smart detection. You can also read the FAQ or contact support.",
+    "imageLink": "View full screenshot",
+    "steps": [
+      {
+        "title": "Choose a photo",
+        "body": "Open SnapMosaic and choose a photo from the system photo picker. For a first try, use “Try a sample photo” on the start screen.",
+        "tip": "You can select up to 10 images. Each image keeps its own edits; review them individually before exporting the group."
+      },
+      {
+        "title": "Smart detection",
+        "body": "Wait for the photo to load. If automatic masking is enabled, review the applied masks. Otherwise, tap “Smart” at the bottom to apply suggested masks to faces, codes, and common sensitive text.",
+        "tip": "Detection can miss details. An outlined area is only a suggestion; tap it to cover it. If detection is unavailable, use manual masking or open detection help from the question-mark menu."
+      },
+      {
+        "title": "Manual masking and word selection",
+        "body": "Long-press a detected line of text, then choose the individual words or segments to hide. For anything missed, open the masking tool, choose an effect, and use a rectangle or brush from “Adjust”. Use Undo if you make a mistake.",
+        "tip": "For sensitive text, use a solid block at 100% opacity and cover the whole detail. The marker highlights content and leaves it readable."
+      },
+      {
+        "title": "Save and share",
+        "body": "Tap the share icon in the top toolbar. Choose JPEG, PNG, or WebP and an output size. Enable “Remove metadata (EXIF/GPS)” if you want to remove those details from the exported file.",
+        "tip": "“Save a copy” writes a new image to your gallery. “Share” opens the Android share sheet and does not also save it to the gallery. Your original photo is not overwritten."
+      }
+    ],
+    "gettingStarted": "Getting started",
+    "editing": "Photo editing",
+    "howTo": "How to use it",
+    "articles": [
+      {
+        "title": "Smart detection",
+        "detailsTitle": "Automatic masking and individual areas",
+        "details": [
+          "In Settings, turn “Auto-mask new photos” on or off. It is on by default if you have not saved a preference. Changing it affects newly loaded photos; it does not change the photo already open.",
+          "To change a detected area's effect, select an effect and tap the area. If that area already uses the selected effect, tapping it removes its mask. Check the result after each change."
+        ]
+      },
+      {
+        "title": "Manual masking and word selection",
+        "detailsTitle": "Adjust a rectangle",
+        "details": [
+          "After drawing a rectangle, drag its corner handles to resize it. Tap the rectangle to finish adjusting; the mask stays in place. Tapping it again removes it. Drawing a new rectangle hides the previous rectangle's handles.",
+          "Use Undo and Redo to correct edits. Zoom in to check the edges and confirm that the whole detail is covered."
+        ],
+        "controlsTitle": "Effects and colors",
+        "controls": [
+          "Tap Mask or Marker to select the tool. Tap the selected tool again to open its controls. For masking, choose mosaic, blur or a solid block; Adjust contains rectangle or brush mode, size, and mosaic or blur strength.",
+          "For a solid block or marker, open the rainbow palette to change color and opacity. Use the color grid, spectrum, RGB or Hex input. You can drag the palette button to another edge of the canvas. Masking and marker settings are remembered separately."
+        ]
+      },
+      {
+        "title": "Save and share",
+        "detailsTitle": "Output options",
+        "details": [
+          "Choose the original size or a 2048, 1280, or 720 size preset. Turn on “Remember format and size” to reuse your choices for new photos and after reopening the app. This option is off by default.",
+          "With multiple photos open, choose the current photo or the whole group. The default is the current photo. Review every photo before exporting the group.",
+          "Removing metadata clears file information such as GPS location. It does not cover an address or other text visible in the image; mask those details separately.",
+          "In the export menu, choose “View sensitive info” to inspect location and EXIF details read from the original image, such as camera and capture time. Some images contain no such data."
+        ]
+      }
+    ]
+  },
+  "zh-CN": {
+    "nav": "使用指南",
+    "overview": "指南首页",
+    "quickstart": "快速上手",
+    "lead": "Android 版 SnapMosaic 的操作说明。首次使用可阅读快速上手，也可以按章节查看具体功能。",
+    "start": "阅读快速上手",
+    "toc": "本页内容",
+    "articleLead": "选一张图片，遮住私密细节，再导出副本。在 Android 版 SnapMosaic 中，跟着这四步完成一次编辑。",
+    "before": "开始之前",
+    "beforeBody": "从 Google Play 安装 SnapMosaic。可以先用应用内的示例照片练习，不必打开自己的照片，也无需注册或购买 Pro。",
+    "checkTitle": "分享前，再看一遍",
+    "checks": [
+      "放大到文字清晰可读，检查人脸、姓名、手机号、地址和各类码。",
+      "确认想隐藏的内容已被完整遮住。只有描边的区域不会在导出时自动变成遮挡。",
+      "打开保存后的图片，确认结果后再发送。"
+    ],
+    "help": "操作遇到问题？",
+    "helpBody": "打开 App 顶部的问号菜单，可以重看操作指引或检查智能识别。也可以查看常见问题，或联系支持。",
+    "imageLink": "查看完整截图",
+    "steps": [
+      {
+        "title": "选择一张照片",
+        "body": "打开 SnapMosaic，从系统照片选择器选一张图片。第一次使用，也可以点击首页的“试试示例照片”，先熟悉操作。",
+        "tip": "一次最多可选 10 张图片，每张独立保留编辑。导出整组前，记得逐张检查。"
+      },
+      {
+        "title": "智能识别",
+        "body": "等待图片载入。如果开启了自动打码，先查看已应用的遮挡；否则，点击底部“智能”，对人脸、各类码和常见敏感文字应用建议遮挡。",
+        "tip": "识别可能遗漏内容。只有描边的区域是待确认建议，点击后才会遮挡。识别不可用时，可先手动处理，或从顶部问号菜单进入识别帮助。"
+      },
+      {
+        "title": "手动打码与选词",
+        "body": "长按已识别的一行文字，再点选要隐藏的词语或片段。遇到遗漏的内容，点击底部“遮挡”并选择效果，再在“调节”中选矩形或涂抹，手动补上。操作有误时可以撤销。",
+        "tip": "敏感文字建议使用 100% 不透明的实色遮挡，并完整盖住内容。荧光笔用于强调，底下的内容仍可读。"
+      },
+      {
+        "title": "保存与分享",
+        "body": "点击顶部分享图标，选择 JPEG、PNG 或 WebP，以及输出大小。需要移除导出文件里的位置等信息时，开启“移除元数据（EXIF/GPS）”。",
+        "tip": "“保存副本”会把新图片写入相册；“分享”会打开 Android 系统分享面板，不会同时存入相册。两种方式都不会覆盖原图。"
+      }
+    ],
+    "gettingStarted": "开始使用",
+    "editing": "图片编辑",
+    "howTo": "操作方法",
+    "articles": [
+      {
+        "title": "智能识别",
+        "detailsTitle": "自动打码与单个区域调整",
+        "details": [
+          "在设置中可开关“选图后自动打码”。未设置过时默认开启；修改后只影响之后载入的新图片，不会改变当前已打开图片的遮挡。",
+          "需要更换某个识别区域的效果时，先选择效果，再点击该区域。如果区域已经使用当前效果，再次点击会取消它的遮挡。每次调整后都检查实际结果。"
+        ]
+      },
+      {
+        "title": "手动打码与选词",
+        "detailsTitle": "调整矩形范围",
+        "details": [
+          "画出矩形后，拖动四角的手柄调整大小。点击矩形可结束调整，遮挡仍然保留；再次点击才会移除。开始画下一个矩形时，上一个矩形的手柄会收起。",
+          "调整有误时使用撤销、重做。放大图片检查边缘，确认需要隐藏的内容已被完整盖住。"
+        ],
+        "controlsTitle": "效果与颜色",
+        "controls": [
+          "点击底部“遮挡”或“荧光笔”可选中工具，再次点击当前工具才会打开调节菜单。遮挡菜单提供马赛克、模糊、实色遮挡；进入“调节”可选择矩形或涂抹，并调整尺寸、马赛克或模糊的强度。",
+          "选择实色遮挡或荧光笔后，点击彩虹调色板调整颜色和不透明度，支持网格、光谱、RGB 和 Hex 色值。调色板按钮可以拖到画布其他边缘。遮挡与荧光笔的参数分别记住，切换时互不覆盖。"
+        ]
+      },
+      {
+        "title": "保存与分享",
+        "detailsTitle": "导出选项",
+        "details": [
+          "大小可选原尺寸或 2048、1280、720 预设。打开“记住格式与大小”后，新图片和重新打开 App 时会沿用所选格式与大小；这个选项默认关闭。",
+          "打开多张图片时，可选择导出当前图片或整组，默认只导出当前图片。导出整组前，请逐张检查遮挡。",
+          "移除元数据会清除文件中记录的位置等信息，不会遮住画面里可见的地址、文字。这些内容仍需在图片上单独打码。",
+          "在导出菜单点击“查看敏感信息”，可查看原图中可读取的位置和 EXIF 信息，例如相机、拍摄时间等；部分图片没有这些信息。"
+        ]
+      }
+    ]
+  },
+  "zh-Hant": {
+    "nav": "使用指南",
+    "overview": "指南首頁",
+    "quickstart": "快速上手",
+    "lead": "Android 版 SnapMosaic 的操作說明。首次使用可閱讀快速上手，也可以按章節查看個別功能。",
+    "start": "閱讀快速上手",
+    "toc": "本頁內容",
+    "articleLead": "選一張圖片，遮住私密細節，再匯出副本。在 Android 版 SnapMosaic 中，跟著這四步完成一次編輯。",
+    "before": "開始之前",
+    "beforeBody": "從 Google Play 安裝 SnapMosaic。可以先用應用程式內的範例照片練習，不必開啟自己的照片，也無需註冊或購買 Pro。",
+    "checkTitle": "分享前，再看一遍",
+    "checks": [
+      "放大到文字清晰可讀，檢查人臉、姓名、電話號碼、地址和各類條碼。",
+      "確認想隱藏的內容已被完整遮住。只有外框的區域不會在匯出時自動變成遮擋。",
+      "開啟儲存後的圖片，確認結果後再傳送。"
+    ],
+    "help": "操作遇到問題？",
+    "helpBody": "開啟 App 頂部的問號選單，可以重看操作指引或檢查智慧辨識。也可以查看常見問題，或聯絡支援。",
+    "imageLink": "查看完整截圖",
+    "steps": [
+      {
+        "title": "選擇一張照片",
+        "body": "開啟 SnapMosaic，從系統照片挑選工具選一張圖片。第一次使用，也可以點選首頁的「試試範例照片」，先熟悉操作。",
+        "tip": "一次最多可選 10 張圖片，每張獨立保留編輯。匯出整組前，記得逐張檢查。"
+      },
+      {
+        "title": "智慧辨識",
+        "body": "等待圖片載入。如果開啟了自動打碼，先查看已套用的遮擋；否則，點選底部「智慧」，對人臉、各類條碼和常見敏感文字套用建議遮擋。",
+        "tip": "辨識可能遺漏內容。只有外框的區域是待確認建議，點選後才會遮擋。辨識無法使用時，可先手動處理，或從頂部問號選單進入辨識說明。"
+      },
+      {
+        "title": "手動遮擋與選詞",
+        "body": "長按已辨識的一行文字，再點選要隱藏的詞語或片段。遇到遺漏的內容，開啟底部打碼工具，選擇效果，在「調整」中選矩形或塗抹，手動補上。操作有誤時可以復原。",
+        "tip": "敏感文字建議使用 100% 不透明的實色遮擋，並完整蓋住內容。螢光筆用於強調，底下的內容仍可閱讀。"
+      },
+      {
+        "title": "儲存與分享",
+        "body": "點選頂部分享圖示，選擇 JPEG、PNG 或 WebP，以及輸出大小。需要移除匯出檔案裡的位置等資訊時，開啟「移除中繼資料（EXIF/GPS）」。",
+        "tip": "「儲存副本」會把新圖片寫入相簿；「分享」會開啟 Android 系統分享面板，不會同時存入相簿。兩種方式都不會覆蓋原圖。"
+      }
+    ],
+    "gettingStarted": "開始使用",
+    "editing": "圖片編輯",
+    "howTo": "操作方法",
+    "articles": [
+      {
+        "title": "智慧辨識",
+        "detailsTitle": "自動遮擋與個別區域調整",
+        "details": [
+          "可在設定中開關選圖後自動遮擋。未設定過時預設開啟；變更只影響之後載入的新圖片，不會改變目前已開啟圖片的遮擋。",
+          "若要更換某個辨識區域的效果，先選擇效果，再點選該區域。若區域已使用目前效果，再次點選會取消遮擋。每次調整後請檢查實際結果。"
+        ]
+      },
+      {
+        "title": "手動遮擋與選詞",
+        "detailsTitle": "調整矩形範圍",
+        "details": [
+          "畫出矩形後，拖曳四角的控制點調整大小。點選矩形可結束調整，遮擋仍然保留；再次點選才會移除。開始畫下一個矩形時，上一個矩形的控制點會收起。",
+          "調整有誤時使用復原、重做。放大圖片檢查邊緣，確認要隱藏的內容已完整蓋住。"
+        ],
+        "controlsTitle": "效果與顏色",
+        "controls": [
+          "點選底部「遮擋」或「螢光筆」可選取工具，再次點選目前工具才會開啟調整選單。遮擋選單提供馬賽克、模糊、實色遮擋；進入「調整」可選擇矩形或塗抹，並調整尺寸、馬賽克或模糊的強度。",
+          "選擇實色遮擋或螢光筆後，點選彩虹調色盤調整顏色和不透明度，支援網格、光譜、RGB 和 Hex 色值。調色盤按鈕可以拖到畫布其他邊緣。遮擋與螢光筆的參數分別記住，切換時互不覆蓋。"
+        ]
+      },
+      {
+        "title": "儲存與分享",
+        "detailsTitle": "匯出選項",
+        "details": [
+          "大小可選原尺寸或 2048、1280、720 預設值。開啟記住格式與大小後，新圖片及重新開啟 App 時會沿用所選格式與大小；此選項預設關閉。",
+          "開啟多張圖片時，可選擇匯出目前圖片或整組，預設只匯出目前圖片。匯出整組前，請逐張檢查遮擋。",
+          "移除中繼資料會清除檔案中記錄的位置等資訊，不會遮住畫面中可見的地址或文字；這些內容仍需個別遮擋。",
+          "在匯出選單點擊「查看敏感資訊」，可查看原圖可讀取的位置和 EXIF 資訊，例如相機、拍攝時間等；部分圖片沒有這些資訊。"
+        ]
+      }
+    ]
+  },
+  "es": {
+    "nav": "Guía de uso",
+    "overview": "Inicio de la guía",
+    "quickstart": "Primeros pasos",
+    "lead": "Instrucciones de SnapMosaic para Android. Empieza por los primeros pasos o elige un capítulo sobre una función concreta.",
+    "start": "Leer los primeros pasos",
+    "toc": "En esta página",
+    "articleLead": "Elige una imagen, oculta los detalles privados y exporta una copia. Sigue estos cuatro pasos en SnapMosaic para Android.",
+    "before": "Antes de empezar",
+    "beforeBody": "Instala SnapMosaic desde Google Play. Puedes practicar con la foto de muestra sin abrir tus propias fotos. No necesitas una cuenta ni comprar Pro.",
+    "checkTitle": "Una última revisión antes de compartir",
+    "checks": [
+      "Amplía la imagen para revisar caras, nombres, teléfonos, direcciones y códigos.",
+      "Comprueba que los detalles estén completamente cubiertos. Un contorno por sí solo no oculta nada al exportar.",
+      "Abre la imagen guardada y revisa el resultado antes de enviarla."
+    ],
+    "help": "¿Necesitas ayuda?",
+    "helpBody": "Abre el menú del signo de interrogación de la app para repetir la guía o comprobar la detección. También puedes consultar las preguntas frecuentes o contactar con soporte.",
+    "imageLink": "Ver captura completa",
+    "steps": [
+      {
+        "title": "Elige una foto",
+        "body": "Abre SnapMosaic y elige una imagen en el selector de fotos del sistema. Para practicar, pulsa «Probar foto de muestra» en la pantalla inicial.",
+        "tip": "Puedes seleccionar hasta 10 imágenes. Cada una conserva sus propios cambios; revísalas por separado antes de exportar el grupo."
+      },
+      {
+        "title": "Detección inteligente",
+        "body": "Espera a que cargue la foto. Si el ocultado automático está activado, revisa las zonas cubiertas. Si no, pulsa «Inteligente» abajo para aplicar las sugerencias a caras, códigos y texto sensible habitual.",
+        "tip": "La detección puede omitir detalles. Una zona con contorno es solo una sugerencia; tócala para cubrirla. Si la detección no está disponible, oculta manualmente o abre su ayuda desde el signo de interrogación."
+      },
+      {
+        "title": "Ocultado manual y selección de palabras",
+        "body": "Mantén pulsada una línea de texto detectada y selecciona las palabras o fragmentos que quieras ocultar. Para cubrir lo que falte, abre la herramienta de ocultación, elige un efecto y selecciona rectángulo o pincel en «Ajustar». Si te equivocas, usa Deshacer.",
+        "tip": "Para texto sensible, usa un bloque de color sólido con opacidad del 100 % y cubre todo el detalle. El marcador resalta el contenido y lo deja legible."
+      },
+      {
+        "title": "Guardar y compartir",
+        "body": "Pulsa el icono de compartir de la barra superior. Elige JPEG, PNG o WebP y el tamaño de salida. Activa «Eliminar metadatos (EXIF/GPS)» para quitarlos del archivo exportado.",
+        "tip": "«Guardar copia» crea una imagen nueva en la galería. «Compartir» abre el panel de Android sin guardarla también en la galería. La foto original no se sobrescribe."
+      }
+    ],
+    "gettingStarted": "Para empezar",
+    "editing": "Edición de fotos",
+    "howTo": "Cómo usarlo",
+    "articles": [
+      {
+        "title": "Detección inteligente",
+        "detailsTitle": "Ocultado automático y zonas individuales",
+        "details": [
+          "En Ajustes puedes activar o desactivar el ocultado automático al abrir fotos. Está activado de forma predeterminada si no has guardado una preferencia. El cambio solo afecta a las fotos que abras después, no a la foto actual.",
+          "Para cambiar el efecto de una zona detectada, elige un efecto y toca la zona. Si ya tiene el efecto seleccionado, tocarla elimina su cobertura. Revisa el resultado después de cada cambio."
+        ]
+      },
+      {
+        "title": "Ocultado manual y selección de palabras",
+        "detailsTitle": "Ajustar un rectángulo",
+        "details": [
+          "Tras dibujar un rectángulo, arrastra los controles de sus esquinas para cambiar el tamaño. Toca el rectángulo para terminar el ajuste sin quitar la cobertura. Si vuelves a tocarlo, se elimina. Al dibujar otro rectángulo se ocultan los controles del anterior.",
+          "Usa Deshacer y Rehacer para corregir los cambios. Amplía la imagen y comprueba que los bordes cubran toda la información que quieres ocultar."
+        ],
+        "controlsTitle": "Efectos y colores",
+        "controls": [
+          "Toca Ocultar o Marcador para seleccionar la herramienta. Toca de nuevo la herramienta seleccionada para abrir sus controles. Elige mosaico, desenfoque o bloque sólido; en Ajustar puedes elegir rectángulo o pincel, tamaño e intensidad del mosaico o desenfoque.",
+          "Para un bloque sólido o marcador, abre la paleta arcoíris y cambia el color y la opacidad. Usa la cuadrícula, el espectro, RGB o Hex. Puedes arrastrar el botón de la paleta a otro borde del lienzo. Los ajustes de ocultación y marcador se recuerdan por separado."
+        ]
+      },
+      {
+        "title": "Guardar y compartir",
+        "detailsTitle": "Opciones de exportación",
+        "details": [
+          "Elige el tamaño original o un ajuste de 2048, 1280 o 720. Activa la opción de recordar formato y tamaño para reutilizarlos en nuevas fotos y al volver a abrir la app. Está desactivada de forma predeterminada.",
+          "Si tienes varias fotos abiertas, elige entre exportar la actual o el grupo completo. La opción predeterminada es la foto actual. Revisa cada foto antes de exportar el grupo.",
+          "Eliminar los metadatos borra información del archivo, como la ubicación GPS. No oculta direcciones ni texto visible en la imagen; cúbrelos por separado.",
+          "En el menú de exportación, elige «Ver información sensible» para consultar la ubicación y los datos EXIF de la imagen original, como la cámara y la fecha. Algunas imágenes no contienen estos datos."
+        ]
+      }
+    ]
+  },
+  "pt-BR": {
+    "nav": "Guia de uso",
+    "overview": "Início do guia",
+    "quickstart": "Primeiros passos",
+    "lead": "Instruções do SnapMosaic para Android. Comece pelo guia rápido ou escolha um capítulo sobre uma função específica.",
+    "start": "Ler o guia rápido",
+    "toc": "Nesta página",
+    "articleLead": "Escolha uma imagem, cubra os detalhes privados e exporte uma cópia. Siga estes quatro passos no SnapMosaic para Android.",
+    "before": "Antes de começar",
+    "beforeBody": "Instale o SnapMosaic pelo Google Play. Você pode praticar com a foto de exemplo sem abrir suas próprias fotos. Não é necessário criar uma conta nem comprar o Pro.",
+    "checkTitle": "Confira mais uma vez antes de compartilhar",
+    "checks": [
+      "Amplie a imagem para conferir rostos, nomes, telefones, endereços e códigos.",
+      "Confira se cada detalhe está totalmente coberto. Um contorno sozinho não oculta nada na exportação.",
+      "Abra a imagem salva e confira o resultado antes de enviar."
+    ],
+    "help": "Precisa de ajuda?",
+    "helpBody": "Abra o menu de interrogação no app para rever o guia ou verificar a detecção inteligente. Você também pode consultar as perguntas frequentes ou entrar em contato com o suporte.",
+    "imageLink": "Ver captura completa",
+    "steps": [
+      {
+        "title": "Escolha uma foto",
+        "body": "Abra o SnapMosaic e escolha uma imagem no seletor de fotos do sistema. Para praticar, toque em “Testar foto de exemplo” na tela inicial.",
+        "tip": "Você pode selecionar até 10 imagens. Cada uma mantém suas próprias edições; confira todas antes de exportar o grupo."
+      },
+      {
+        "title": "Detecção inteligente",
+        "body": "Aguarde o carregamento da foto. Se a ocultação automática estiver ativada, confira as áreas cobertas. Caso contrário, toque em “Inteligente” na parte inferior para aplicar as sugestões a rostos, códigos e textos sensíveis comuns.",
+        "tip": "A detecção pode deixar detalhes passar. Uma área com contorno é apenas uma sugestão; toque nela para cobrir. Se a detecção não estiver disponível, faça a ocultação manual ou abra a ajuda no menu de interrogação."
+      },
+      {
+        "title": "Ocultação manual e seleção de palavras",
+        "body": "Mantenha pressionada uma linha de texto detectada e selecione as palavras ou trechos que deseja ocultar. Para cobrir o que faltar, abra a ferramenta de ocultação, escolha um efeito e selecione retângulo ou pincel em “Ajustar”. Se errar, use Desfazer.",
+        "tip": "Para texto sensível, use um bloco de cor sólida com 100% de opacidade e cubra todo o detalhe. O marcador destaca o conteúdo e o mantém legível."
+      },
+      {
+        "title": "Salvar e compartilhar",
+        "body": "Toque no ícone de compartilhamento na barra superior. Escolha JPEG, PNG ou WebP e o tamanho de saída. Ative “Remover metadados (EXIF/GPS)” para removê-los do arquivo exportado.",
+        "tip": "“Salvar cópia” grava uma nova imagem na galeria. “Compartilhar” abre o painel do Android sem também salvar na galeria. A foto original não é substituída."
+      }
+    ],
+    "gettingStarted": "Primeiros passos",
+    "editing": "Edição de fotos",
+    "howTo": "Como usar",
+    "articles": [
+      {
+        "title": "Detecção inteligente",
+        "detailsTitle": "Ocultação automática e áreas individuais",
+        "details": [
+          "Nas configurações, ative ou desative a ocultação automática de novas fotos. Ela vem ativada se você ainda não salvou uma preferência. A alteração afeta apenas as fotos carregadas depois, não a foto já aberta.",
+          "Para mudar o efeito de uma área detectada, selecione um efeito e toque na área. Se ela já usa o efeito selecionado, tocar nela remove a cobertura. Confira o resultado após cada alteração."
+        ]
+      },
+      {
+        "title": "Ocultação manual e seleção de palavras",
+        "detailsTitle": "Ajustar um retângulo",
+        "details": [
+          "Depois de desenhar um retângulo, arraste os controles dos cantos para redimensioná-lo. Toque no retângulo para concluir o ajuste e manter a cobertura. Um novo toque remove o retângulo. Desenhar outro retângulo oculta os controles do anterior.",
+          "Use Desfazer e Refazer para corrigir alterações. Amplie a imagem para conferir as bordas e garantir que toda a informação esteja coberta."
+        ],
+        "controlsTitle": "Efeitos e cores",
+        "controls": [
+          "Toque em Ocultar ou Marcador para selecionar a ferramenta. Toque novamente na ferramenta selecionada para abrir os controles. Escolha mosaico, desfoque ou bloco sólido; em Ajustar, escolha retângulo ou pincel, tamanho e intensidade do mosaico ou desfoque.",
+          "Para bloco sólido ou marcador, abra a paleta colorida para mudar cor e opacidade. Use a grade, o espectro, RGB ou Hex. Você pode arrastar o botão da paleta para outra borda da tela de edição. As configurações de ocultação e marcador são lembradas separadamente."
+        ]
+      },
+      {
+        "title": "Salvar e compartilhar",
+        "detailsTitle": "Opções de exportação",
+        "details": [
+          "Escolha o tamanho original ou uma predefinição de 2048, 1280 ou 720. Ative a opção de lembrar formato e tamanho para reutilizá-los em novas fotos e ao reabrir o app. Essa opção vem desativada.",
+          "Com várias fotos abertas, escolha a foto atual ou o grupo inteiro. O padrão é a foto atual. Confira cada foto antes de exportar o grupo.",
+          "Remover metadados apaga informações do arquivo, como a localização GPS. Isso não cobre endereços nem textos visíveis na imagem; oculte esses detalhes separadamente.",
+          "No menu de exportação, escolha “Ver informações sensíveis” para consultar a localização e os dados EXIF da imagem original, como câmera e data. Algumas imagens não contêm esses dados."
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "nav": "Guide d’utilisation",
+    "overview": "Accueil du guide",
+    "quickstart": "Premiers pas",
+    "lead": "Mode d’emploi de SnapMosaic pour Android. Commencez par le démarrage rapide ou choisissez un chapitre consacré à une fonction.",
+    "start": "Lire le guide de démarrage",
+    "toc": "Sur cette page",
+    "articleLead": "Choisissez une image, masquez les détails privés et exportez une copie. Suivez ces quatre étapes dans SnapMosaic pour Android.",
+    "before": "Avant de commencer",
+    "beforeBody": "Installez SnapMosaic depuis Google Play. Vous pouvez vous entraîner avec la photo d’exemple sans ouvrir vos propres photos. Aucun compte ni achat Pro n’est nécessaire.",
+    "checkTitle": "Une dernière vérification avant le partage",
+    "checks": [
+      "Agrandissez l’image pour vérifier les visages, noms, numéros, adresses et codes.",
+      "Vérifiez que chaque détail à cacher est entièrement couvert. Un simple contour ne masque rien dans le fichier exporté.",
+      "Ouvrez l’image enregistrée et vérifiez le résultat avant de l’envoyer."
+    ],
+    "help": "Besoin d’aide ?",
+    "helpBody": "Ouvrez le menu du point d’interrogation dans l’app pour revoir le guide ou vérifier la détection. Vous pouvez aussi consulter la FAQ ou contacter l’assistance.",
+    "imageLink": "Voir la capture complète",
+    "steps": [
+      {
+        "title": "Choisir une photo",
+        "body": "Ouvrez SnapMosaic et choisissez une image dans le sélecteur de photos du système. Pour vous entraîner, touchez « Essayer la photo d’exemple » sur l’écran d’accueil.",
+        "tip": "Vous pouvez sélectionner jusqu’à 10 images. Chacune conserve ses propres retouches ; vérifiez-les une à une avant d’exporter le groupe."
+      },
+      {
+        "title": "Détection intelligente",
+        "body": "Attendez le chargement de la photo. Si le masquage automatique est activé, vérifiez les zones masquées. Sinon, touchez « Intelligent » en bas pour appliquer les suggestions aux visages, codes et textes sensibles courants.",
+        "tip": "La détection peut manquer des détails. Une zone entourée est une suggestion : touchez-la pour la masquer. Si la détection est indisponible, masquez manuellement ou ouvrez l’aide depuis le point d’interrogation."
+      },
+      {
+        "title": "Masquage manuel et sélection de mots",
+        "body": "Appuyez longuement sur une ligne de texte détectée, puis choisissez les mots ou segments à masquer. Pour compléter, ouvrez l’outil de masquage, choisissez un effet, puis un rectangle ou pinceau dans « Ajuster ». En cas d’erreur, utilisez Annuler.",
+        "tip": "Pour un texte sensible, utilisez un bloc uni à 100 % d’opacité et couvrez entièrement le détail. Le surligneur met le contenu en évidence tout en le laissant lisible."
+      },
+      {
+        "title": "Enregistrer et partager",
+        "body": "Touchez l’icône de partage dans la barre supérieure. Choisissez JPEG, PNG ou WebP et la taille de sortie. Activez « Supprimer les métadonnées (EXIF/GPS) » pour les retirer du fichier exporté.",
+        "tip": "« Enregistrer une copie » ajoute une nouvelle image à la galerie. « Partager » ouvre le panneau Android sans enregistrer aussi l’image dans la galerie. L’original n’est pas remplacé."
+      }
+    ],
+    "gettingStarted": "Prise en main",
+    "editing": "Retouche photo",
+    "howTo": "Mode d’emploi",
+    "articles": [
+      {
+        "title": "Détection intelligente",
+        "detailsTitle": "Masquage automatique et zones individuelles",
+        "details": [
+          "Dans les paramètres, activez ou désactivez le masquage automatique des nouvelles photos. Il est activé par défaut si aucune préférence n’a été enregistrée. Ce réglage concerne les prochaines photos chargées, pas celle déjà ouverte.",
+          "Pour modifier l’effet d’une zone détectée, choisissez un effet puis touchez la zone. Si elle utilise déjà cet effet, la toucher retire son masque. Vérifiez le résultat après chaque modification."
+        ]
+      },
+      {
+        "title": "Masquage manuel et sélection de mots",
+        "detailsTitle": "Ajuster un rectangle",
+        "details": [
+          "Après avoir tracé un rectangle, faites glisser les poignées de ses coins pour le redimensionner. Touchez-le pour terminer l’ajustement en conservant le masque. Un nouvel appui le supprime. Tracer un autre rectangle masque les poignées du précédent.",
+          "Utilisez Annuler et Rétablir pour corriger vos modifications. Zoomez pour vérifier les bords et couvrir entièrement les informations à cacher."
+        ],
+        "controlsTitle": "Effets et couleurs",
+        "controls": [
+          "Touchez Masquer ou Surligneur pour sélectionner l’outil, puis touchez-le à nouveau pour ouvrir ses réglages. Choisissez mosaïque, flou ou aplat ; Ajuster permet de choisir rectangle ou pinceau, taille et intensité de mosaïque ou de flou.",
+          "Pour un aplat ou le surligneur, ouvrez la palette arc-en-ciel pour modifier couleur et opacité. Utilisez la grille, le spectre, RGB ou Hex. Vous pouvez déplacer le bouton de palette vers un autre bord du canevas. Les réglages des deux outils sont mémorisés séparément."
+        ]
+      },
+      {
+        "title": "Enregistrer et partager",
+        "detailsTitle": "Options d’exportation",
+        "details": [
+          "Choisissez la taille d’origine ou un préréglage de 2048, 1280 ou 720. Activez la mémorisation du format et de la taille pour les réutiliser sur de nouvelles photos et après avoir rouvert l’app. Cette option est désactivée par défaut.",
+          "Si plusieurs photos sont ouvertes, choisissez la photo actuelle ou tout le groupe. La photo actuelle est sélectionnée par défaut. Vérifiez chaque photo avant d’exporter le groupe.",
+          "La suppression des métadonnées efface des informations du fichier, comme la position GPS. Elle ne masque pas les adresses ni le texte visible dans l’image : couvrez-les séparément.",
+          "Dans le menu d’exportation, choisissez « Voir les informations sensibles » pour consulter la localisation et les données EXIF de l’original, comme l’appareil et la date. Certaines images n’en contiennent pas."
+        ]
+      }
+    ]
+  },
+  "ja": {
+    "nav": "使い方ガイド",
+    "overview": "ガイドのホーム",
+    "quickstart": "はじめに",
+    "lead": "Android 版 SnapMosaic の操作ガイドです。初めての方はクイックスタートから、特定の機能を調べたい方は各章からお読みください。",
+    "start": "クイックスタートを読む",
+    "toc": "このページの内容",
+    "articleLead": "画像を選び、個人情報を隠して、コピーを書き出します。Android版SnapMosaicで、この4つの手順を試しましょう。",
+    "before": "始める前に",
+    "beforeBody": "Google PlayからSnapMosaicをインストールしてください。自分の写真を開かずにサンプル写真で練習できます。アカウント登録やProの購入は不要です。",
+    "checkTitle": "共有する前に、もう一度確認",
+    "checks": [
+      "文字が読める大きさまで拡大し、顔、名前、電話番号、住所、各種コードを確認します。",
+      "隠したい情報が完全に覆われているか確認します。枠線だけの領域は、書き出しても隠れません。",
+      "保存した画像を開き、結果を確認してから送信します。"
+    ],
+    "help": "操作で困ったら",
+    "helpBody": "アプリの「？」メニューから操作ガイドを見直したり、スマート検出を確認したりできます。よくある質問やサポートもご利用ください。",
+    "imageLink": "スクリーンショット全体を見る",
+    "steps": [
+      {
+        "title": "写真を選ぶ",
+        "body": "SnapMosaicを開き、システムの写真選択画面から画像を選びます。まずは開始画面の「サンプル写真を試す」で練習することもできます。",
+        "tip": "一度に最大10枚選択できます。編集内容は画像ごとに保持されます。まとめて書き出す前に、1枚ずつ確認してください。"
+      },
+      {
+        "title": "スマート検出",
+        "body": "写真の読み込みを待ちます。自動マスクが有効なら、適用済みのマスクを確認してください。無効の場合は下部の「スマート」をタップし、顔、コード、一般的な機密テキストに推奨マスクを適用します。",
+        "tip": "検出では見落としが起こることがあります。枠線だけの領域は候補なので、タップして隠してください。検出が使えないときは手動で隠すか、「？」メニューから検出のヘルプを開きます。"
+      },
+      {
+        "title": "手動マスクと単語の選択",
+        "body": "検出されたテキスト行を長押しし、隠したい単語や部分を選びます。見落とされた箇所はマスクツールで効果を選び、「調整」で矩形またはブラシを選んで手動で覆います。間違えたら元に戻せます。",
+        "tip": "機密テキストには不透明度100%の単色ブロックを使い、全体を覆ってください。マーカーは強調用で、下の内容は読めるままです。"
+      },
+      {
+        "title": "保存と共有",
+        "body": "上部ツールバーの共有アイコンをタップします。JPEG、PNG、WebPと出力サイズを選びます。書き出したファイルから位置情報などを取り除くには、「メタデータを削除（EXIF/GPS）」を有効にします。",
+        "tip": "「コピーを保存」は新しい画像をギャラリーに保存します。「共有」はAndroidの共有画面を開き、同時にギャラリーへは保存しません。元の写真は上書きされません。"
+      }
+    ],
+    "gettingStarted": "はじめに",
+    "editing": "写真の編集",
+    "howTo": "操作手順",
+    "articles": [
+      {
+        "title": "スマート検出",
+        "detailsTitle": "自動マスクと個別の領域",
+        "details": [
+          "設定で新しく開く写真の自動マスクを切り替えられます。設定を保存したことがなければ、初期状態では有効です。変更は次に読み込む写真から適用され、開いている写真には影響しません。",
+          "検出された領域の効果を変更するには、効果を選んでからその領域をタップします。すでに選択中の効果が使われている場合は、タップするとマスクが解除されます。変更後は結果を確認してください。"
+        ]
+      },
+      {
+        "title": "手動マスクと単語の選択",
+        "detailsTitle": "長方形の範囲を調整",
+        "details": [
+          "長方形を描いたら、四隅のハンドルをドラッグして大きさを変えます。長方形をタップすると調整が終了し、マスクは残ります。もう一度タップすると削除されます。新しい長方形を描くと、前のハンドルは非表示になります。",
+          "間違えたときは元に戻す・やり直しを使います。画像を拡大して端を確認し、隠したい内容全体が覆われているか確かめてください。"
+        ],
+        "controlsTitle": "効果と色",
+        "controls": [
+          "「マスク」または「マーカー」をタップして選択し、選択中のツールをもう一度タップして設定を開きます。マスクではモザイク、ぼかし、塗りつぶしを選択できます。「調整」では長方形・ブラシ、サイズ、モザイクやぼかしの強さを設定できます。",
+          "塗りつぶしやマーカーの色と不透明度は虹色のパレットで調整します。グリッド、スペクトル、RGB、Hex 入力に対応しています。パレットボタンはキャンバスの別の端にドラッグできます。マスクとマーカーの設定は別々に保存されます。"
+        ]
+      },
+      {
+        "title": "保存と共有",
+        "detailsTitle": "書き出しの設定",
+        "details": [
+          "元のサイズ、または 2048・1280・720 のプリセットを選びます。形式とサイズの記憶を有効にすると、新しい写真やアプリの再起動後にも設定を使えます。この設定は初期状態では無効です。",
+          "複数の写真を開いている場合は、現在の写真かグループ全体を選べます。初期状態では現在の写真のみです。まとめて書き出す前に、すべての写真を確認してください。",
+          "メタデータの削除は、GPS 位置などファイル内の情報を消します。画像に写っている住所や文字は隠れないので、別途マスクしてください。",
+          "書き出しメニューの「機密情報を表示」から、元画像に含まれる位置情報や EXIF 情報（カメラ、撮影日時など）を確認できます。これらの情報がない画像もあります。"
+        ]
+      }
+    ]
+  },
+  "ko": {
+    "nav": "사용 가이드",
+    "overview": "가이드 홈",
+    "quickstart": "빠른 시작",
+    "lead": "Android용 SnapMosaic 사용 설명입니다. 처음이라면 빠른 시작을 읽거나, 원하는 기능의 항목을 선택하세요.",
+    "start": "빠른 시작 읽기",
+    "toc": "이 페이지의 내용",
+    "articleLead": "이미지를 고르고 개인정보를 가린 뒤 사본을 내보내세요. Android용 SnapMosaic에서 네 단계를 따라 해 보세요.",
+    "before": "시작하기 전에",
+    "beforeBody": "Google Play에서 SnapMosaic을 설치하세요. 내 사진을 열지 않고 예시 사진으로 연습할 수 있습니다. 계정이나 Pro 구매는 필요하지 않습니다.",
+    "checkTitle": "공유하기 전에 한 번 더 확인하세요",
+    "checks": [
+      "글자가 읽히도록 확대해 얼굴, 이름, 전화번호, 주소, 코드를 확인하세요.",
+      "가리려는 정보가 완전히 덮였는지 확인하세요. 테두리만 있는 영역은 내보낼 때 가려지지 않습니다.",
+      "저장한 이미지를 열어 결과를 확인한 다음 보내세요."
+    ],
+    "help": "도움이 필요하세요?",
+    "helpBody": "앱의 물음표 메뉴에서 가이드를 다시 보거나 스마트 인식을 점검하세요. 자주 묻는 질문을 확인하거나 지원팀에 문의할 수도 있습니다.",
+    "imageLink": "전체 스크린샷 보기",
+    "steps": [
+      {
+        "title": "사진 고르기",
+        "body": "SnapMosaic을 열고 시스템 사진 선택기에서 이미지를 고르세요. 처음에는 시작 화면에서 “예시 사진 사용해 보기”를 눌러 연습해도 좋습니다.",
+        "tip": "한 번에 최대 10장을 선택할 수 있습니다. 각 사진의 편집 내용은 따로 유지됩니다. 전체를 내보내기 전에 한 장씩 확인하세요."
+      },
+      {
+        "title": "스마트 감지",
+        "body": "사진이 로드될 때까지 기다리세요. 자동 가리기가 켜져 있으면 적용된 영역을 확인하세요. 그렇지 않으면 하단의 “스마트”를 눌러 얼굴, 코드, 일반적인 민감한 텍스트에 추천 가리기를 적용하세요.",
+        "tip": "인식에서 놓치는 정보가 있을 수 있습니다. 테두리만 있는 영역은 추천 항목이므로 눌러서 가리세요. 인식을 사용할 수 없다면 수동으로 가리거나 물음표 메뉴에서 인식 도움말을 여세요."
+      },
+      {
+        "title": "수동 가리기와 단어 선택",
+        "body": "인식된 텍스트 줄을 길게 누르고 가릴 단어나 부분을 선택하세요. 빠진 부분은 가리기 도구에서 효과를 고른 뒤 “조정”에서 사각형이나 브러시를 선택해 직접 가리세요. 잘못 편집했다면 실행 취소를 사용하세요.",
+        "tip": "민감한 텍스트는 불투명도 100%의 단색 블록으로 완전히 가리세요. 형광펜은 강조용이므로 밑의 내용을 여전히 읽을 수 있습니다."
+      },
+      {
+        "title": "저장과 공유",
+        "body": "상단 도구 모음의 공유 아이콘을 누르세요. JPEG, PNG, WebP와 출력 크기를 선택하세요. 내보낸 파일에서 위치 등의 정보를 지우려면 “메타데이터 제거 (EXIF/GPS)”를 켜세요.",
+        "tip": "“사본 저장”은 새 이미지를 갤러리에 저장합니다. “공유”는 Android 공유 화면을 열며 갤러리에 동시에 저장하지 않습니다. 원본 사진은 덮어쓰지 않습니다."
+      }
+    ],
+    "gettingStarted": "시작하기",
+    "editing": "사진 편집",
+    "howTo": "사용 방법",
+    "articles": [
+      {
+        "title": "스마트 감지",
+        "detailsTitle": "자동 가리기와 개별 영역",
+        "details": [
+          "설정에서 새 사진 자동 가리기를 켜거나 끌 수 있습니다. 저장된 설정이 없으면 기본으로 켜져 있습니다. 변경 사항은 이후 불러오는 사진에만 적용되며, 이미 열린 사진은 바뀌지 않습니다.",
+          "감지된 영역의 효과를 바꾸려면 효과를 선택한 뒤 해당 영역을 누르세요. 이미 선택한 효과가 적용되어 있다면 누를 때 가리기가 해제됩니다. 변경 후 결과를 확인하세요."
+        ]
+      },
+      {
+        "title": "수동 가리기와 단어 선택",
+        "detailsTitle": "사각형 범위 조절",
+        "details": [
+          "사각형을 그린 뒤 모서리 핸들을 드래그해 크기를 조절하세요. 사각형을 누르면 조절이 끝나고 가리기는 유지됩니다. 한 번 더 누르면 삭제됩니다. 새 사각형을 그리면 이전 사각형의 핸들은 숨겨집니다.",
+          "실수한 경우 실행 취소와 다시 실행을 사용하세요. 사진을 확대해 가장자리를 확인하고 숨길 내용 전체가 가려졌는지 살펴보세요."
+        ],
+        "controlsTitle": "효과와 색상",
+        "controls": [
+          "가리기 또는 형광펜을 눌러 도구를 선택하고, 선택된 도구를 다시 누르면 설정이 열립니다. 모자이크, 흐림 또는 단색을 선택하세요. 조절에서 사각형이나 브러시, 크기, 모자이크 또는 흐림 강도를 설정할 수 있습니다.",
+          "단색이나 형광펜을 선택한 뒤 무지개 팔레트에서 색상과 불투명도를 조절하세요. 격자, 스펙트럼, RGB, Hex 입력을 지원합니다. 팔레트 버튼은 캔버스의 다른 가장자리로 끌 수 있습니다. 가리기와 형광펜 설정은 따로 기억됩니다."
+        ]
+      },
+      {
+        "title": "저장과 공유",
+        "detailsTitle": "내보내기 옵션",
+        "details": [
+          "원본 크기 또는 2048, 1280, 720 프리셋을 선택하세요. 형식과 크기 기억 옵션을 켜면 새 사진이나 앱을 다시 열었을 때도 선택이 유지됩니다. 이 옵션은 기본으로 꺼져 있습니다.",
+          "사진을 여러 장 열었다면 현재 사진 또는 전체 그룹을 선택할 수 있습니다. 기본값은 현재 사진입니다. 전체를 내보내기 전에 사진을 한 장씩 확인하세요.",
+          "메타데이터 제거는 GPS 위치 같은 파일 정보를 지웁니다. 사진에 보이는 주소나 글자는 가리지 않으므로 별도로 가려야 합니다.",
+          "내보내기 메뉴의 민감한 정보 보기에서 원본 이미지에 포함된 위치와 카메라, 촬영 시간 등의 EXIF 정보를 확인할 수 있습니다. 일부 이미지에는 해당 정보가 없습니다."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "nav": "Panduan penggunaan",
+    "overview": "Beranda panduan",
+    "quickstart": "Mulai cepat",
+    "lead": "Petunjuk SnapMosaic untuk Android. Mulai dari panduan cepat atau pilih bab untuk fitur tertentu.",
+    "start": "Baca panduan cepat",
+    "toc": "Di halaman ini",
+    "articleLead": "Pilih gambar, tutupi detail pribadi, lalu ekspor salinannya. Ikuti empat langkah ini di SnapMosaic untuk Android.",
+    "before": "Sebelum memulai",
+    "beforeBody": "Instal SnapMosaic dari Google Play. Anda bisa berlatih dengan foto contoh tanpa membuka foto sendiri. Tidak perlu akun atau membeli Pro.",
+    "checkTitle": "Periksa sekali lagi sebelum membagikan",
+    "checks": [
+      "Perbesar hingga tulisan terbaca, lalu periksa wajah, nama, nomor telepon, alamat, dan kode.",
+      "Pastikan setiap detail yang ingin disembunyikan tertutup seluruhnya. Garis tepi saja tidak menutupi apa pun pada hasil ekspor.",
+      "Buka gambar yang disimpan dan periksa hasilnya sebelum mengirim."
+    ],
+    "help": "Perlu bantuan?",
+    "helpBody": "Buka menu tanda tanya di aplikasi untuk mengulang panduan atau memeriksa deteksi pintar. Anda juga dapat membaca FAQ atau menghubungi dukungan.",
+    "imageLink": "Lihat tangkapan layar lengkap",
+    "steps": [
+      {
+        "title": "Pilih foto",
+        "body": "Buka SnapMosaic dan pilih gambar melalui pemilih foto sistem. Untuk mencoba, ketuk “Coba foto contoh” di layar awal.",
+        "tip": "Anda dapat memilih hingga 10 gambar. Setiap gambar menyimpan editannya sendiri; periksa satu per satu sebelum mengekspor seluruh grup."
+      },
+      {
+        "title": "Deteksi pintar",
+        "body": "Tunggu foto dimuat. Jika penutupan otomatis aktif, periksa area yang sudah ditutupi. Jika belum, ketuk “Pintar” di bagian bawah untuk menerapkan saran pada wajah, kode, dan teks sensitif yang umum.",
+        "tip": "Deteksi bisa melewatkan detail. Area bergaris tepi hanya saran; ketuk untuk menutupinya. Jika deteksi tidak tersedia, tutupi secara manual atau buka bantuan deteksi melalui menu tanda tanya."
+      },
+      {
+        "title": "Penutupan manual dan pilihan kata",
+        "body": "Tekan lama baris teks yang terdeteksi, lalu pilih kata atau bagian yang ingin ditutupi. Untuk bagian yang terlewat, buka alat penutup, pilih efek, lalu pilih persegi panjang atau kuas di “Sesuaikan”. Gunakan Urungkan jika salah.",
+        "tip": "Untuk teks sensitif, gunakan blok warna solid dengan opasitas 100% dan tutupi seluruh detail. Penanda hanya menyorot, sehingga isi di bawahnya tetap terbaca."
+      },
+      {
+        "title": "Simpan dan bagikan",
+        "body": "Ketuk ikon berbagi di bilah atas. Pilih JPEG, PNG, atau WebP dan ukuran hasil. Aktifkan “Hapus metadata (EXIF/GPS)” untuk menghapus informasi tersebut dari file ekspor.",
+        "tip": "“Simpan salinan” menyimpan gambar baru ke galeri. “Bagikan” membuka panel berbagi Android tanpa sekaligus menyimpan ke galeri. Foto asli tidak ditimpa."
+      }
+    ],
+    "gettingStarted": "Mulai menggunakan",
+    "editing": "Edit foto",
+    "howTo": "Cara menggunakan",
+    "articles": [
+      {
+        "title": "Deteksi pintar",
+        "detailsTitle": "Penutupan otomatis dan area terpisah",
+        "details": [
+          "Di Pengaturan, aktifkan atau nonaktifkan penutupan otomatis pada foto baru. Opsi ini aktif jika Anda belum menyimpan preferensi. Perubahan hanya berlaku untuk foto yang dimuat berikutnya, bukan foto yang sudah terbuka.",
+          "Untuk mengubah efek area yang terdeteksi, pilih efek lalu ketuk area tersebut. Jika area sudah memakai efek yang dipilih, mengetuknya akan menghapus penutupnya. Periksa hasil setiap perubahan."
+        ]
+      },
+      {
+        "title": "Penutupan manual dan pilihan kata",
+        "detailsTitle": "Sesuaikan persegi panjang",
+        "details": [
+          "Setelah menggambar persegi panjang, tarik pegangan sudutnya untuk mengubah ukuran. Ketuk persegi panjang untuk selesai menyesuaikan tanpa menghapus penutup. Ketuk lagi untuk menghapusnya. Menggambar persegi panjang baru menyembunyikan pegangan sebelumnya.",
+          "Gunakan Urungkan dan Ulangi untuk memperbaiki perubahan. Perbesar gambar untuk memeriksa tepi dan memastikan seluruh detail tertutup."
+        ],
+        "controlsTitle": "Efek dan warna",
+        "controls": [
+          "Ketuk Tutup atau Penanda untuk memilih alat. Ketuk lagi alat yang dipilih untuk membuka kontrolnya. Pilih mosaik, buram atau blok solid; Sesuaikan menyediakan mode persegi panjang atau kuas, ukuran, serta kekuatan mosaik atau buram.",
+          "Untuk blok solid atau penanda, buka palet pelangi untuk mengubah warna dan opasitas. Gunakan kisi, spektrum, RGB atau Hex. Tombol palet dapat diseret ke tepi kanvas lainnya. Pengaturan penutup dan penanda diingat secara terpisah."
+        ]
+      },
+      {
+        "title": "Simpan dan bagikan",
+        "detailsTitle": "Opsi ekspor",
+        "details": [
+          "Pilih ukuran asli atau preset 2048, 1280, atau 720. Aktifkan opsi untuk mengingat format dan ukuran agar pilihan dipakai lagi pada foto baru dan saat aplikasi dibuka kembali. Opsi ini nonaktif secara bawaan.",
+          "Jika beberapa foto terbuka, pilih foto saat ini atau seluruh grup. Pilihan bawaan adalah foto saat ini. Periksa setiap foto sebelum mengekspor grup.",
+          "Menghapus metadata menghapus informasi file seperti lokasi GPS. Alamat atau teks yang terlihat di gambar tidak ikut tertutup; tutupi secara terpisah.",
+          "Di menu ekspor, pilih “Lihat info sensitif” untuk memeriksa lokasi dan data EXIF gambar asli, seperti kamera dan waktu pengambilan. Beberapa gambar tidak memiliki data ini."
+        ]
+      }
+    ]
+  },
+  "hi": {
+    "nav": "उपयोग गाइड",
+    "overview": "गाइड का मुख्य पृष्ठ",
+    "quickstart": "शुरुआत करें",
+    "lead": "Android पर SnapMosaic इस्तेमाल करने के निर्देश। पहली बार के लिए त्वरित शुरुआत पढ़ें या किसी खास सुविधा का अध्याय चुनें।",
+    "start": "त्वरित शुरुआत पढ़ें",
+    "toc": "इस पृष्ठ पर",
+    "articleLead": "तस्वीर चुनें, निजी जानकारी ढकें और एक कॉपी निर्यात करें। Android के लिए SnapMosaic में ये चार चरण अपनाएँ।",
+    "before": "शुरू करने से पहले",
+    "beforeBody": "Google Play से SnapMosaic इंस्टॉल करें। अपनी फ़ोटो खोले बिना नमूना फ़ोटो पर अभ्यास कर सकते हैं। खाते या Pro की खरीदारी की ज़रूरत नहीं है।",
+    "checkTitle": "साझा करने से पहले एक बार फिर जाँचें",
+    "checks": [
+      "तस्वीर को इतना बड़ा करें कि लिखावट पढ़ सकें, फिर चेहरे, नाम, फ़ोन नंबर, पते और कोड जाँचें।",
+      "हर निजी जानकारी पूरी तरह ढकी होनी चाहिए। केवल रूपरेखा निर्यात की गई तस्वीर में कुछ नहीं छिपाती।",
+      "भेजने से पहले सहेजी गई तस्वीर खोलकर नतीजा जाँचें।"
+    ],
+    "help": "मदद चाहिए?",
+    "helpBody": "गाइड दोबारा देखने या स्मार्ट पहचान जाँचने के लिए ऐप का प्रश्न-चिह्न मेन्यू खोलें। आप सामान्य प्रश्न पढ़ सकते हैं या सहायता से संपर्क कर सकते हैं।",
+    "imageLink": "पूरा स्क्रीनशॉट देखें",
+    "steps": [
+      {
+        "title": "फ़ोटो चुनें",
+        "body": "SnapMosaic खोलें और सिस्टम के फ़ोटो चयनकर्ता से तस्वीर चुनें। अभ्यास के लिए शुरुआती स्क्रीन पर “नमूना फ़ोटो आज़माएँ” दबाएँ।",
+        "tip": "एक बार में अधिकतम 10 तस्वीरें चुन सकते हैं। हर तस्वीर के संपादन अलग रहते हैं; पूरे समूह को निर्यात करने से पहले हर तस्वीर जाँचें।"
+      },
+      {
+        "title": "स्मार्ट पहचान",
+        "body": "फ़ोटो लोड होने दें। अपने-आप ढकने का विकल्प चालू है तो लगे हुए आवरण जाँचें। वरना नीचे “स्मार्ट” दबाकर चेहरों, कोड और सामान्य संवेदनशील लिखावट पर सुझाए गए आवरण लगाएँ।",
+        "tip": "पहचान कुछ जानकारी छोड़ सकती है। केवल रूपरेखा वाला क्षेत्र सुझाव है; उसे ढकने के लिए टैप करें। पहचान उपलब्ध न हो तो हाथ से ढकें या प्रश्न-चिह्न मेन्यू में पहचान की सहायता खोलें।"
+      },
+      {
+        "title": "हाथ से छिपाना और शब्द चुनना",
+        "body": "पहचानी गई लिखावट की पंक्ति को देर तक दबाएँ और छिपाने वाले शब्द या हिस्से चुनें। छूटी जानकारी के लिए ढकने वाला टूल खोलें, प्रभाव चुनें, फिर “समायोजित करें” में आयत या ब्रश चुनकर ढकें। गलती होने पर पहले की स्थिति में लौटें।",
+        "tip": "संवेदनशील लिखावट के लिए 100% अपारदर्शिता वाला ठोस रंग इस्तेमाल करें और पूरी जानकारी ढकें। मार्कर केवल उभारता है; नीचे की जानकारी पढ़ी जा सकती है।"
+      },
+      {
+        "title": "सेव और शेयर करें",
+        "body": "ऊपर टूलबार में साझा करने वाला आइकन दबाएँ। JPEG, PNG या WebP और आउटपुट आकार चुनें। निर्यात फ़ाइल से स्थान जैसी जानकारी हटाने के लिए “मेटाडेटा हटाएं (EXIF/GPS)” चालू करें।",
+        "tip": "“कॉपी सेव करें” गैलरी में नई तस्वीर सहेजता है। “शेयर करें” Android का शेयर पैनल खोलता है और साथ में गैलरी में नहीं सहेजता। मूल फ़ोटो बदली नहीं जाती।"
+      }
+    ],
+    "gettingStarted": "शुरुआत",
+    "editing": "फ़ोटो संपादन",
+    "howTo": "इस्तेमाल का तरीका",
+    "articles": [
+      {
+        "title": "स्मार्ट पहचान",
+        "detailsTitle": "अपने-आप छिपाना और अलग-अलग हिस्से",
+        "details": [
+          "सेटिंग में नई फ़ोटो पर अपने-आप जानकारी छिपाने का विकल्प चालू या बंद करें। अगर आपने पहले कोई पसंद सेव नहीं की है, तो यह चालू रहता है। बदलाव बाद में खुलने वाली फ़ोटो पर लागू होता है, अभी खुली फ़ोटो पर नहीं।",
+          "पहचाने गए हिस्से का असर बदलने के लिए पहले असर चुनें, फिर उस हिस्से पर टैप करें। अगर उस पर चुना हुआ असर पहले से लगा है, तो टैप करने से आवरण हट जाता है। हर बदलाव के बाद परिणाम जाँचें।"
+        ]
+      },
+      {
+        "title": "हाथ से छिपाना और शब्द चुनना",
+        "detailsTitle": "आयत का आकार बदलें",
+        "details": [
+          "आयत बनाने के बाद उसके कोनों के हैंडल खींचकर आकार बदलें। आयत पर टैप करने से समायोजन खत्म होता है और आवरण बना रहता है। दोबारा टैप करने से वह हट जाता है। नया आयत बनाने पर पिछले आयत के हैंडल छिप जाते हैं।",
+          "गलती सुधारने के लिए पूर्ववत करें और फिर से करें का इस्तेमाल करें। ज़ूम करके किनारे जाँचें और सुनिश्चित करें कि छिपाई जाने वाली जानकारी पूरी तरह ढकी है।"
+        ],
+        "controlsTitle": "इफ़ेक्ट और रंग",
+        "controls": [
+          "छिपाएँ या मार्कर पर टैप करके टूल चुनें। चुने हुए टूल पर फिर टैप करने से उसके नियंत्रण खुलते हैं। मोज़ेक, ब्लर या ठोस ब्लॉक चुनें; एडजस्ट में आयत या ब्रश, आकार और मोज़ेक या ब्लर की तीव्रता बदलें।",
+          "ठोस ब्लॉक या मार्कर के लिए रंगीन पैलेट खोलकर रंग और अपारदर्शिता बदलें। ग्रिड, स्पेक्ट्रम, RGB या Hex का उपयोग करें। पैलेट बटन को कैनवास के दूसरे किनारे पर खींच सकते हैं। छिपाने और मार्कर की सेटिंग अलग-अलग याद रहती हैं।"
+        ]
+      },
+      {
+        "title": "सेव और शेयर करें",
+        "detailsTitle": "निर्यात के विकल्प",
+        "details": [
+          "मूल आकार या 2048, 1280, 720 प्रीसेट चुनें। फ़ॉर्मैट और आकार याद रखने का विकल्प चालू करने पर नई फ़ोटो और ऐप दोबारा खोलने पर वही विकल्प मिलेंगे। यह विकल्प डिफ़ॉल्ट रूप से बंद है।",
+          "एक से ज़्यादा फ़ोटो खुली हों तो मौजूदा फ़ोटो या पूरा समूह चुनें। डिफ़ॉल्ट रूप से केवल मौजूदा फ़ोटो चुनी जाती है। समूह निर्यात करने से पहले हर फ़ोटो जाँचें।",
+          "मेटाडेटा हटाने से GPS स्थान जैसी फ़ाइल की जानकारी मिटती है। तस्वीर में दिख रहा पता या पाठ नहीं छिपता; उसे अलग से ढकें।",
+          "निर्यात मेनू में संवेदनशील जानकारी देखने का विकल्प चुनें। इससे मूल चित्र में उपलब्ध स्थान और EXIF जानकारी, जैसे कैमरा और समय, देख सकते हैं। कुछ चित्रों में यह जानकारी नहीं होती।"
+        ]
+      }
+    ]
+  },
+  "ur": {
+    "nav": "استعمال کی گائیڈ",
+    "overview": "گائیڈ کا مرکزی صفحہ",
+    "quickstart": "فوری آغاز",
+    "lead": "Android پر SnapMosaic استعمال کرنے کی ہدایات۔ پہلی بار فوری آغاز پڑھیں یا کسی مخصوص سہولت کا باب منتخب کریں۔",
+    "start": "فوری آغاز پڑھیں",
+    "toc": "اس صفحے پر",
+    "articleLead": "تصویر منتخب کریں، نجی تفصیلات ڈھانپیں اور ایک کاپی برآمد کریں۔ Android کے لیے SnapMosaic میں یہ چار مراحل مکمل کریں۔",
+    "before": "شروع کرنے سے پہلے",
+    "beforeBody": "Google Play سے SnapMosaic انسٹال کریں۔ اپنی تصاویر کھولے بغیر نمونہ تصویر پر مشق کر سکتے ہیں۔ اکاؤنٹ یا Pro خریدنے کی ضرورت نہیں۔",
+    "checkTitle": "شیئر کرنے سے پہلے ایک بار پھر دیکھیں",
+    "checks": [
+      "تصویر اتنی بڑی کریں کہ متن پڑھ سکیں، پھر چہرے، نام، فون نمبر، پتے اور کوڈ چیک کریں۔",
+      "ہر مطلوبہ تفصیل پوری طرح ڈھکی ہونی چاہیے۔ صرف خاکہ برآمد شدہ تصویر میں کچھ نہیں چھپاتا۔",
+      "بھیجنے سے پہلے محفوظ تصویر کھول کر نتیجہ دیکھیں۔"
+    ],
+    "help": "مدد چاہیے؟",
+    "helpBody": "گائیڈ دوبارہ دیکھنے یا اسمارٹ شناخت چیک کرنے کے لیے ایپ کا سوالیہ نشان والا مینو کھولیں۔ عام سوالات پڑھ سکتے ہیں یا سپورٹ سے رابطہ کر سکتے ہیں۔",
+    "imageLink": "مکمل اسکرین شاٹ دیکھیں",
+    "steps": [
+      {
+        "title": "تصویر منتخب کریں",
+        "body": "SnapMosaic کھولیں اور سسٹم کے تصویر چننے والے صفحے سے تصویر منتخب کریں۔ مشق کے لیے ابتدائی اسکرین پر “نمونہ تصویر آزمائیں” دبائیں۔",
+        "tip": "ایک وقت میں زیادہ سے زیادہ 10 تصاویر منتخب کر سکتے ہیں۔ ہر تصویر کی ترامیم الگ رہتی ہیں؛ پورا گروپ برآمد کرنے سے پہلے ہر تصویر چیک کریں۔"
+      },
+      {
+        "title": "اسمارٹ شناخت",
+        "body": "تصویر لوڈ ہونے دیں۔ خودکار پردہ پوشی فعال ہو تو لگے ہوئے پردے چیک کریں۔ ورنہ نیچے “اسمارٹ” دبائیں تاکہ چہروں، کوڈز اور عام حساس متن پر تجویز کردہ پردے لگ جائیں۔",
+        "tip": "شناخت کچھ تفصیلات چھوڑ سکتی ہے۔ صرف خاکے والا حصہ ایک تجویز ہے؛ اسے ڈھانپنے کے لیے دبائیں۔ شناخت دستیاب نہ ہو تو دستی طور پر ڈھانپیں یا سوالیہ نشان کے مینو سے شناخت کی مدد کھولیں۔ تھائی اور اردو متن کی شناخت فی الحال دستیاب نہیں؛ چہروں اور کوڈز کی شناخت الگ کام کرتی ہے۔"
+      },
+      {
+        "title": "دستی پردہ اور الفاظ کا انتخاب",
+        "body": "شناخت شدہ متن کی سطر کو دیر تک دبائیں، پھر چھپانے والے الفاظ یا حصے منتخب کریں۔ رہ جانے والی تفصیلات کے لیے پردہ پوشی کا ٹول کھولیں، اثر منتخب کریں اور “ایڈجسٹ کریں” میں مستطیل یا برش چن کر ڈھانپیں۔ غلطی ہو تو عمل واپس کریں۔",
+        "tip": "حساس متن کے لیے 100% غیر شفاف ٹھوس رنگ استعمال کریں اور پوری تفصیل ڈھانپیں۔ مارکر صرف نمایاں کرتا ہے؛ نیچے کا مواد پڑھا جا سکتا ہے۔ تھائی اور اردو متن کی شناخت فی الحال دستیاب نہیں؛ چہروں اور کوڈز کی شناخت الگ کام کرتی ہے۔"
+      },
+      {
+        "title": "محفوظ اور شیئر کریں",
+        "body": "اوپری ٹول بار کا شیئر آئیکن دبائیں۔ JPEG، PNG یا WebP اور تصویر کا سائز منتخب کریں۔ برآمد شدہ فائل سے مقام جیسی معلومات ہٹانے کے لیے “میٹا ڈیٹا ہٹائیں (EXIF/GPS)” فعال کریں۔",
+        "tip": "“کاپی محفوظ کریں” گیلری میں نئی تصویر محفوظ کرتا ہے۔ “شیئر کریں” Android کا شیئر پینل کھولتا ہے اور ساتھ گیلری میں محفوظ نہیں کرتا۔ اصل تصویر تبدیل نہیں ہوتی۔"
+      }
+    ],
+    "gettingStarted": "آغاز",
+    "editing": "تصویر میں ترمیم",
+    "howTo": "استعمال کا طریقہ",
+    "articles": [
+      {
+        "title": "اسمارٹ شناخت",
+        "detailsTitle": "خودکار پردہ اور انفرادی حصے",
+        "details": [
+          "ترتیبات میں نئی تصاویر پر خودکار پردہ لگانے کا اختیار آن یا آف کریں۔ اگر پہلے کوئی ترجیح محفوظ نہیں کی تو یہ آن ہوتا ہے۔ تبدیلی بعد میں کھلنے والی تصاویر پر لاگو ہوگی، پہلے سے کھلی تصویر پر نہیں۔",
+          "شناخت شدہ حصے کا اثر بدلنے کے لیے پہلے اثر منتخب کریں، پھر اس حصے کو چھوئیں۔ اگر وہ حصہ پہلے ہی منتخب اثر استعمال کر رہا ہے تو اسے چھونے سے پردہ ہٹ جاتا ہے۔ ہر تبدیلی کے بعد نتیجہ دیکھیں۔"
+        ]
+      },
+      {
+        "title": "دستی پردہ اور الفاظ کا انتخاب",
+        "detailsTitle": "مستطیل کا سائز بدلیں",
+        "details": [
+          "مستطیل بنانے کے بعد اس کے کونوں کے ہینڈل کھینچ کر سائز بدلیں۔ مستطیل کو چھونے سے ایڈجسٹمنٹ ختم ہوتی ہے اور پردہ قائم رہتا ہے۔ دوبارہ چھونے سے وہ ہٹ جاتا ہے۔ نیا مستطیل بنانے پر پچھلے کے ہینڈل چھپ جاتے ہیں۔",
+          "غلطی درست کرنے کے لیے کالعدم کریں اور دوبارہ کریں استعمال کریں۔ تصویر بڑی کرکے کنارے دیکھیں اور یقینی بنائیں کہ چھپانے والی معلومات مکمل ڈھکی ہیں۔"
+        ],
+        "controlsTitle": "اثرات اور رنگ",
+        "controls": [
+          "چھپائیں یا مارکر پر ٹیپ کرکے ٹول منتخب کریں۔ منتخب ٹول پر دوبارہ ٹیپ کرنے سے اس کے کنٹرول کھلتے ہیں۔ موزیک، دھندلا یا ٹھوس بلاک چنیں؛ ایڈجسٹ میں مستطیل یا برش، سائز اور موزیک یا دھندلاہٹ کی شدت بدلیں۔",
+          "ٹھوس بلاک یا مارکر کے لیے رنگین پیلیٹ کھول کر رنگ اور دھندلاپن بدلیں۔ گرڈ، اسپیکٹرم، RGB یا Hex استعمال کریں۔ پیلیٹ بٹن کو کینوس کے دوسرے کنارے تک گھسیٹ سکتے ہیں۔ چھپانے اور مارکر کی ترتیبات الگ یاد رکھی جاتی ہیں۔"
+        ]
+      },
+      {
+        "title": "محفوظ اور شیئر کریں",
+        "detailsTitle": "برآمد کے اختیارات",
+        "details": [
+          "اصل سائز یا 2048، 1280، 720 کا پیش سیٹ منتخب کریں۔ فارمیٹ اور سائز یاد رکھنے کا اختیار آن کرنے سے نئی تصاویر اور ایپ دوبارہ کھولنے پر یہی انتخاب استعمال ہوگا۔ یہ اختیار بطور ڈیفالٹ آف ہوتا ہے۔",
+          "ایک سے زیادہ تصاویر کھلی ہوں تو موجودہ تصویر یا پورا گروپ منتخب کریں۔ بطور ڈیفالٹ صرف موجودہ تصویر منتخب ہوتی ہے۔ پورا گروپ برآمد کرنے سے پہلے ہر تصویر دیکھیں۔",
+          "میٹا ڈیٹا ہٹانے سے GPS مقام جیسی فائل کی معلومات مٹتی ہیں۔ تصویر میں نظر آنے والا پتہ یا متن نہیں چھپتا؛ اسے الگ سے ڈھانپیں۔",
+          "برآمد کے مینو میں حساس معلومات دیکھنے کا اختیار منتخب کریں۔ اصل تصویر میں موجود مقام اور EXIF تفصیلات، مثلاً کیمرا اور وقت، دکھائی جاتی ہیں۔ بعض تصاویر میں یہ معلومات نہیں ہوتیں۔"
+        ]
+      }
+    ]
+  },
+  "vi": {
+    "nav": "Hướng dẫn sử dụng",
+    "overview": "Trang chủ hướng dẫn",
+    "quickstart": "Bắt đầu nhanh",
+    "lead": "Hướng dẫn sử dụng SnapMosaic trên Android. Bắt đầu với hướng dẫn nhanh hoặc chọn chương về tính năng bạn cần.",
+    "start": "Đọc hướng dẫn nhanh",
+    "toc": "Trong trang này",
+    "articleLead": "Chọn ảnh, che chi tiết riêng tư rồi xuất bản sao. Làm theo bốn bước này trong SnapMosaic cho Android.",
+    "before": "Trước khi bắt đầu",
+    "beforeBody": "Cài SnapMosaic từ Google Play. Bạn có thể tập với ảnh mẫu mà không cần mở ảnh cá nhân. Không cần tài khoản hay mua Pro.",
+    "checkTitle": "Kiểm tra lần cuối trước khi chia sẻ",
+    "checks": [
+      "Phóng to đến mức đọc rõ chữ rồi kiểm tra khuôn mặt, tên, số điện thoại, địa chỉ và mã.",
+      "Đảm bảo mọi chi tiết cần giấu đều được che kín. Chỉ có đường viền thì nội dung vẫn hiển thị trong ảnh xuất.",
+      "Mở ảnh đã lưu và kiểm tra kết quả trước khi gửi."
+    ],
+    "help": "Bạn cần trợ giúp?",
+    "helpBody": "Mở menu dấu hỏi trong ứng dụng để xem lại hướng dẫn hoặc kiểm tra nhận diện thông minh. Bạn cũng có thể đọc câu hỏi thường gặp hoặc liên hệ hỗ trợ.",
+    "imageLink": "Xem toàn bộ ảnh chụp màn hình",
+    "steps": [
+      {
+        "title": "Chọn ảnh",
+        "body": "Mở SnapMosaic và chọn ảnh trong trình chọn ảnh của hệ thống. Để tập thử, nhấn “Thử ảnh mẫu” ở màn hình bắt đầu.",
+        "tip": "Bạn có thể chọn tối đa 10 ảnh. Mỗi ảnh giữ phần chỉnh sửa riêng; hãy kiểm tra từng ảnh trước khi xuất cả nhóm."
+      },
+      {
+        "title": "Nhận diện thông minh",
+        "body": "Chờ ảnh tải xong. Nếu đã bật tự động che, hãy kiểm tra các vùng đã che. Nếu chưa, nhấn “Thông minh” ở phía dưới để áp dụng vùng che được đề xuất cho khuôn mặt, mã và văn bản nhạy cảm thường gặp.",
+        "tip": "Nhận diện có thể bỏ sót chi tiết. Vùng chỉ có đường viền là đề xuất; hãy nhấn để che. Nếu không dùng được nhận diện, hãy che thủ công hoặc mở trợ giúp nhận diện từ menu dấu hỏi."
+      },
+      {
+        "title": "Che thủ công và chọn từ",
+        "body": "Nhấn giữ một dòng chữ đã nhận diện, rồi chọn từ hoặc đoạn cần che. Với phần bị bỏ sót, mở công cụ che, chọn hiệu ứng, rồi chọn hình chữ nhật hoặc cọ trong “Điều chỉnh” để che thủ công. Dùng Hoàn tác nếu thao tác nhầm.",
+        "tip": "Với chữ nhạy cảm, dùng khối màu đặc có độ mờ đục 100% và che kín toàn bộ chi tiết. Bút đánh dấu chỉ làm nổi bật, nội dung bên dưới vẫn đọc được."
+      },
+      {
+        "title": "Lưu và chia sẻ",
+        "body": "Nhấn biểu tượng chia sẻ ở thanh trên cùng. Chọn JPEG, PNG hoặc WebP và kích thước đầu ra. Bật “Xóa siêu dữ liệu (EXIF/GPS)” để xóa những thông tin đó khỏi tệp xuất.",
+        "tip": "“Lưu bản sao” tạo ảnh mới trong thư viện. “Chia sẻ” mở bảng chia sẻ Android và không đồng thời lưu vào thư viện. Ảnh gốc không bị ghi đè."
+      }
+    ],
+    "gettingStarted": "Bắt đầu",
+    "editing": "Chỉnh sửa ảnh",
+    "howTo": "Cách sử dụng",
+    "articles": [
+      {
+        "title": "Nhận diện thông minh",
+        "detailsTitle": "Tự động che và từng vùng riêng",
+        "details": [
+          "Trong cài đặt, bật hoặc tắt tự động che ảnh mới. Tùy chọn này mặc định bật nếu bạn chưa lưu lựa chọn. Thay đổi chỉ áp dụng cho ảnh tải sau đó, không thay đổi ảnh đang mở.",
+          "Để đổi hiệu ứng của một vùng đã nhận diện, chọn hiệu ứng rồi chạm vào vùng đó. Nếu vùng đã dùng hiệu ứng đang chọn, chạm vào sẽ bỏ lớp che. Kiểm tra kết quả sau mỗi thay đổi."
+        ]
+      },
+      {
+        "title": "Che thủ công và chọn từ",
+        "detailsTitle": "Điều chỉnh hình chữ nhật",
+        "details": [
+          "Sau khi vẽ hình chữ nhật, kéo các tay nắm ở góc để đổi kích thước. Chạm vào hình để kết thúc điều chỉnh và giữ lớp che. Chạm lần nữa để xóa. Khi vẽ hình mới, tay nắm của hình trước sẽ ẩn đi.",
+          "Dùng Hoàn tác và Làm lại để sửa thao tác. Phóng to ảnh để kiểm tra các cạnh và bảo đảm toàn bộ nội dung cần ẩn đã được che."
+        ],
+        "controlsTitle": "Hiệu ứng và màu sắc",
+        "controls": [
+          "Chạm Che hoặc Bút đánh dấu để chọn công cụ. Chạm lại công cụ đang chọn để mở điều khiển. Chọn khảm, làm mờ hoặc khối màu; Điều chỉnh có chế độ hình chữ nhật hoặc cọ, kích thước và cường độ khảm hoặc làm mờ.",
+          "Với khối màu hoặc bút đánh dấu, mở bảng màu cầu vồng để đổi màu và độ mờ đục. Dùng lưới, phổ màu, RGB hoặc Hex. Có thể kéo nút bảng màu sang cạnh khác của vùng ảnh. Các thiết lập che và đánh dấu được ghi nhớ riêng."
+        ]
+      },
+      {
+        "title": "Lưu và chia sẻ",
+        "detailsTitle": "Tùy chọn xuất ảnh",
+        "details": [
+          "Chọn kích thước gốc hoặc mức đặt sẵn 2048, 1280 hay 720. Bật ghi nhớ định dạng và kích thước để dùng lại cho ảnh mới và khi mở lại ứng dụng. Tùy chọn này mặc định tắt.",
+          "Khi mở nhiều ảnh, chọn ảnh hiện tại hoặc cả nhóm. Mặc định là ảnh hiện tại. Kiểm tra từng ảnh trước khi xuất cả nhóm.",
+          "Xóa siêu dữ liệu sẽ xóa thông tin trong tệp như vị trí GPS. Địa chỉ hoặc chữ nhìn thấy trên ảnh không bị che; hãy che riêng những nội dung đó.",
+          "Trong menu xuất, chọn xem thông tin nhạy cảm để kiểm tra vị trí và dữ liệu EXIF của ảnh gốc, như máy ảnh và thời gian chụp. Một số ảnh không chứa dữ liệu này."
+        ]
+      }
+    ]
+  },
+  "th": {
+    "nav": "คู่มือการใช้งาน",
+    "overview": "หน้าหลักคู่มือ",
+    "quickstart": "เริ่มต้นใช้งาน",
+    "lead": "วิธีใช้งาน SnapMosaic บน Android เริ่มจากคู่มือเริ่มต้น หรือเลือกหัวข้อของฟีเจอร์ที่ต้องการ",
+    "start": "อ่านคู่มือเริ่มต้น",
+    "toc": "เนื้อหาในหน้านี้",
+    "articleLead": "เลือกรูป ปิดรายละเอียดส่วนตัว แล้วส่งออกสำเนา ทำตามสี่ขั้นตอนนี้ใน SnapMosaic สำหรับ Android",
+    "before": "ก่อนเริ่มใช้งาน",
+    "beforeBody": "ติดตั้ง SnapMosaic จาก Google Play คุณฝึกด้วยรูปตัวอย่างได้โดยไม่ต้องเปิดรูปส่วนตัว ไม่ต้องมีบัญชีหรือซื้อ Pro",
+    "checkTitle": "ตรวจอีกครั้งก่อนแชร์",
+    "checks": [
+      "ขยายภาพจนอ่านข้อความได้ แล้วตรวจใบหน้า ชื่อ เบอร์โทร ที่อยู่ และรหัสต่าง ๆ",
+      "ตรวจว่าข้อมูลที่ต้องการซ่อนถูกปิดทั้งหมด เส้นขอบเพียงอย่างเดียวไม่ได้ปิดข้อมูลในภาพที่ส่งออก",
+      "เปิดภาพที่บันทึกและตรวจผลลัพธ์ก่อนส่ง"
+    ],
+    "help": "ต้องการความช่วยเหลือไหม",
+    "helpBody": "เปิดเมนูเครื่องหมายคำถามในแอปเพื่อดูคู่มืออีกครั้งหรือตรวจการตรวจจับอัจฉริยะ คุณยังอ่านคำถามที่พบบ่อยหรือติดต่อฝ่ายสนับสนุนได้",
+    "imageLink": "ดูภาพหน้าจอแบบเต็ม",
+    "steps": [
+      {
+        "title": "เลือกรูปภาพ",
+        "body": "เปิด SnapMosaic แล้วเลือกรูปจากตัวเลือกรูปภาพของระบบ หากต้องการฝึก ให้แตะ “ลองรูปภาพตัวอย่าง” บนหน้าเริ่มต้น",
+        "tip": "เลือกได้สูงสุดครั้งละ 10 รูป แต่ละรูปเก็บการแก้ไขแยกกัน ตรวจทีละรูปก่อนส่งออกทั้งกลุ่ม"
+      },
+      {
+        "title": "ตรวจจับอัจฉริยะ",
+        "body": "รอให้รูปโหลดเสร็จ หากเปิดการปิดบังอัตโนมัติ ให้ตรวจบริเวณที่ปิดไว้แล้ว หากยังไม่ได้เปิด ให้แตะ “อัจฉริยะ” ด้านล่างเพื่อใช้การปิดบังที่แนะนำกับใบหน้า รหัส และข้อความอ่อนไหวที่พบบ่อย",
+        "tip": "การตรวจจับอาจพลาดรายละเอียด พื้นที่ที่มีเพียงเส้นขอบเป็นคำแนะนำ ให้แตะเพื่อปิดบัง หากใช้การตรวจจับไม่ได้ ให้ปิดเองหรือเปิดความช่วยเหลือจากเมนูเครื่องหมายคำถาม การรู้จำข้อความภาษาไทยและภาษาอูรดูยังไม่รองรับ ส่วนการตรวจจับใบหน้าและโค้ดยังใช้งานได้แยกกัน"
+      },
+      {
+        "title": "ปิดบังเองและเลือกคำ",
+        "body": "กดค้างบนบรรทัดข้อความที่ตรวจพบ แล้วเลือกคำหรือส่วนที่ต้องการซ่อน หากมีจุดที่ตกหล่น ให้เปิดเครื่องมือปิดบัง เลือกเอฟเฟกต์ แล้วเลือกสี่เหลี่ยมหรือแปรงใน “ปรับ” เพื่อปิดเอง หากทำผิดให้เลิกทำ",
+        "tip": "สำหรับข้อความอ่อนไหว ใช้สีทึบที่ความทึบ 100% และปิดรายละเอียดให้ครบ ปากกาไฮไลต์มีไว้เน้นข้อความ โดยยังอ่านเนื้อหาด้านล่างได้ การรู้จำข้อความภาษาไทยและภาษาอูรดูยังไม่รองรับ ส่วนการตรวจจับใบหน้าและโค้ดยังใช้งานได้แยกกัน"
+      },
+      {
+        "title": "บันทึกและแชร์",
+        "body": "แตะไอคอนแชร์บนแถบด้านบน เลือก JPEG, PNG หรือ WebP และขนาดภาพ เปิด “ลบข้อมูลเมตา (EXIF/GPS)” เพื่อลบข้อมูลเหล่านี้ออกจากไฟล์ที่ส่งออก",
+        "tip": "“บันทึกสำเนา” จะบันทึกรูปใหม่ลงในแกลเลอรี ส่วน “แชร์” จะเปิดแผงแชร์ของ Android โดยไม่บันทึกลงแกลเลอรีพร้อมกัน รูปต้นฉบับจะไม่ถูกเขียนทับ"
+      }
+    ],
+    "gettingStarted": "เริ่มใช้งาน",
+    "editing": "แก้ไขรูปภาพ",
+    "howTo": "วิธีใช้งาน",
+    "articles": [
+      {
+        "title": "ตรวจจับอัจฉริยะ",
+        "detailsTitle": "การปิดบังอัตโนมัติและแต่ละบริเวณ",
+        "details": [
+          "เปิดหรือปิดการปิดบังรูปใหม่อัตโนมัติได้ในการตั้งค่า หากยังไม่เคยบันทึกค่าจะเปิดไว้เป็นค่าเริ่มต้น การเปลี่ยนแปลงมีผลกับรูปที่โหลดหลังจากนี้ ไม่เปลี่ยนรูปที่เปิดอยู่",
+          "หากต้องการเปลี่ยนเอฟเฟกต์ของบริเวณที่ตรวจพบ ให้เลือกเอฟเฟกต์แล้วแตะบริเวณนั้น หากใช้เอฟเฟกต์ที่เลือกอยู่แล้ว การแตะจะนำการปิดบังออก ตรวจสอบผลหลังปรับทุกครั้ง"
+        ]
+      },
+      {
+        "title": "ปิดบังเองและเลือกคำ",
+        "detailsTitle": "ปรับขอบเขตสี่เหลี่ยม",
+        "details": [
+          "หลังวาดสี่เหลี่ยม ให้ลากจุดที่มุมเพื่อปรับขนาด แตะสี่เหลี่ยมเพื่อจบการปรับโดยยังคงการปิดบังไว้ แตะอีกครั้งเพื่อลบ เมื่อวาดสี่เหลี่ยมใหม่ จุดปรับของอันก่อนหน้าจะซ่อน",
+          "ใช้เลิกทำและทำซ้ำเพื่อแก้ไข ซูมรูปเพื่อตรวจขอบและให้แน่ใจว่าปิดบังรายละเอียดครบทั้งบริเวณ"
+        ],
+        "controlsTitle": "เอฟเฟกต์และสี",
+        "controls": [
+          "แตะปิดบังหรือปากกาเน้นข้อความเพื่อเลือกเครื่องมือ แตะเครื่องมือที่เลือกอีกครั้งเพื่อเปิดการปรับแต่ง เลือกโมเสก เบลอ หรือสีทึบ ในการปรับแต่งสามารถเลือกสี่เหลี่ยมหรือแปรง ขนาด และความเข้มของโมเสกหรือเบลอได้",
+          "สำหรับสีทึบหรือปากกาเน้นข้อความ ให้เปิดจานสีรุ้งเพื่อเปลี่ยนสีและความทึบ รองรับตารางสี สเปกตรัม RGB และ Hex ลากปุ่มจานสีไปยังขอบอื่นของพื้นที่ภาพได้ การตั้งค่าปิดบังและปากกาเน้นข้อความจะจดจำแยกกัน"
+        ]
+      },
+      {
+        "title": "บันทึกและแชร์",
+        "detailsTitle": "ตัวเลือกการส่งออก",
+        "details": [
+          "เลือกขนาดต้นฉบับหรือค่าที่ตั้งไว้ 2048, 1280 หรือ 720 เปิดตัวเลือกจดจำรูปแบบและขนาดเพื่อใช้ค่าเดิมกับรูปใหม่และเมื่อเปิดแอปอีกครั้ง ตัวเลือกนี้ปิดไว้เป็นค่าเริ่มต้น",
+          "เมื่อเปิดหลายรูป ให้เลือกรูปปัจจุบันหรือทั้งกลุ่ม ค่าเริ่มต้นคือรูปปัจจุบัน ตรวจสอบทุกรูปก่อนส่งออกทั้งกลุ่ม",
+          "การลบข้อมูลเมตาจะลบข้อมูลในไฟล์ เช่น ตำแหน่ง GPS แต่ไม่ปิดบังที่อยู่หรือข้อความที่มองเห็นในรูป ต้องปิดบังส่วนนั้นแยกต่างหาก",
+          "ในเมนูส่งออก เลือกดูข้อมูลที่ละเอียดอ่อนเพื่อตรวจสอบตำแหน่งและข้อมูล EXIF ของภาพต้นฉบับ เช่น กล้องและเวลาถ่าย ภาพบางภาพไม่มีข้อมูลเหล่านี้"
+        ]
+      }
+    ]
+  },
+  "ms": {
+    "nav": "Panduan penggunaan",
+    "overview": "Laman utama panduan",
+    "quickstart": "Mula pantas",
+    "lead": "Arahan SnapMosaic untuk Android. Mulakan dengan panduan ringkas atau pilih bab untuk ciri tertentu.",
+    "start": "Baca panduan ringkas",
+    "toc": "Pada halaman ini",
+    "articleLead": "Pilih imej, tutup butiran peribadi dan eksport salinan. Ikuti empat langkah ini dalam SnapMosaic untuk Android.",
+    "before": "Sebelum bermula",
+    "beforeBody": "Pasang SnapMosaic daripada Google Play. Anda boleh berlatih dengan foto contoh tanpa membuka foto sendiri. Akaun atau pembelian Pro tidak diperlukan.",
+    "checkTitle": "Semak sekali lagi sebelum berkongsi",
+    "checks": [
+      "Besarkan imej sehingga teks boleh dibaca, kemudian semak wajah, nama, nombor telefon, alamat dan kod.",
+      "Pastikan setiap butiran yang ingin disembunyikan ditutup sepenuhnya. Garis luar sahaja tidak menyembunyikan apa-apa dalam eksport.",
+      "Buka imej yang disimpan dan semak hasilnya sebelum menghantar."
+    ],
+    "help": "Perlukan bantuan?",
+    "helpBody": "Buka menu tanda soal dalam aplikasi untuk melihat semula panduan atau menyemak pengesanan pintar. Anda juga boleh membaca soalan lazim atau menghubungi sokongan.",
+    "imageLink": "Lihat tangkap layar penuh",
+    "steps": [
+      {
+        "title": "Pilih foto",
+        "body": "Buka SnapMosaic dan pilih imej melalui pemilih foto sistem. Untuk berlatih, ketik “Cuba foto contoh” pada skrin permulaan.",
+        "tip": "Anda boleh memilih sehingga 10 imej. Setiap imej menyimpan suntingannya sendiri; semak satu persatu sebelum mengeksport seluruh kumpulan."
+      },
+      {
+        "title": "Pengesanan pintar",
+        "body": "Tunggu foto dimuatkan. Jika penutupan automatik dihidupkan, semak kawasan yang telah ditutup. Jika tidak, ketik “Pintar” di bahagian bawah untuk menggunakan cadangan pada wajah, kod dan teks sensitif yang lazim.",
+        "tip": "Pengesanan boleh terlepas butiran. Kawasan bergaris luar hanyalah cadangan; ketik untuk menutupnya. Jika pengesanan tidak tersedia, tutup secara manual atau buka bantuan pengesanan melalui menu tanda soal."
+      },
+      {
+        "title": "Penutupan manual dan pemilihan perkataan",
+        "body": "Tekan lama baris teks yang dikesan, kemudian pilih perkataan atau bahagian yang ingin disembunyikan. Untuk bahagian yang terlepas, buka alat penutupan, pilih kesan, kemudian pilih segi empat tepat atau berus dalam “Laras”. Gunakan Buat asal jika tersilap.",
+        "tip": "Untuk teks sensitif, gunakan blok warna pejal pada kelegapan 100% dan tutup keseluruhan butiran. Penyerlah hanya menonjolkan kandungan; teks di bawahnya masih boleh dibaca."
+      },
+      {
+        "title": "Simpan dan kongsi",
+        "body": "Ketik ikon kongsi pada bar atas. Pilih JPEG, PNG atau WebP dan saiz output. Hidupkan “Buang metadata (EXIF/GPS)” untuk membuang maklumat tersebut daripada fail eksport.",
+        "tip": "“Simpan salinan” menyimpan imej baharu ke galeri. “Kongsi” membuka panel perkongsian Android tanpa turut menyimpannya ke galeri. Foto asal tidak ditulis ganti."
+      }
+    ],
+    "gettingStarted": "Mula menggunakan",
+    "editing": "Sunting foto",
+    "howTo": "Cara menggunakan",
+    "articles": [
+      {
+        "title": "Pengesanan pintar",
+        "detailsTitle": "Penutupan automatik dan kawasan berasingan",
+        "details": [
+          "Dalam tetapan, hidupkan atau matikan penutupan automatik foto baharu. Ia dihidupkan secara lalai jika anda belum menyimpan pilihan. Perubahan hanya mempengaruhi foto yang dimuatkan selepas itu, bukan foto yang sudah dibuka.",
+          "Untuk menukar kesan kawasan yang dikesan, pilih kesan kemudian ketik kawasan itu. Jika kawasan sudah menggunakan kesan yang dipilih, mengetiknya akan membuang penutup. Semak hasil selepas setiap perubahan."
+        ]
+      },
+      {
+        "title": "Penutupan manual dan pemilihan perkataan",
+        "detailsTitle": "Laras segi empat tepat",
+        "details": [
+          "Selepas melukis segi empat tepat, seret pemegang di penjuru untuk menukar saiz. Ketik bentuk itu untuk selesai melaras sambil mengekalkan penutup. Ketik sekali lagi untuk membuangnya. Melukis bentuk baharu menyembunyikan pemegang bentuk sebelumnya.",
+          "Gunakan Buat asal dan Buat semula untuk membetulkan suntingan. Zum masuk untuk memeriksa tepi dan memastikan seluruh maklumat ditutup."
+        ],
+        "controlsTitle": "Kesan dan warna",
+        "controls": [
+          "Ketik Tutup atau Penyerlah untuk memilih alat. Ketik alat yang dipilih sekali lagi untuk membuka kawalannya. Pilih mozek, kabur atau blok warna; Laras menyediakan mod segi empat atau berus, saiz dan kekuatan mozek atau kabur.",
+          "Untuk blok warna atau penyerlah, buka palet pelangi untuk menukar warna dan kelegapan. Gunakan grid, spektrum, RGB atau Hex. Butang palet boleh diseret ke tepi kanvas yang lain. Tetapan penutup dan penyerlah diingati secara berasingan."
+        ]
+      },
+      {
+        "title": "Simpan dan kongsi",
+        "detailsTitle": "Pilihan eksport",
+        "details": [
+          "Pilih saiz asal atau pratetap 2048, 1280 atau 720. Hidupkan pilihan mengingati format dan saiz untuk menggunakannya semula pada foto baharu dan apabila aplikasi dibuka semula. Pilihan ini dimatikan secara lalai.",
+          "Jika beberapa foto dibuka, pilih foto semasa atau seluruh kumpulan. Lalainya ialah foto semasa. Semak setiap foto sebelum mengeksport kumpulan.",
+          "Membuang metadata memadamkan maklumat fail seperti lokasi GPS. Alamat atau teks yang kelihatan pada imej tidak ditutup; tutup butiran tersebut secara berasingan.",
+          "Dalam menu eksport, pilih untuk melihat maklumat sensitif bagi menyemak lokasi dan data EXIF imej asal, seperti kamera dan masa rakaman. Sesetengah imej tidak mempunyai data ini."
+        ]
+      }
+    ]
+  },
+  "fil": {
+    "nav": "Gabay sa paggamit",
+    "overview": "Pangunahing pahina ng gabay",
+    "quickstart": "Mabilis na pagsisimula",
+    "lead": "Mga tagubilin para sa SnapMosaic sa Android. Magsimula sa mabilis na gabay o pumili ng kabanata para sa isang feature.",
+    "start": "Basahin ang mabilis na gabay",
+    "toc": "Sa pahinang ito",
+    "articleLead": "Pumili ng larawan, takpan ang pribadong detalye, at mag-export ng kopya. Sundin ang apat na hakbang sa SnapMosaic para sa Android.",
+    "before": "Bago magsimula",
+    "beforeBody": "I-install ang SnapMosaic mula sa Google Play. Puwedeng magsanay sa halimbawang larawan nang hindi binubuksan ang sarili mong mga larawan. Hindi kailangan ng account o pagbili ng Pro.",
+    "checkTitle": "Suriin muli bago ibahagi",
+    "checks": [
+      "I-zoom hanggang mabasa ang teksto at suriin ang mga mukha, pangalan, numero ng telepono, address, at code.",
+      "Tiyaking lubos na natatakpan ang bawat detalyeng gustong itago. Ang balangkas lang ay hindi nagtatago ng nilalaman sa na-export na larawan.",
+      "Buksan ang na-save na larawan at tingnan ang resulta bago ipadala."
+    ],
+    "help": "Kailangan ng tulong?",
+    "helpBody": "Buksan ang menu na may tandang pananong sa app para balikan ang gabay o suriin ang smart detection. Maaari ring basahin ang mga karaniwang tanong o makipag-ugnayan sa suporta.",
+    "imageLink": "Tingnan ang buong screenshot",
+    "steps": [
+      {
+        "title": "Pumili ng larawan",
+        "body": "Buksan ang SnapMosaic at pumili ng larawan sa photo picker ng system. Para magsanay, i-tap ang “Subukan ang halimbawang larawan” sa panimulang screen.",
+        "tip": "Maaari kang pumili ng hanggang 10 larawan. Hiwalay ang mga edit ng bawat isa; suriin ang mga ito nang paisa-isa bago i-export ang buong grupo."
+      },
+      {
+        "title": "Smart detection",
+        "body": "Hintaying mag-load ang larawan. Kung naka-on ang awtomatikong pagtatakip, suriin ang mga natakpang bahagi. Kung hindi, i-tap ang “Smart” sa ibaba para ilapat ang mga mungkahing takip sa mga mukha, code, at karaniwang sensitibong teksto.",
+        "tip": "Maaaring may makaligtaan ang detection. Ang bahaging may balangkas lang ay mungkahi; i-tap ito para takpan. Kung hindi magamit ang detection, takpan nang mano-mano o buksan ang tulong nito sa menu na may tandang pananong."
+      },
+      {
+        "title": "Manwal na pagtatakip at pagpili ng salita",
+        "body": "Pindutin nang matagal ang natukoy na linya ng teksto, saka piliin ang mga salita o bahaging itatago. Para sa nakaligtaan, buksan ang pantakip na tool, pumili ng effect, at piliin ang parihaba o brush sa “Ayusin”. Gamitin ang I-undo kapag nagkamali.",
+        "tip": "Para sa sensitibong teksto, gumamit ng solidong kulay na may 100% opacity at takpan ang buong detalye. Pang-highlight lang ang marker; nababasa pa rin ang nasa ilalim nito."
+      },
+      {
+        "title": "I-save at ibahagi",
+        "body": "I-tap ang share icon sa toolbar sa itaas. Pumili ng JPEG, PNG, o WebP at laki ng output. I-on ang “Alisin ang metadata (EXIF/GPS)” para alisin ang impormasyong iyon sa na-export na file.",
+        "tip": "Ang “Mag-save ng kopya” ay nagsa-save ng bagong larawan sa gallery. Binubuksan ng “Ibahagi” ang Android share panel nang hindi sabay na nagsa-save sa gallery. Hindi pinapatungan ang orihinal na larawan."
+      }
+    ],
+    "gettingStarted": "Pagsisimula",
+    "editing": "Pag-edit ng larawan",
+    "howTo": "Paano gamitin",
+    "articles": [
+      {
+        "title": "Smart detection",
+        "detailsTitle": "Awtomatikong pagtatakip at bawat bahagi",
+        "details": [
+          "Sa Settings, i-on o i-off ang awtomatikong pagtatakip sa mga bagong larawan. Naka-on ito bilang default kung wala ka pang na-save na pagpili. Sa mga susunod na bubuksang larawan lang ito may epekto, hindi sa larawang bukas na.",
+          "Para palitan ang effect ng natukoy na bahagi, pumili ng effect at i-tap ang bahagi. Kung iyon na ang effect nito, matatanggal ang takip kapag tinap mo. Tingnan ang resulta pagkatapos ng bawat pagbabago."
+        ]
+      },
+      {
+        "title": "Manwal na pagtatakip at pagpili ng salita",
+        "detailsTitle": "Ayusin ang parihaba",
+        "details": [
+          "Pagkatapos gumuhit ng parihaba, i-drag ang mga handle sa sulok para baguhin ang laki. I-tap ang parihaba para tapusin ang pag-aayos at panatilihin ang takip. I-tap muli para alisin ito. Mawawala ang mga handle ng naunang parihaba kapag gumuhit ka ng bago.",
+          "Gamitin ang Undo at Redo para itama ang mga pagbabago. Mag-zoom in para suriin ang mga gilid at tiyaking natatakpan ang buong detalye."
+        ],
+        "controlsTitle": "Mga effect at kulay",
+        "controls": [
+          "I-tap ang Takpan o Marker para piliin ang tool. I-tap muli ang napiling tool para buksan ang mga control. Pumili ng mosaic, blur o solid block; nasa Adjust ang rectangle o brush mode, laki, at lakas ng mosaic o blur.",
+          "Para sa solid block o marker, buksan ang rainbow palette upang baguhin ang kulay at opacity. Gamitin ang grid, spectrum, RGB o Hex. Maaari mong i-drag ang palette button sa ibang gilid ng canvas. Magkahiwalay na naaalala ang mga setting ng masking at marker."
+        ]
+      },
+      {
+        "title": "I-save at ibahagi",
+        "detailsTitle": "Mga opsyon sa pag-export",
+        "details": [
+          "Piliin ang orihinal na laki o preset na 2048, 1280, o 720. I-on ang pag-alala sa format at laki para magamit muli ang mga ito sa bagong larawan at sa muling pagbukas ng app. Naka-off ito bilang default.",
+          "Kung maraming larawan ang bukas, piliin ang kasalukuyang larawan o ang buong grupo. Kasalukuyang larawan ang default. Suriin ang bawat larawan bago i-export ang grupo.",
+          "Ang pag-alis ng metadata ay nagtatanggal ng impormasyon sa file tulad ng lokasyon sa GPS. Hindi nito tinatakpan ang address o tekstong nakikita sa larawan; takpan ang mga iyon nang hiwalay.",
+          "Sa menu ng pag-export, piliing tingnan ang sensitibong impormasyon upang suriin ang lokasyon at EXIF ng orihinal, gaya ng camera at oras ng pagkuha. Walang ganitong data ang ilang larawan."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,797 @@
+{
+  "en": {
+    "decorations": {
+      "title": "Face stickers and text watermarks",
+      "lead": "Cover a face with an emoji, or add a repeating note about how an image may be used.",
+      "paragraphs": [
+        "Open Mask and enable face stickers, then tap a detected face to choose an emoji. Clear removes the sticker from that face. The switch applies across the photo group and is remembered next time.",
+        "Open Watermark in the bottom toolbar, enter your text, then enable it. Adjust the appearance in the live preview. The text watermark belongs to the current photo and is included in saved and shared copies."
+      ]
+    },
+    "batch": {
+      "title": "Multiple photos",
+      "lead": "Choose 1–10 photos, edit each one, and export the current photo or the whole group.",
+      "paragraphs": [
+        "Use the arrows below the canvas to switch photos. In a group, use + to append more, up to 10 in total. Existing edits stay with each photo. Replacing the group is a separate action.",
+        "Each photo has its own masks, text watermark and undo history. Mask positions are not copied between photos. In the export menu, choose the current photo or all photos, then review every result.",
+        "The top-left image-actions button offers “Clear edits” for the current photo and “Exit editing” for the whole group. Clear edits keeps the photo open; exiting returns to the start screen after confirmation when there are edits."
+      ]
+    },
+    "rules": {
+      "title": "Custom masking rules",
+      "lead": "Save text you often need to hide and include it in smart detection.",
+      "paragraphs": [
+        "Open Settings → Custom masking rules → Add rule. Enter 2–64 characters, such as a name or address. You can save up to 20 rules, including disabled rules. Free and Pro have the same limit.",
+        "Rules match text recognized in the image; they do not support regular expressions or fuzzy matches. After editing a rule, run Smart again to apply it. Rules stay on this device and are removed if you clear app data or uninstall."
+      ]
+    },
+    "help": {
+      "title": "Detection help and settings",
+      "lead": "Check text, face and code detection, or change your app preferences.",
+      "paragraphs": [
+        "Open the question-mark menu → Detection help. The check uses built-in samples, without reading your photos. If resources are missing, tap the download action. Available models can work offline; a successful check cannot guarantee every photo will be detected correctly.",
+        "Text recognition follows the app language. Thai and Urdu text recognition are currently unavailable; face and code detection work independently. Change the app language in Settings. Tool effects and adjustments are remembered for later photos.",
+        "For a problem, open Settings → Report a problem. Review the prepared diagnostic report in your mail app or share sheet before sending. SnapMosaic does not send it automatically.",
+        "In Settings, tap the version row to check for updates or open Google Play when an update is available. A red dot can also indicate a new feature; open Settings to see which item needs attention."
+      ]
+    },
+    "pro": {
+      "title": "Free exports and Pro",
+      "lead": "Photo editing is free. Pro removes the SnapMosaic brand watermark and in-app ads.",
+      "paragraphs": [
+        "Pro is an optional one-time Google Play purchase. It does not remove text watermarks you add yourself. Use the purchasing Google Play account to restore your purchase in Settings.",
+        "A completed eligible rewarded ad grants one photo export without the brand watermark. It covers one successfully generated file, not a whole group. If Pro asks for verification, connect to the internet and verify the purchase; free editing remains available."
+      ]
+    },
+    "video": {
+      "title": "Video masking · Experimental",
+      "lead": "Automatically cover faces in a video, with processing on your device.",
+      "paragraphs": [
+        "Open Feature Lab in Settings to use automatic video masking. Choose a video of up to 10 minutes, then start automatic masking. Review the preview and scrub through the video before saving. After saving, you can share the result.",
+        "The output is MP4 and preserves the frame proportions and audio. This feature currently offers automatic face masking only: there are no manual mask adjustments, text recognition or video editing tools. If a face is missed, do not share that result without further processing."
+      ]
+    }
+  },
+  "zh-CN": {
+    "decorations": {
+      "title": "人脸贴纸与文字水印",
+      "lead": "用表情遮住人脸，或为图片添加说明用途的重复文字。",
+      "paragraphs": [
+        "打开底部“遮挡”，启用人脸贴纸，再点击识别到的人脸选择表情。“清除”只移除当前人脸的贴纸。贴纸开关对整组图片生效，下次使用时会保留。",
+        "打开底部“水印”，先输入文字，再启用水印。在预览中调整样式；文字水印只属于当前图片，保存和分享时都会写入副本。"
+      ]
+    },
+    "batch": {
+      "title": "多图编辑",
+      "lead": "一次选择 1–10 张图片，逐张编辑，导出当前图片或整组。",
+      "paragraphs": [
+        "通过画布下方的箭头切换图片。多图状态下，点击“＋”可继续追加，总数最多 10 张，已有图片的编辑会保留。顶部“换图”用于替换整组。",
+        "每张图片分别保留遮挡、文字水印和撤销记录，不会把遮挡位置复制到其他图片。导出时选择“当前”或“全部”，并逐张检查结果。",
+        "左上角“图片操作”提供“清空编辑”和“退出编辑”。清空编辑会保留当前照片，只移除本图的编辑；退出编辑会关闭整组，有编辑时会先确认。"
+      ]
+    },
+    "rules": {
+      "title": "自定义打码规则",
+      "lead": "保存经常需要隐藏的文字，让智能识别一起处理。",
+      "paragraphs": [
+        "进入设置 → 自定义打码规则 → 添加规则，输入 2–64 个字符，例如姓名或地址。最多保存 20 条，停用的规则也占名额；免费版与 Pro 上限相同。",
+        "规则匹配图片中识别到的文字，不支持正则或模糊匹配。修改规则后，重新执行“智能”才会应用，不会立即改动当前图片。规则只保存在本机，清除应用数据或卸载后会删除。"
+      ]
+    },
+    "help": {
+      "title": "识别帮助与设置",
+      "lead": "检查本机的文字、人脸和码识别能力，调整使用偏好。",
+      "paragraphs": [
+        "打开顶部问号菜单 → “智能识别不准？”。检查使用内置样例，不读取你的照片。缺少资源时，点击“下载识别资源”；资源已就绪时可离线识别。样例检查通过，不代表每张图片都能准确识别。",
+        "文字识别跟随 App 当前语言；泰语和乌尔都语的文字识别暂不支持，人脸与码识别独立可用。可在设置中切换语言。工具效果和调节参数会记住，用于之后的图片。",
+        "遇到问题时，从设置进入“报告问题”。在邮件应用或系统分享面板中检查诊断报告后，再决定是否发送；SnapMosaic 不会自动发送。",
+        "在设置中点击版本一栏，可检查更新；有新版本时会打开 Google Play。设置红点也可能提示新功能，进入设置可查看对应条目。"
+      ]
+    },
+    "pro": {
+      "title": "免费导出与 Pro",
+      "lead": "图片编辑免费。Pro 可移除 SnapMosaic 品牌水印和应用内广告。",
+      "paragraphs": [
+        "Pro 是通过 Google Play 进行的一次性可选购买，不会移除你自己添加的文字水印。恢复购买时，请使用购买时的 Google Play 账号，并在设置中点「恢复购买」。",
+        "完整观看符合条件的激励广告，可获得一次无品牌水印的图片导出，仅用于一张成功生成的文件，不适用于整组。Pro 提示待验证时，请联网验证购买；免费编辑功能仍可使用。"
+      ]
+    },
+    "video": {
+      "title": "视频打码 · 实验功能",
+      "lead": "在设备本地自动识别人脸，生成打码视频。",
+      "paragraphs": [
+        "进入设置中的“功能实验室”，选择不超过 10 分钟的视频，再开始自动打码。处理后先预览，拖动进度条检查各处遮挡，再保存到相册；保存后可以分享。",
+        "输出为 MP4，保留画面比例和音频。目前仅提供自动人脸打码，不开放手动调整遮挡、文字识别或视频剪辑。若发现漏掉的人脸，请进一步处理后再分享。"
+      ]
+    }
+  },
+  "zh-Hant": {
+    "decorations": {
+      "title": "人臉貼紙與文字浮水印",
+      "lead": "用表情遮住人臉，或為圖片加上說明用途的重複文字。",
+      "paragraphs": [
+        "開啟底部「遮擋」，啟用人臉貼紙，再點選辨識到的人臉選擇表情。「清除」只移除目前人臉的貼紙。貼紙開關對整組圖片生效，下次使用時會保留。",
+        "開啟底部「浮水印」，先輸入文字，再啟用浮水印。在預覽中調整樣式；文字浮水印只屬於目前圖片，儲存和分享時都會寫入副本。"
+      ]
+    },
+    "batch": {
+      "title": "多圖編輯",
+      "lead": "一次選擇 1–10 張圖片，逐張編輯，匯出目前圖片或整組。",
+      "paragraphs": [
+        "透過畫布下方的箭頭切換圖片。多圖狀態下，點選「＋」可繼續加入，總數最多 10 張，已有編輯會保留。頂部換圖功能用於替換整組。",
+        "每張圖片各自保留遮擋、文字浮水印及復原記錄，不會把遮擋位置複製到其他圖片。匯出時選擇目前圖片或全部，並逐張檢查結果。",
+        "左上角「圖片操作」提供「清空編輯」和「退出編輯」。清空編輯會保留目前照片，只移除本圖的編輯；退出編輯會關閉整組，有編輯時會先確認。"
+      ]
+    },
+    "rules": {
+      "title": "自訂遮擋規則",
+      "lead": "儲存經常需要隱藏的文字，讓智慧辨識一起處理。",
+      "paragraphs": [
+        "進入設定中的自訂遮擋規則並新增規則，輸入 2–64 個字元，例如姓名或地址。最多儲存 20 條，停用規則也佔名額；免費版與 Pro 上限相同。",
+        "規則比對圖片中辨識到的文字，不支援正規表示式或模糊比對。修改後需重新執行智慧辨識，不會立即改動目前圖片。規則僅存於本機，清除資料或解除安裝後會刪除。"
+      ]
+    },
+    "help": {
+      "title": "辨識說明與設定",
+      "lead": "檢查本機的文字、人臉及條碼辨識能力，調整使用偏好。",
+      "paragraphs": [
+        "從頂部問號選單開啟辨識說明。檢查使用內建範例，不讀取你的照片。缺少資源時可點選下載；資源就緒後可離線辨識。範例通過不代表每張圖片都能準確辨識。",
+        "文字辨識跟隨 App 語言；目前不支援泰語及烏爾都語文字，人臉及條碼辨識獨立可用。可在設定切換語言。工具效果及調整參數會記住，套用於之後的圖片。",
+        "遇到問題時，可從設定回報問題。先在郵件應用程式或系統分享面板檢查診斷報告，再決定是否傳送；SnapMosaic 不會自動傳送。",
+        "在設定中點選版本一欄，可檢查更新；有新版本時會開啟 Google Play。設定紅點也可能提示新功能，進入設定可查看對應項目。"
+      ]
+    },
+    "pro": {
+      "title": "免費匯出與 Pro",
+      "lead": "圖片編輯免費。Pro 可移除 SnapMosaic 品牌浮水印及應用程式內廣告。",
+      "paragraphs": [
+        "Pro 是透過 Google Play 進行的一次性選購，不會移除你自己加入的文字浮水印。恢復購買時，請使用購買時的 Google Play 帳號，並在設定中點「恢復購買」。",
+        "完整觀看符合條件的獎勵廣告，可獲得一次無品牌浮水印匯出，僅用於一張成功產生的檔案，不適用於整組。若 Pro 提示待驗證，請連線驗證購買；免費編輯仍可使用。"
+      ]
+    },
+    "video": {
+      "title": "影片遮擋 · 實驗功能",
+      "lead": "在裝置本機自動辨識人臉，產生遮擋影片。",
+      "paragraphs": [
+        "從設定的功能實驗室開啟影片自動遮擋，選擇不超過 10 分鐘的影片並開始處理。先預覽並拖曳進度條檢查，再儲存至相簿；儲存後可以分享。",
+        "輸出為 MP4，保留畫面比例與音訊。目前僅提供自動人臉遮擋，不開放手動調整、文字辨識或影片剪輯。若發現遺漏的人臉，請進一步處理後再分享。"
+      ]
+    }
+  },
+  "es": {
+    "decorations": {
+      "title": "Pegatinas faciales y marcas de agua",
+      "lead": "Cubre una cara con un emoji o añade texto repetido que indique el uso de una imagen.",
+      "paragraphs": [
+        "Abre Ocultar y activa los stickers faciales. Toca un rostro detectado para elegir un emoji. Borrar quita el sticker de ese rostro. El interruptor se aplica al grupo de fotos y se recuerda para la próxima vez.",
+        "Abre Marca de agua en la barra inferior, escribe el texto y actívala. Ajusta el aspecto en la vista previa. La marca de agua pertenece a la foto actual y se incluye al guardar o compartir copias."
+      ]
+    },
+    "batch": {
+      "title": "Varias fotos",
+      "lead": "Elige de 1 a 10 fotos, edítalas por separado y exporta la actual o todo el grupo.",
+      "paragraphs": [
+        "Cambia de foto con las flechas bajo el lienzo. En un grupo, pulsa + para añadir más, hasta un total de 10. Se conservan los cambios existentes. Reemplazar el grupo es una acción distinta.",
+        "Cada foto conserva sus propias coberturas, marca de agua de texto e historial. Las posiciones no se copian entre fotos. En el menú de exportación, elige la foto actual o todas y revisa cada resultado.",
+        "El botón de acciones de imagen, arriba a la izquierda, permite borrar las ediciones de la foto actual o salir de la edición de todo el grupo. Al salir, se solicita confirmación si hay cambios."
+      ]
+    },
+    "rules": {
+      "title": "Reglas de ocultado propias",
+      "lead": "Guarda texto que ocultas a menudo para incluirlo en la detección inteligente.",
+      "paragraphs": [
+        "Abre las reglas de ocultado en Ajustes y añade una regla de 2 a 64 caracteres, por ejemplo un nombre o dirección. Puedes guardar hasta 20, incluidas las desactivadas. El límite es igual en la versión gratuita y Pro.",
+        "Las reglas buscan texto reconocido; no admiten expresiones regulares ni coincidencias aproximadas. Ejecuta Inteligente de nuevo tras editar una regla. Se guardan solo en este dispositivo y se borran al eliminar los datos de la app o desinstalarla."
+      ]
+    },
+    "help": {
+      "title": "Ayuda de detección y ajustes",
+      "lead": "Comprueba la detección de texto, caras y códigos, o cambia tus preferencias.",
+      "paragraphs": [
+        "Abre la ayuda de detección desde el menú del signo de interrogación. La comprobación usa ejemplos integrados, no tus fotos. Si faltan recursos, pulsa descargar. Los modelos disponibles funcionan sin conexión; superar la prueba no garantiza detectar todo en cada foto.",
+        "El reconocimiento de texto sigue el idioma de la app. No está disponible para tailandés ni urdu; caras y códigos funcionan por separado. Cambia el idioma en Ajustes. Los efectos y ajustes de herramientas se recuerdan para nuevas fotos.",
+        "Para informar de un problema, abre la opción correspondiente en Ajustes. Revisa el informe en tu app de correo o en el panel para compartir antes de enviarlo; SnapMosaic no lo envía automáticamente.",
+        "En Ajustes, toca la fila de la versión para buscar actualizaciones o abrir Google Play si hay una disponible. Un punto rojo también puede señalar una función nueva; abre Ajustes para ver el elemento correspondiente."
+      ]
+    },
+    "pro": {
+      "title": "Exportaciones gratuitas y Pro",
+      "lead": "La edición es gratuita. Pro elimina la marca de agua de SnapMosaic y los anuncios.",
+      "paragraphs": [
+        "Pro es una compra única opcional de Google Play. No elimina las marcas de texto que añades tú. Para restaurar la compra desde Ajustes, usa la cuenta de Google Play con la que compraste.",
+        "Completar un anuncio con recompensa válido concede una exportación sin marca de agua, para un archivo generado correctamente, no para todo el grupo. Si Pro pide verificación, conéctate y verifica la compra. La edición gratuita sigue disponible."
+      ]
+    },
+    "video": {
+      "title": "Ocultado en vídeo · Experimental",
+      "lead": "Cubre caras automáticamente en un vídeo, con procesamiento en tu dispositivo.",
+      "paragraphs": [
+        "Abre el laboratorio de funciones en Ajustes para usar el ocultado automático en vídeo. Selecciona un vídeo de hasta 10 minutos e inicia el proceso. Revisa la vista previa y recorre el vídeo antes de guardarlo. Después puedes compartirlo.",
+        "El resultado es MP4 y conserva las proporciones y el audio. Solo ofrece ocultado automático de caras: no hay ajuste manual, reconocimiento de texto ni edición de vídeo. Si queda una cara visible, procesa el vídeo de nuevo con otra herramienta antes de compartirlo."
+      ]
+    }
+  },
+  "pt-BR": {
+    "decorations": {
+      "title": "Adesivos de rosto e marcas de texto",
+      "lead": "Cubra um rosto com emoji ou adicione texto repetido para indicar o uso da imagem.",
+      "paragraphs": [
+        "Abra Ocultar e ative os adesivos de rosto. Toque em um rosto detectado para escolher um emoji. Limpar remove o adesivo daquele rosto. A opção vale para o grupo de fotos e é lembrada na próxima vez.",
+        "Abra Marca d’água na barra inferior, digite o texto e ative a opção. Ajuste a aparência na prévia. A marca d’água pertence à foto atual e aparece nas cópias salvas e compartilhadas."
+      ]
+    },
+    "batch": {
+      "title": "Várias fotos",
+      "lead": "Escolha de 1 a 10 fotos, edite cada uma e exporte a atual ou o grupo inteiro.",
+      "paragraphs": [
+        "Use as setas abaixo da imagem para trocar de foto. Em um grupo, toque em + para adicionar mais, até 10 no total. As edições existentes são mantidas. Substituir o grupo é uma ação separada.",
+        "Cada foto mantém suas coberturas, marca de texto e histórico. As posições não são copiadas entre fotos. No menu de exportação, escolha a foto atual ou todas e confira cada resultado.",
+        "O botão de ações da imagem, no canto superior esquerdo, permite limpar as edições da foto atual ou sair da edição do grupo inteiro. Ao sair, há uma confirmação se houver alterações."
+      ]
+    },
+    "rules": {
+      "title": "Regras de ocultação personalizadas",
+      "lead": "Salve textos que você oculta com frequência para incluí-los na detecção inteligente.",
+      "paragraphs": [
+        "Abra as regras de ocultação nas configurações e adicione uma regra com 2 a 64 caracteres, como nome ou endereço. É possível salvar até 20, incluindo as desativadas. O limite é igual no gratuito e no Pro.",
+        "As regras correspondem ao texto reconhecido; não aceitam expressões regulares nem aproximações. Execute Inteligente novamente após editar uma regra. Elas ficam só neste aparelho e são apagadas ao limpar os dados ou desinstalar o app."
+      ]
+    },
+    "help": {
+      "title": "Ajuda de detecção e configurações",
+      "lead": "Verifique a detecção de texto, rostos e códigos ou altere suas preferências.",
+      "paragraphs": [
+        "Abra a ajuda de detecção no menu de interrogação. A verificação usa exemplos internos, sem ler suas fotos. Se faltarem recursos, toque para baixá-los. Modelos disponíveis funcionam offline; passar no teste não garante detectar tudo em cada foto.",
+        "O reconhecimento de texto segue o idioma do app. Tailandês e urdu ainda não são suportados; rostos e códigos funcionam separadamente. Altere o idioma nas configurações. Efeitos e ajustes das ferramentas são lembrados para novas fotos.",
+        "Para relatar um problema, use a opção nas configurações. Confira o relatório no app de e-mail ou na tela de compartilhamento antes de enviar; o SnapMosaic não o envia automaticamente.",
+        "Nos Ajustes, toque na versão para procurar atualizações ou abrir o Google Play quando houver uma disponível. Um ponto vermelho também pode indicar uma nova função; abra os Ajustes para ver o item correspondente."
+      ]
+    },
+    "pro": {
+      "title": "Exportação gratuita e Pro",
+      "lead": "A edição é gratuita. Pro remove a marca de água do SnapMosaic e os anúncios.",
+      "paragraphs": [
+        "Pro é uma compra única opcional pelo Google Play. Não remove as marcas de texto que você adiciona. Use a conta da compra para restaurá-la nas configurações.",
+        "Concluir um anúncio elegível dá uma exportação sem marca, para um único arquivo gerado com sucesso, não para o grupo inteiro. Se Pro pedir verificação, conecte-se à internet e verifique a compra. A edição gratuita continua disponível."
+      ]
+    },
+    "video": {
+      "title": "Ocultação em vídeo · Experimental",
+      "lead": "Cubra rostos automaticamente em um vídeo, com processamento no aparelho.",
+      "paragraphs": [
+        "Nas configurações, abra o laboratório de recursos para usar a ocultação automática de vídeo. Escolha um vídeo de até 10 minutos e inicie. Revise a prévia e percorra o vídeo antes de salvar. Depois de salvar, é possível compartilhar.",
+        "A saída é MP4 e preserva proporções e áudio. Há apenas ocultação automática de rostos: sem ajustes manuais, reconhecimento de texto ou edição de vídeo. Se um rosto não for coberto, faça outro tratamento antes de compartilhar."
+      ]
+    }
+  },
+  "fr": {
+    "decorations": {
+      "title": "Stickers de visage et filigranes",
+      "lead": "Couvrez un visage avec un emoji ou ajoutez un texte répété indiquant l’usage de l’image.",
+      "paragraphs": [
+        "Ouvrez Masquer et activez les stickers de visage, puis touchez un visage détecté pour choisir un emoji. Effacer retire le sticker de ce visage. Le réglage s’applique au groupe de photos et reste mémorisé.",
+        "Ouvrez Filigrane dans la barre inférieure, saisissez le texte, puis activez-le. Ajustez son apparence dans l’aperçu. Le filigrane appartient à la photo actuelle et figure dans les copies enregistrées et partagées."
+      ]
+    },
+    "batch": {
+      "title": "Plusieurs photos",
+      "lead": "Choisissez de 1 à 10 photos, retouchez-les séparément et exportez la photo actuelle ou tout le groupe.",
+      "paragraphs": [
+        "Utilisez les flèches sous l’image pour changer de photo. Dans un groupe, touchez + pour en ajouter, jusqu’à 10 au total. Les retouches sont conservées. Remplacer le groupe est une action distincte.",
+        "Chaque photo garde ses masques, son filigrane de texte et son historique. Les positions ne sont pas copiées entre photos. Dans le menu d’exportation, choisissez la photo actuelle ou toutes les photos, puis vérifiez chaque résultat.",
+        "Le bouton d’actions en haut à gauche permet d’effacer les modifications de la photo actuelle ou de quitter l’édition du groupe. Effacer garde la photo ouverte ; quitter demande confirmation si des modifications existent."
+      ]
+    },
+    "rules": {
+      "title": "Règles de masquage personnalisées",
+      "lead": "Enregistrez les textes que vous masquez souvent pour les inclure dans la détection intelligente.",
+      "paragraphs": [
+        "Ouvrez les règles de masquage dans les paramètres et ajoutez une règle de 2 à 64 caractères, comme un nom ou une adresse. Vous pouvez en conserver 20, y compris les règles désactivées. La limite est identique avec ou sans Pro.",
+        "Les règles recherchent le texte reconnu, sans expressions régulières ni correspondances approximatives. Relancez Intelligent après avoir modifié une règle. Les règles restent sur l’appareil et disparaissent si vous effacez les données ou désinstallez l’app."
+      ]
+    },
+    "help": {
+      "title": "Aide à la détection et paramètres",
+      "lead": "Vérifiez la détection du texte, des visages et des codes, ou modifiez vos préférences.",
+      "paragraphs": [
+        "Ouvrez l’aide à la détection dans le menu du point d’interrogation. Le test utilise des exemples intégrés, pas vos photos. Téléchargez les ressources si elles manquent. Les modèles disponibles fonctionnent hors ligne ; un test réussi ne garantit pas la détection de chaque photo.",
+        "La reconnaissance du texte suit la langue de l’app. Le thaï et l’ourdou ne sont pas pris en charge ; visages et codes fonctionnent indépendamment. Changez de langue dans les paramètres. Les effets et réglages sont conservés pour les prochaines photos.",
+        "Pour signaler un problème, utilisez l’option des paramètres. Vérifiez le rapport dans votre messagerie ou le panneau de partage avant de l’envoyer ; SnapMosaic ne l’envoie pas automatiquement.",
+        "Dans les paramètres, touchez la ligne de version pour rechercher une mise à jour ou ouvrir Google Play si elle est disponible. Un point rouge peut aussi signaler une nouvelle fonction ; ouvrez les paramètres pour voir laquelle."
+      ]
+    },
+    "pro": {
+      "title": "Exportation gratuite et Pro",
+      "lead": "La retouche est gratuite. Pro retire le filigrane SnapMosaic et les publicités.",
+      "paragraphs": [
+        "Pro est un achat unique facultatif via Google Play. Il ne retire pas les filigranes de texte que vous ajoutez. Restaurez l’achat dans les paramètres avec le compte Google Play utilisé lors de l’achat.",
+        "Une publicité récompensée éligible terminée donne droit à une exportation sans filigrane, pour un seul fichier généré avec succès, pas tout un groupe. Si Pro demande une vérification, connectez-vous et vérifiez l’achat. La retouche gratuite reste accessible."
+      ]
+    },
+    "video": {
+      "title": "Masquage vidéo · Expérimental",
+      "lead": "Masquez automatiquement les visages d’une vidéo, sur votre appareil.",
+      "paragraphs": [
+        "Dans les paramètres, ouvrez le laboratoire de fonctions pour utiliser le masquage vidéo automatique. Choisissez une vidéo de 10 minutes maximum et lancez le traitement. Parcourez l’aperçu avant d’enregistrer. Le partage est disponible après l’enregistrement.",
+        "La sortie MP4 conserve les proportions et le son. Seul le masquage automatique des visages est proposé : aucun ajustement manuel, reconnaissance de texte ou montage vidéo. Si un visage reste visible, traitez-le autrement avant de partager."
+      ]
+    }
+  },
+  "ja": {
+    "decorations": {
+      "title": "顔スタンプと文字透かし",
+      "lead": "絵文字で顔を隠したり、画像の用途を示す文字を繰り返し配置したりできます。",
+      "paragraphs": [
+        "下部の「マスク」を開いて顔ステッカーを有効にし、検出された顔をタップして絵文字を選びます。「クリア」はその顔のステッカーだけを削除します。スイッチは写真グループ全体に適用され、次回も保持されます。",
+        "下部の「透かし」を開き、文字を入力してから有効にします。プレビューで見た目を調整できます。文字の透かしは現在の写真に適用され、保存・共有したコピーにも含まれます。"
+      ]
+    },
+    "batch": {
+      "title": "複数の写真",
+      "lead": "1〜10 枚を選び、個別に編集して現在の写真またはグループ全体を書き出します。",
+      "paragraphs": [
+        "画像の下の矢印で写真を切り替えます。複数枚を開いているときは ＋ で合計 10 枚まで追加でき、既存の編集は残ります。グループ全体の置き換えは別の操作です。",
+        "各写真のマスク、文字透かし、取り消し履歴は個別に保持されます。マスク位置はほかの写真へコピーされません。書き出しメニューで現在の写真か全体を選び、結果を一枚ずつ確認してください。",
+        "左上の画像操作から、現在の写真の編集をクリアするか、グループ全体の編集を終了できます。クリア後も写真は開いたままです。編集がある場合、終了前に確認が表示されます。"
+      ]
+    },
+    "rules": {
+      "title": "カスタムマスクルール",
+      "lead": "よく隠す文字を保存して、スマート検出の対象に加えます。",
+      "paragraphs": [
+        "設定のカスタムルールで追加を選び、名前や住所など 2〜64 文字を入力します。無効なルールを含め最大 20 件保存でき、無料版と Pro で上限は同じです。",
+        "画像から認識された文字に一致するルールを適用します。正規表現やあいまい検索には対応しません。変更後はスマートを再実行してください。ルールは端末内に保存され、データ消去やアンインストールで削除されます。"
+      ]
+    },
+    "help": {
+      "title": "検出ヘルプと設定",
+      "lead": "文字・顔・コードの検出を確認し、アプリの設定を変えられます。",
+      "paragraphs": [
+        "疑問符メニューから検出ヘルプを開きます。確認には内蔵サンプルを使い、あなたの写真は読みません。必要なリソースがなければダウンロードを選びます。準備済みモデルはオフラインでも動作しますが、テスト成功はすべての写真の認識を保証しません。",
+        "文字認識はアプリの言語に従います。タイ語とウルドゥー語の文字は現在未対応ですが、顔とコードは別に検出できます。言語は設定で変更します。ツールの効果や調整値は次の写真にも引き継がれます。",
+        "問題がある場合は設定から報告します。メールアプリまたは共有画面で診断レポートを確認してから送信してください。自動送信はされません。",
+        "設定のバージョン欄をタップすると更新を確認でき、更新がある場合は Google Play が開きます。赤い点は新機能を示すこともあります。設定を開いて該当項目を確認してください。"
+      ]
+    },
+    "pro": {
+      "title": "無料書き出しと Pro",
+      "lead": "写真の編集は無料です。Pro は SnapMosaic のブランド透かしと広告を削除します。",
+      "paragraphs": [
+        "Pro は Google Play の任意の買い切り購入です。自分で追加した文字透かしは削除しません。購入した Google Play アカウントで設定から購入を復元してください。",
+        "対象のリワード広告を最後まで見ると、正常に生成される写真 1 ファイルをブランド透かしなしで書き出せます。グループ全体には適用されません。Pro の確認を求められた場合はオンラインで購入を確認してください。無料編集は引き続き使えます。"
+      ]
+    },
+    "video": {
+      "title": "動画マスク · 実験機能",
+      "lead": "端末内で動画の顔を検出し、自動的にマスクします。",
+      "paragraphs": [
+        "設定の機能ラボから動画の自動マスクを開きます。10 分以内の動画を選んで処理を開始し、プレビューの進行バーで各場面を確認してから保存します。保存後に共有できます。",
+        "出力は MP4 で、縦横比と音声を保持します。現在は顔の自動マスクのみで、手動調整、文字認識、動画編集には対応しません。顔の見落としがあれば別途処理してから共有してください。"
+      ]
+    }
+  },
+  "ko": {
+    "decorations": {
+      "title": "얼굴 스티커와 텍스트 워터마크",
+      "lead": "이모지로 얼굴을 가리거나 이미지 용도를 알리는 문구를 반복해서 넣으세요.",
+      "paragraphs": [
+        "하단의 가리기를 열어 얼굴 스티커를 켠 다음, 감지된 얼굴을 눌러 이모지를 선택하세요. 지우기는 해당 얼굴의 스티커만 제거합니다. 스위치는 사진 그룹 전체에 적용되며 다음에도 유지됩니다.",
+        "하단의 워터마크를 열고 글자를 입력한 뒤 켜세요. 미리보기에서 모양을 조절할 수 있습니다. 텍스트 워터마크는 현재 사진에 적용되며 저장하거나 공유한 사본에 포함됩니다."
+      ]
+    },
+    "batch": {
+      "title": "여러 사진 편집",
+      "lead": "1~10장을 선택해 각각 편집하고 현재 사진 또는 전체 그룹을 내보내세요.",
+      "paragraphs": [
+        "이미지 아래 화살표로 사진을 바꿉니다. 여러 장이 열려 있으면 +로 총 10장까지 추가할 수 있으며 기존 편집은 유지됩니다. 그룹 전체 교체는 별도 작업입니다.",
+        "각 사진의 가리기, 텍스트 워터마크, 실행 취소 기록은 따로 유지됩니다. 가리는 위치가 다른 사진에 복사되지는 않습니다. 내보내기 메뉴에서 현재 사진이나 전체를 선택하고 결과를 한 장씩 확인하세요.",
+        "왼쪽 위 이미지 작업에서 현재 사진의 편집을 지우거나 전체 그룹의 편집을 종료할 수 있습니다. 편집을 지워도 사진은 열린 상태로 유지되며, 변경 사항이 있으면 종료 전에 확인합니다."
+      ]
+    },
+    "rules": {
+      "title": "사용자 지정 가리기 규칙",
+      "lead": "자주 숨기는 문구를 저장해 스마트 감지에 포함하세요.",
+      "paragraphs": [
+        "설정의 사용자 지정 규칙에서 추가를 선택하고 이름이나 주소 등 2~64자를 입력하세요. 비활성 규칙을 포함해 최대 20개이며 무료와 Pro의 한도가 같습니다.",
+        "규칙은 인식된 글자와 일치하는 내용을 찾으며 정규식이나 유사 검색은 지원하지 않습니다. 규칙 변경 후 스마트를 다시 실행하세요. 규칙은 기기에만 저장되며 앱 데이터 삭제나 제거 시 지워집니다."
+      ]
+    },
+    "help": {
+      "title": "감지 도움말과 설정",
+      "lead": "글자, 얼굴, 코드 감지를 확인하거나 사용 설정을 바꾸세요.",
+      "paragraphs": [
+        "물음표 메뉴에서 감지 도움말을 여세요. 검사는 내장 예시를 사용하며 내 사진을 읽지 않습니다. 리소스가 없으면 다운로드를 누르세요. 준비된 모델은 오프라인에서도 작동하지만 검사 성공이 모든 사진의 정확한 감지를 보장하지는 않습니다.",
+        "글자 인식은 앱 언어를 따릅니다. 태국어와 우르두어 글자는 현재 지원하지 않으며 얼굴과 코드는 별도로 감지합니다. 설정에서 언어를 바꿀 수 있습니다. 도구 효과와 조절값은 다음 사진에도 유지됩니다.",
+        "문제가 있으면 설정에서 문제 보고를 여세요. 메일 앱이나 공유 화면에서 진단 보고서를 확인한 뒤 보낼지 결정하세요. 자동으로 전송되지 않습니다.",
+        "설정에서 버전 항목을 누르면 업데이트를 확인하며, 새 버전이 있으면 Google Play를 엽니다. 빨간 점은 새 기능을 알릴 수도 있습니다. 설정에서 해당 항목을 확인하세요."
+      ]
+    },
+    "pro": {
+      "title": "무료 내보내기와 Pro",
+      "lead": "사진 편집은 무료입니다. Pro는 SnapMosaic 브랜드 워터마크와 광고를 제거합니다.",
+      "paragraphs": [
+        "Pro는 Google Play에서 선택적으로 한 번 구매합니다. 직접 추가한 텍스트 워터마크는 제거하지 않습니다. 구매할 때 사용한 Google Play 계정으로 설정에서 구매를 복원하세요.",
+        "해당 보상형 광고를 끝까지 보면 성공적으로 생성된 사진 파일 한 개를 브랜드 워터마크 없이 내보낼 수 있습니다. 전체 그룹에 적용되지는 않습니다. Pro 인증을 요청하면 인터넷에 연결해 구매를 인증하세요. 무료 편집은 계속 사용할 수 있습니다."
+      ]
+    },
+    "video": {
+      "title": "동영상 가리기 · 실험 기능",
+      "lead": "기기에서 동영상의 얼굴을 자동으로 감지하고 가립니다.",
+      "paragraphs": [
+        "설정의 기능 실험실에서 동영상 자동 가리기를 여세요. 최대 10분인 영상을 선택해 시작합니다. 미리 보기 진행 막대로 여러 장면을 확인한 뒤 저장하세요. 저장 후 공유할 수 있습니다.",
+        "MP4로 출력하며 화면 비율과 소리를 유지합니다. 현재는 자동 얼굴 가리기만 지원하며 수동 조절, 글자 인식, 영상 편집은 제공하지 않습니다. 얼굴을 놓쳤다면 추가 처리 후 공유하세요."
+      ]
+    }
+  },
+  "hi": {
+    "decorations": {
+      "title": "चेहरे के स्टिकर और टेक्स्ट वॉटरमार्क",
+      "lead": "इमोजी से चेहरा ढकें या तस्वीर के इस्तेमाल की जानकारी देने वाला दोहराया गया पाठ जोड़ें।",
+      "paragraphs": [
+        "नीचे छिपाएँ खोलें और फेस स्टिकर चालू करें। फिर पहचाने गए चेहरे पर टैप करके इमोजी चुनें। साफ़ करें से केवल उस चेहरे का स्टिकर हटता है। स्विच पूरे फोटो समूह पर लागू होता है और अगली बार भी याद रहता है।",
+        "नीचे वॉटरमार्क खोलें, टेक्स्ट लिखें और फिर चालू करें। प्रीव्यू में उसका रूप बदलें। टेक्स्ट वॉटरमार्क वर्तमान फोटो के लिए है और सेव या शेयर की गई कॉपी में शामिल होता है।"
+      ]
+    },
+    "batch": {
+      "title": "एक साथ कई फ़ोटो",
+      "lead": "1–10 फ़ोटो चुनें, हर एक को संपादित करें और मौजूदा फ़ोटो या पूरा समूह निर्यात करें।",
+      "paragraphs": [
+        "कैनवास के नीचे तीरों से फ़ोटो बदलें। समूह में + से कुल 10 तक फ़ोटो जोड़ें; पुरानी एडिट बनी रहती हैं। पूरा समूह बदलना अलग काम है।",
+        "हर फ़ोटो के आवरण, टेक्स्ट वॉटरमार्क और पूर्ववत इतिहास अलग रहते हैं। आवरण की जगह दूसरी फ़ोटो पर कॉपी नहीं होती। निर्यात मेनू में मौजूदा या सभी फ़ोटो चुनें और हर परिणाम जाँचें।",
+        "ऊपर बाईं ओर चित्र क्रियाओं से वर्तमान फ़ोटो के संपादन मिटा सकते हैं या पूरे समूह का संपादन छोड़ सकते हैं। संपादन मिटाने पर फ़ोटो खुली रहती है; बदलाव होने पर बाहर निकलने से पहले पुष्टि माँगी जाती है।"
+      ]
+    },
+    "rules": {
+      "title": "अपने छिपाने के नियम",
+      "lead": "बार-बार छिपाए जाने वाले पाठ को सेव करें और स्मार्ट पहचान में शामिल करें।",
+      "paragraphs": [
+        "सेटिंग में अपने नियम खोलकर नया नियम जोड़ें। नाम या पते जैसे 2–64 अक्षर दर्ज करें। बंद नियमों सहित अधिकतम 20 नियम सेव कर सकते हैं। मुफ़्त और Pro की सीमा समान है।",
+        "नियम पहचाने गए पाठ से मिलान करते हैं; रेगुलर एक्सप्रेशन या अनुमानित मिलान नहीं है। नियम बदलने के बाद स्मार्ट फिर चलाएँ। नियम इसी डिवाइस पर रहते हैं और ऐप डेटा साफ़ करने या ऐप हटाने पर मिट जाते हैं।"
+      ]
+    },
+    "help": {
+      "title": "पहचान सहायता और सेटिंग",
+      "lead": "पाठ, चेहरे और कोड की पहचान जाँचें या ऐप की पसंद बदलें।",
+      "paragraphs": [
+        "प्रश्नचिह्न मेनू से पहचान सहायता खोलें। जाँच अंदर दिए नमूनों से होती है, आपकी फ़ोटो से नहीं। संसाधन न हों तो डाउनलोड चुनें। तैयार मॉडल ऑफ़लाइन काम कर सकते हैं; सफल जाँच हर फ़ोटो की सटीक पहचान की गारंटी नहीं है।",
+        "पाठ की पहचान ऐप की भाषा के अनुसार होती है। थाई और उर्दू पाठ अभी समर्थित नहीं हैं; चेहरे और कोड अलग से पहचाने जाते हैं। सेटिंग में भाषा बदलें। टूल के असर और समायोजन अगली फ़ोटो के लिए याद रहते हैं।",
+        "समस्या होने पर सेटिंग से रिपोर्ट करें। भेजने से पहले ईमेल ऐप या शेयर पैनल में तैयार रिपोर्ट देखें। SnapMosaic उसे अपने-आप नहीं भेजता।",
+        "सेटिंग में वर्ज़न वाली पंक्ति पर टैप करके अपडेट जाँचें। अपडेट उपलब्ध होने पर Google Play खुलेगा। लाल बिंदु नई सुविधा भी बता सकता है; संबंधित विकल्प देखने के लिए सेटिंग खोलें।"
+      ]
+    },
+    "pro": {
+      "title": "मुफ़्त निर्यात और Pro",
+      "lead": "फ़ोटो संपादन मुफ़्त है। Pro से SnapMosaic ब्रांड वॉटरमार्क और विज्ञापन हटते हैं।",
+      "paragraphs": [
+        "Pro Google Play पर एक बार की वैकल्पिक खरीद है। यह आपके जोड़े टेक्स्ट वॉटरमार्क नहीं हटाता। खरीद वाले Google Play खाते से सेटिंग में खरीद बहाल करें।",
+        "पात्र रिवॉर्ड विज्ञापन पूरा देखने पर एक सफलतापूर्वक बनी फ़ोटो फ़ाइल बिना ब्रांड वॉटरमार्क निर्यात होती है, पूरा समूह नहीं। Pro सत्यापन माँगे तो इंटरनेट से जुड़कर खरीद सत्यापित करें। मुफ़्त संपादन उपलब्ध रहता है।"
+      ]
+    },
+    "video": {
+      "title": "वीडियो में चेहरे छिपाएँ · प्रायोगिक",
+      "lead": "डिवाइस पर ही वीडियो के चेहरे पहचानकर अपने-आप ढकें।",
+      "paragraphs": [
+        "सेटिंग में फ़ीचर लैब से वीडियो का ऑटो मास्क खोलें। 10 मिनट तक का वीडियो चुनकर शुरू करें। सेव करने से पहले प्रीव्यू और प्रगति पट्टी से अलग-अलग हिस्से जाँचें। सेव के बाद शेयर कर सकते हैं।",
+        "नतीजा MP4 में मिलता है और अनुपात व ऑडियो बना रहता है। अभी केवल अपने-आप चेहरे ढकना उपलब्ध है; हाथ से समायोजन, पाठ पहचान या वीडियो संपादन नहीं। चेहरा छूट जाए तो शेयर करने से पहले अलग से संसाधित करें।"
+      ]
+    }
+  },
+  "ur": {
+    "decorations": {
+      "title": "چہرے کے اسٹیکر اور متنی واٹرمارک",
+      "lead": "ایموجی سے چہرہ ڈھانپیں یا تصویر کے استعمال کی وضاحت کے لیے بار بار آنے والا متن شامل کریں۔",
+      "paragraphs": [
+        "نیچے چھپائیں کھولیں اور چہرے کے اسٹیکرز فعال کریں، پھر شناخت شدہ چہرے پر ٹیپ کرکے ایموجی چنیں۔ صاف کریں صرف اسی چہرے کا اسٹیکر ہٹاتا ہے۔ سوئچ تصاویر کے پورے گروپ پر لاگو ہوتا ہے اور اگلی بار بھی یاد رہتا ہے۔",
+        "نیچے واٹر مارک کھولیں، متن لکھیں اور پھر اسے فعال کریں۔ پیش منظر میں شکل بدلیں۔ متنی واٹر مارک موجودہ تصویر کے لیے ہوتا ہے اور محفوظ یا شیئر کی گئی کاپی میں شامل ہوتا ہے۔"
+      ]
+    },
+    "batch": {
+      "title": "متعدد تصاویر",
+      "lead": "1–10 تصاویر منتخب کریں، ہر ایک میں ترمیم کریں اور موجودہ تصویر یا پورا گروپ برآمد کریں۔",
+      "paragraphs": [
+        "کینوس کے نیچے تیروں سے تصویر بدلیں۔ گروپ میں + سے کل 10 تک تصاویر شامل کریں؛ پچھلی ترامیم برقرار رہتی ہیں۔ پورا گروپ بدلنا الگ عمل ہے۔",
+        "ہر تصویر کے پردے، متنی واٹرمارک اور کالعدم کرنے کی تاریخ الگ رہتی ہے۔ پردے کی جگہ دوسری تصویر پر نقل نہیں ہوتی۔ برآمد کے مینو میں موجودہ یا تمام تصاویر منتخب کریں اور ہر نتیجہ دیکھیں۔",
+        "اوپر بائیں جانب تصویر کے اعمال سے موجودہ تصویر کی ترامیم صاف کر سکتے ہیں یا پورے گروپ کی تدوین بند کر سکتے ہیں۔ ترامیم صاف کرنے پر تصویر کھلی رہتی ہے؛ تبدیلیاں موجود ہوں تو نکلنے سے پہلے تصدیق مانگی جاتی ہے۔"
+      ]
+    },
+    "rules": {
+      "title": "اپنے پردہ لگانے کے اصول",
+      "lead": "اکثر چھپائے جانے والے متن کو محفوظ کرکے اسمارٹ شناخت میں شامل کریں۔",
+      "paragraphs": [
+        "ترتیبات میں اپنے اصول کھول کر نیا اصول شامل کریں۔ نام یا پتے جیسے 2–64 حروف درج کریں۔ بند اصولوں سمیت زیادہ سے زیادہ 20 محفوظ ہو سکتے ہیں۔ مفت اور Pro کی حد یکساں ہے۔",
+        "اصول شناخت شدہ متن سے لفظی مماثلت تلاش کرتے ہیں؛ ریگولر ایکسپریشن یا اندازے سے مماثلت نہیں۔ اصول بدلنے کے بعد اسمارٹ دوبارہ چلائیں۔ اصول اسی آلے پر رہتے ہیں اور ایپ کا ڈیٹا صاف کرنے یا ایپ ہٹانے پر مٹ جاتے ہیں۔"
+      ]
+    },
+    "help": {
+      "title": "شناخت کی مدد اور ترتیبات",
+      "lead": "متن، چہروں اور کوڈ کی شناخت جانچیں یا ایپ کی ترجیحات بدلیں۔",
+      "paragraphs": [
+        "سوالیہ نشان کے مینو سے شناخت کی مدد کھولیں۔ جانچ اندرونی نمونوں سے ہوتی ہے، آپ کی تصاویر سے نہیں۔ وسائل نہ ہوں تو ڈاؤن لوڈ منتخب کریں۔ تیار ماڈل آف لائن کام کر سکتے ہیں؛ کامیاب جانچ ہر تصویر کی درست شناخت کی ضمانت نہیں۔",
+        "متن کی شناخت ایپ کی زبان کے مطابق ہوتی ہے۔ تھائی اور اردو متن فی الحال دستیاب نہیں؛ چہرے اور کوڈ الگ پہچانے جاتے ہیں۔ ترتیبات میں زبان بدلیں۔ ٹول کے اثرات اور ایڈجسٹمنٹ اگلی تصاویر کے لیے یاد رہتے ہیں۔",
+        "مسئلے کی صورت میں ترتیبات سے رپورٹ کریں۔ بھیجنے سے پہلے میل ایپ یا شیئر پینل میں رپورٹ دیکھیں۔ SnapMosaic اسے خودکار طور پر نہیں بھیجتا۔",
+        "سیٹنگز میں ورژن کی سطر پر ٹیپ کرکے اپ ڈیٹس چیک کریں۔ اپ ڈیٹ دستیاب ہو تو Google Play کھلے گا۔ سرخ نقطہ نئی خصوصیت بھی بتا سکتا ہے؛ متعلقہ آئٹم دیکھنے کے لیے سیٹنگز کھولیں۔"
+      ]
+    },
+    "pro": {
+      "title": "مفت برآمد اور Pro",
+      "lead": "تصاویر کی ترمیم مفت ہے۔ Pro سے SnapMosaic کا برانڈ واٹرمارک اور اشتہارات ہٹتے ہیں۔",
+      "paragraphs": [
+        "Pro Google Play کی اختیاری ایک بار کی خریداری ہے۔ یہ آپ کے شامل کیے متنی واٹرمارک نہیں ہٹاتا۔ خریداری والے Google Play اکاؤنٹ سے ترتیبات میں خریداری بحال کریں۔",
+        "اہل انعامی اشتہار مکمل دیکھنے سے ایک کامیابی سے تیار تصویر بغیر برانڈ واٹرمارک برآمد ہوتی ہے، پورا گروپ نہیں۔ Pro تصدیق مانگے تو انٹرنیٹ سے جڑ کر خریداری کی تصدیق کریں۔ مفت ترمیم دستیاب رہتی ہے۔"
+      ]
+    },
+    "video": {
+      "title": "ویڈیو میں پردہ · تجرباتی",
+      "lead": "آلے پر ویڈیو کے چہرے خودکار طور پر شناخت کرکے ڈھانپیں۔",
+      "paragraphs": [
+        "ترتیبات کی فیچر لیب سے خودکار ویڈیو پردہ کھولیں۔ 10 منٹ تک کی ویڈیو منتخب کرکے شروع کریں۔ محفوظ کرنے سے پہلے پیش منظر اور پیش رفت کی پٹی سے مختلف حصے دیکھیں۔ محفوظ کرنے کے بعد شیئر کر سکتے ہیں۔",
+        "نتیجہ MP4 ہے اور تناسب و آڈیو برقرار رہتے ہیں۔ فی الحال صرف خودکار چہرہ پوشی ہے؛ دستی ایڈجسٹمنٹ، متن کی شناخت یا ویڈیو تدوین نہیں۔ کوئی چہرہ رہ جائے تو شیئر کرنے سے پہلے مزید عمل کریں۔"
+      ]
+    }
+  },
+  "id": {
+    "decorations": {
+      "title": "Stiker wajah dan tanda air teks",
+      "lead": "Tutupi wajah dengan emoji atau tambahkan teks berulang untuk menjelaskan penggunaan gambar.",
+      "paragraphs": [
+        "Buka Tutup dan aktifkan stiker wajah, lalu ketuk wajah yang terdeteksi untuk memilih emoji. Hapus hanya menghilangkan stiker pada wajah itu. Sakelar berlaku untuk seluruh grup foto dan diingat untuk penggunaan berikutnya.",
+        "Buka Tanda air di bilah bawah, masukkan teks, lalu aktifkan. Sesuaikan tampilannya melalui pratinjau. Tanda air teks berlaku untuk foto saat ini dan disertakan dalam salinan yang disimpan atau dibagikan."
+      ]
+    },
+    "batch": {
+      "title": "Beberapa foto",
+      "lead": "Pilih 1–10 foto, edit satu per satu, lalu ekspor foto saat ini atau seluruh grup.",
+      "paragraphs": [
+        "Gunakan panah di bawah kanvas untuk berpindah foto. Dalam grup, gunakan + untuk menambah hingga total 10. Edit yang ada tetap tersimpan. Mengganti seluruh grup adalah tindakan terpisah.",
+        "Setiap foto memiliki penutup, tanda air teks, dan riwayatnya sendiri. Posisi penutup tidak disalin antar foto. Pilih foto saat ini atau semua di menu ekspor, lalu periksa setiap hasil.",
+        "Tombol tindakan gambar di kiri atas dapat menghapus edit foto saat ini atau keluar dari pengeditan seluruh grup. Menghapus edit tetap membuka foto; keluar meminta konfirmasi jika ada perubahan."
+      ]
+    },
+    "rules": {
+      "title": "Aturan penutupan khusus",
+      "lead": "Simpan teks yang sering disembunyikan untuk disertakan dalam deteksi pintar.",
+      "paragraphs": [
+        "Buka aturan khusus di Pengaturan dan tambahkan aturan berisi 2–64 karakter, seperti nama atau alamat. Maksimal 20 aturan, termasuk yang nonaktif. Batas versi gratis dan Pro sama.",
+        "Aturan mencocokkan teks yang dikenali, tanpa ekspresi reguler atau pencocokan perkiraan. Jalankan Pintar lagi setelah mengubah aturan. Aturan hanya disimpan di perangkat ini dan dihapus saat data aplikasi dibersihkan atau aplikasi dihapus."
+      ]
+    },
+    "help": {
+      "title": "Bantuan deteksi dan pengaturan",
+      "lead": "Periksa deteksi teks, wajah, dan kode, atau ubah preferensi aplikasi.",
+      "paragraphs": [
+        "Buka bantuan deteksi dari menu tanda tanya. Pemeriksaan memakai contoh bawaan, bukan foto Anda. Unduh sumber daya jika belum tersedia. Model yang siap dapat bekerja offline; pemeriksaan berhasil tidak menjamin semua foto akan terdeteksi akurat.",
+        "Pengenalan teks mengikuti bahasa aplikasi. Teks Thai dan Urdu belum didukung; wajah dan kode dideteksi secara terpisah. Ubah bahasa di Pengaturan. Efek dan penyesuaian alat diingat untuk foto berikutnya.",
+        "Untuk melaporkan masalah, buka opsi di Pengaturan. Tinjau laporan diagnostik di aplikasi email atau panel berbagi sebelum mengirim. SnapMosaic tidak mengirimkannya otomatis.",
+        "Di Pengaturan, ketuk baris versi untuk memeriksa pembaruan atau membuka Google Play saat pembaruan tersedia. Titik merah juga dapat menandakan fitur baru; buka Pengaturan untuk melihat item terkait."
+      ]
+    },
+    "pro": {
+      "title": "Ekspor gratis dan Pro",
+      "lead": "Edit foto gratis. Pro menghapus tanda air merek SnapMosaic dan iklan.",
+      "paragraphs": [
+        "Pro adalah pembelian satu kali opsional melalui Google Play. Tanda air teks buatan Anda tidak dihapus. Pulihkan pembelian di Pengaturan dengan akun Google Play yang dipakai membeli.",
+        "Menyelesaikan iklan berhadiah yang memenuhi syarat memberi satu ekspor tanpa tanda air merek untuk satu file yang berhasil dibuat, bukan seluruh grup. Jika Pro meminta verifikasi, hubungkan ke internet dan verifikasi pembelian. Edit gratis tetap tersedia."
+      ]
+    },
+    "video": {
+      "title": "Penutupan video · Eksperimental",
+      "lead": "Tutupi wajah dalam video secara otomatis dengan pemrosesan di perangkat.",
+      "paragraphs": [
+        "Buka lab fitur di Pengaturan untuk menggunakan penutupan video otomatis. Pilih video hingga 10 menit dan mulai. Tinjau pratinjau dan geser bilah pemutaran sebelum menyimpan. Setelah disimpan, hasil dapat dibagikan.",
+        "Hasil berupa MP4 dengan proporsi dan audio tetap. Saat ini hanya penutupan wajah otomatis: tidak ada penyesuaian manual, pengenalan teks, atau penyuntingan video. Jika ada wajah terlewat, lakukan pemrosesan tambahan sebelum berbagi."
+      ]
+    }
+  },
+  "th": {
+    "decorations": {
+      "title": "สติกเกอร์ใบหน้าและลายน้ำข้อความ",
+      "lead": "ปิดบังใบหน้าด้วยอีโมจิ หรือใส่ข้อความซ้ำเพื่อบอกวัตถุประสงค์ของรูป",
+      "paragraphs": [
+        "เปิดปิดบังที่แถบด้านล่างและเปิดใช้สติกเกอร์ใบหน้า จากนั้นแตะใบหน้าที่ตรวจพบเพื่อเลือกอีโมจิ ล้างจะลบเฉพาะสติกเกอร์ของใบหน้านั้น สวิตช์มีผลกับรูปภาพทั้งกลุ่มและจะจดจำไว้ในการใช้ครั้งถัดไป",
+        "เปิดลายน้ำที่แถบด้านล่าง ป้อนข้อความแล้วเปิดใช้งาน ปรับรูปแบบในตัวอย่างได้ ลายน้ำข้อความใช้กับรูปปัจจุบันและจะรวมอยู่ในสำเนาที่บันทึกหรือแชร์"
+      ]
+    },
+    "batch": {
+      "title": "แก้ไขหลายรูป",
+      "lead": "เลือก 1–10 รูป แก้ไขทีละรูป แล้วส่งออกรูปปัจจุบันหรือทั้งกลุ่ม",
+      "paragraphs": [
+        "ใช้ลูกศรใต้รูปเพื่อสลับรูป เมื่อเปิดหลายรูป ใช้ + เพื่อเพิ่มได้รวมไม่เกิน 10 รูป โดยการแก้ไขเดิมยังอยู่ การแทนที่ทั้งกลุ่มเป็นอีกคำสั่งหนึ่ง",
+        "แต่ละรูปเก็บการปิดบัง ลายน้ำข้อความ และประวัติเลิกทำแยกกัน ไม่คัดลอกตำแหน่งปิดบังข้ามรูป เลือกรูปปัจจุบันหรือทั้งหมดในเมนูส่งออก แล้วตรวจสอบทุกรูป",
+        "ปุ่มการทำงานกับภาพที่มุมซ้ายบนใช้ล้างการแก้ไขภาพปัจจุบันหรือออกจากการแก้ไขทั้งกลุ่มได้ เมื่อล้างการแก้ไข ภาพยังคงเปิดอยู่ หากมีการแก้ไขจะมีการยืนยันก่อนออก"
+      ]
+    },
+    "rules": {
+      "title": "กฎปิดบังที่กำหนดเอง",
+      "lead": "บันทึกข้อความที่ต้องซ่อนบ่อยเพื่อให้การตรวจจับอัจฉริยะจัดการด้วย",
+      "paragraphs": [
+        "เปิดกฎที่กำหนดเองในการตั้งค่าแล้วเพิ่มกฎ ใส่ข้อความ 2–64 อักขระ เช่น ชื่อหรือที่อยู่ บันทึกได้สูงสุด 20 กฎรวมกฎที่ปิดไว้ รุ่นฟรีและ Pro มีขีดจำกัดเท่ากัน",
+        "กฎจับคู่กับข้อความที่อ่านได้ ไม่รองรับนิพจน์ทั่วไปหรือการจับคู่โดยประมาณ หลังแก้กฎให้เรียกอัจฉริยะอีกครั้ง กฎอยู่ในเครื่องเท่านั้นและถูกลบเมื่อล้างข้อมูลแอปหรือถอนการติดตั้ง"
+      ]
+    },
+    "help": {
+      "title": "ความช่วยเหลือการตรวจจับและการตั้งค่า",
+      "lead": "ตรวจสอบการตรวจจับข้อความ ใบหน้า และรหัส หรือเปลี่ยนค่าการใช้งาน",
+      "paragraphs": [
+        "เปิดความช่วยเหลือการตรวจจับจากเมนูเครื่องหมายคำถาม ระบบทดสอบด้วยตัวอย่างในแอป ไม่อ่านรูปของคุณ หากขาดทรัพยากรให้กดดาวน์โหลด โมเดลที่พร้อมใช้ทำงานออฟไลน์ได้ แต่ทดสอบผ่านไม่ได้รับประกันว่าจะตรวจจับทุกรูปได้ถูกต้อง",
+        "การอ่านข้อความอิงตามภาษาของแอป ขณะนี้ยังไม่รองรับภาษาไทยและอูรดู แต่ใบหน้าและรหัสตรวจจับแยกกันได้ เปลี่ยนภาษาในการตั้งค่า เอฟเฟกต์และค่าปรับเครื่องมือจะถูกจดจำสำหรับรูปถัดไป",
+        "หากพบปัญหา ให้เปิดรายงานปัญหาในการตั้งค่า ตรวจสอบรายงานในแอปอีเมลหรือแผงแชร์ก่อนส่ง SnapMosaic จะไม่ส่งให้โดยอัตโนมัติ",
+        "ในการตั้งค่า แตะแถวเวอร์ชันเพื่อตรวจสอบอัปเดต หรือเปิด Google Play เมื่อมีเวอร์ชันใหม่ จุดสีแดงอาจหมายถึงฟีเจอร์ใหม่ได้เช่นกัน เปิดการตั้งค่าเพื่อดูรายการที่เกี่ยวข้อง"
+      ]
+    },
+    "pro": {
+      "title": "ส่งออกฟรีและ Pro",
+      "lead": "แก้ไขรูปได้ฟรี Pro ลบลายน้ำแบรนด์ SnapMosaic และโฆษณาในแอป",
+      "paragraphs": [
+        "Pro เป็นตัวเลือกซื้อครั้งเดียวผ่าน Google Play ไม่ลบลายน้ำข้อความที่คุณเพิ่มเอง กู้คืนการซื้อในการตั้งค่าด้วยบัญชี Google Play ที่ใช้ซื้อ",
+        "ดูโฆษณาแบบมีรางวัลที่เข้าเกณฑ์จบเพื่อส่งออกรูปโดยไม่มีลายน้ำแบรนด์หนึ่งไฟล์ที่สร้างสำเร็จ ไม่ใช่ทั้งกลุ่ม หาก Pro ขอให้ยืนยัน ให้เชื่อมต่ออินเทอร์เน็ตเพื่อยืนยันการซื้อ ยังแก้ไขฟรีได้ตามปกติ"
+      ]
+    },
+    "video": {
+      "title": "ปิดบังวิดีโอ · ฟีเจอร์ทดลอง",
+      "lead": "ตรวจจับและปิดบังใบหน้าในวิดีโออัตโนมัติบนอุปกรณ์",
+      "paragraphs": [
+        "เปิดแล็บฟีเจอร์ในการตั้งค่าเพื่อใช้การปิดบังวิดีโออัตโนมัติ เลือกวิดีโอไม่เกิน 10 นาทีแล้วเริ่ม ตรวจสอบตัวอย่างและเลื่อนแถบความคืบหน้าดูแต่ละช่วงก่อนบันทึก บันทึกแล้วจึงแชร์ได้",
+        "ส่งออกเป็น MP4 โดยคงสัดส่วนและเสียง ขณะนี้มีเฉพาะปิดบังใบหน้าอัตโนมัติ ไม่มีปรับเอง อ่านข้อความ หรือตัดต่อวิดีโอ หากตกหล่นใบหน้า ให้จัดการเพิ่มเติมก่อนแชร์"
+      ]
+    }
+  },
+  "vi": {
+    "decorations": {
+      "title": "Nhãn dán khuôn mặt và dấu chữ",
+      "lead": "Che mặt bằng emoji hoặc thêm chữ lặp lại để nêu mục đích sử dụng ảnh.",
+      "paragraphs": [
+        "Mở Che và bật nhãn dán khuôn mặt, rồi chạm vào khuôn mặt được nhận diện để chọn emoji. Xóa chỉ gỡ nhãn dán của khuôn mặt đó. Công tắc áp dụng cho cả nhóm ảnh và được ghi nhớ cho lần sau.",
+        "Mở Hình mờ ở thanh dưới cùng, nhập chữ rồi bật. Điều chỉnh hình thức trong bản xem trước. Hình mờ chữ thuộc về ảnh hiện tại và có trong bản sao được lưu hoặc chia sẻ."
+      ]
+    },
+    "batch": {
+      "title": "Nhiều ảnh",
+      "lead": "Chọn 1–10 ảnh, sửa từng ảnh rồi xuất ảnh hiện tại hoặc cả nhóm.",
+      "paragraphs": [
+        "Dùng mũi tên dưới ảnh để chuyển ảnh. Trong nhóm, dùng + để thêm tối đa 10 ảnh, giữ nguyên các chỉnh sửa đã có. Thay cả nhóm là một thao tác riêng.",
+        "Mỗi ảnh có lớp che, dấu chữ và lịch sử hoàn tác riêng. Vị trí che không được sao chép giữa các ảnh. Chọn ảnh hiện tại hoặc tất cả trong menu xuất, rồi kiểm tra từng kết quả.",
+        "Nút thao tác ảnh ở góc trên bên trái cho phép xóa chỉnh sửa của ảnh hiện tại hoặc thoát chỉnh sửa cả nhóm. Xóa chỉnh sửa vẫn giữ ảnh mở; khi thoát, ứng dụng xác nhận nếu có thay đổi."
+      ]
+    },
+    "rules": {
+      "title": "Quy tắc che tùy chỉnh",
+      "lead": "Lưu chữ thường cần ẩn để đưa vào nhận diện thông minh.",
+      "paragraphs": [
+        "Mở quy tắc tùy chỉnh trong cài đặt và thêm quy tắc gồm 2–64 ký tự, như tên hoặc địa chỉ. Tối đa 20 quy tắc, tính cả quy tắc đã tắt. Giới hạn giống nhau cho bản miễn phí và Pro.",
+        "Quy tắc khớp với chữ đã nhận diện, không hỗ trợ biểu thức chính quy hay khớp gần đúng. Chạy Thông minh lại sau khi sửa quy tắc. Quy tắc chỉ lưu trên máy và bị xóa khi xóa dữ liệu hoặc gỡ ứng dụng."
+      ]
+    },
+    "help": {
+      "title": "Trợ giúp nhận diện và cài đặt",
+      "lead": "Kiểm tra nhận diện chữ, khuôn mặt, mã hoặc thay đổi tùy chọn sử dụng.",
+      "paragraphs": [
+        "Mở trợ giúp nhận diện từ menu dấu hỏi. Kiểm tra dùng mẫu có sẵn, không đọc ảnh của bạn. Tải tài nguyên nếu còn thiếu. Mô hình đã sẵn sàng có thể chạy ngoại tuyến; kiểm tra thành công không bảo đảm mọi ảnh đều được nhận diện đúng.",
+        "Nhận diện chữ theo ngôn ngữ ứng dụng. Hiện chưa hỗ trợ chữ Thái và Urdu; khuôn mặt và mã hoạt động độc lập. Đổi ngôn ngữ trong cài đặt. Hiệu ứng và điều chỉnh công cụ được nhớ cho ảnh sau.",
+        "Để báo lỗi, mở mục trong cài đặt. Xem báo cáo chẩn đoán trong ứng dụng email hoặc bảng chia sẻ trước khi gửi. SnapMosaic không tự động gửi.",
+        "Trong Cài đặt, chạm vào dòng phiên bản để kiểm tra cập nhật hoặc mở Google Play khi có bản mới. Chấm đỏ cũng có thể báo tính năng mới; mở Cài đặt để xem mục tương ứng."
+      ]
+    },
+    "pro": {
+      "title": "Xuất miễn phí và Pro",
+      "lead": "Chỉnh sửa ảnh miễn phí. Pro xóa dấu thương hiệu SnapMosaic và quảng cáo trong ứng dụng.",
+      "paragraphs": [
+        "Pro là tùy chọn mua một lần qua Google Play. Không xóa dấu chữ do bạn tự thêm. Khôi phục giao dịch trong cài đặt bằng tài khoản Google Play đã mua.",
+        "Xem hết quảng cáo thưởng hợp lệ cho một lần xuất ảnh không có dấu thương hiệu, áp dụng cho một tệp tạo thành công, không phải cả nhóm. Nếu Pro yêu cầu xác minh, kết nối mạng và xác minh giao dịch. Chỉnh sửa miễn phí vẫn dùng được."
+      ]
+    },
+    "video": {
+      "title": "Che video · Thử nghiệm",
+      "lead": "Tự động che khuôn mặt trong video với xử lý trên thiết bị.",
+      "paragraphs": [
+        "Mở phòng thử nghiệm tính năng trong cài đặt để dùng tính năng tự động che video. Chọn video tối đa 10 phút và bắt đầu. Xem trước, kéo thanh tiến trình để kiểm tra rồi lưu. Sau khi lưu có thể chia sẻ.",
+        "Xuất MP4, giữ tỉ lệ khung hình và âm thanh. Hiện chỉ có tự động che mặt, không có điều chỉnh thủ công, nhận diện chữ hay chỉnh sửa video. Nếu bỏ sót khuôn mặt, hãy xử lý thêm trước khi chia sẻ."
+      ]
+    }
+  },
+  "ms": {
+    "decorations": {
+      "title": "Pelekat wajah dan tera air teks",
+      "lead": "Tutup wajah dengan emoji atau tambah teks berulang untuk menyatakan kegunaan imej.",
+      "paragraphs": [
+        "Buka Tutup dan hidupkan pelekat wajah, kemudian ketik wajah yang dikesan untuk memilih emoji. Kosongkan hanya membuang pelekat pada wajah itu. Suis terpakai pada seluruh kumpulan foto dan diingati pada penggunaan seterusnya.",
+        "Buka Tera air pada bar bawah, masukkan teks, kemudian hidupkannya. Laraskan rupa dalam pratonton. Tera air teks terpakai pada foto semasa dan disertakan dalam salinan yang disimpan atau dikongsi."
+      ]
+    },
+    "batch": {
+      "title": "Berbilang foto",
+      "lead": "Pilih 1–10 foto, sunting satu demi satu dan eksport foto semasa atau seluruh kumpulan.",
+      "paragraphs": [
+        "Gunakan anak panah di bawah imej untuk bertukar foto. Dalam kumpulan, gunakan + untuk menambah sehingga 10 keseluruhan. Suntingan sedia ada kekal. Menggantikan seluruh kumpulan ialah tindakan berasingan.",
+        "Setiap foto mempunyai penutup, tera air teks dan sejarahnya sendiri. Kedudukan penutup tidak disalin antara foto. Pilih foto semasa atau semua dalam menu eksport, kemudian semak setiap hasil.",
+        "Butang tindakan imej di kiri atas boleh mengosongkan suntingan foto semasa atau keluar daripada penyuntingan seluruh kumpulan. Foto kekal terbuka selepas suntingan dikosongkan; keluar memerlukan pengesahan jika ada perubahan."
+      ]
+    },
+    "rules": {
+      "title": "Peraturan penutupan tersuai",
+      "lead": "Simpan teks yang sering disembunyikan untuk disertakan dalam pengesanan pintar.",
+      "paragraphs": [
+        "Buka peraturan tersuai dalam tetapan dan tambah peraturan 2–64 aksara seperti nama atau alamat. Maksimum 20 peraturan termasuk yang dimatikan. Had versi percuma dan Pro sama.",
+        "Peraturan memadankan teks yang dikenal pasti, tanpa ungkapan biasa atau padanan anggaran. Jalankan Pintar semula selepas menukar peraturan. Peraturan hanya disimpan pada peranti ini dan dipadam apabila data aplikasi dikosongkan atau aplikasi dinyahpasang."
+      ]
+    },
+    "help": {
+      "title": "Bantuan pengesanan dan tetapan",
+      "lead": "Semak pengesanan teks, wajah dan kod atau ubah pilihan aplikasi.",
+      "paragraphs": [
+        "Buka bantuan pengesanan daripada menu tanda soal. Semakan menggunakan sampel terbina dalam, bukan foto anda. Muat turun sumber jika belum tersedia. Model yang sedia ada boleh berfungsi luar talian; semakan berjaya tidak menjamin setiap foto dikesan tepat.",
+        "Pengecaman teks mengikut bahasa aplikasi. Teks Thai dan Urdu belum disokong; wajah dan kod berfungsi berasingan. Ubah bahasa dalam tetapan. Kesan dan pelarasan alat diingati untuk foto seterusnya.",
+        "Untuk melaporkan masalah, gunakan pilihan dalam tetapan. Semak laporan diagnostik dalam aplikasi e-mel atau panel perkongsian sebelum menghantar. SnapMosaic tidak menghantarnya secara automatik.",
+        "Dalam Tetapan, ketik baris versi untuk menyemak kemas kini atau membuka Google Play apabila tersedia. Titik merah juga boleh menandakan ciri baharu; buka Tetapan untuk melihat item berkenaan."
+      ]
+    },
+    "pro": {
+      "title": "Eksport percuma dan Pro",
+      "lead": "Suntingan foto percuma. Pro membuang tera air jenama SnapMosaic dan iklan.",
+      "paragraphs": [
+        "Pro ialah pembelian sekali pilihan melalui Google Play. Ia tidak membuang tera air teks yang anda tambah sendiri. Pulihkan pembelian dalam tetapan menggunakan akaun Google Play yang membuat pembelian.",
+        "Iklan ganjaran yang layak dan ditonton hingga tamat memberi satu eksport tanpa tera air jenama bagi satu fail yang berjaya dihasilkan, bukan seluruh kumpulan. Jika Pro meminta pengesahan, sambungkan internet dan sahkan pembelian. Suntingan percuma kekal tersedia."
+      ]
+    },
+    "video": {
+      "title": "Penutupan video · Eksperimen",
+      "lead": "Tutup wajah dalam video secara automatik dengan pemprosesan pada peranti.",
+      "paragraphs": [
+        "Buka makmal ciri dalam tetapan untuk menggunakan penutupan video automatik. Pilih video sehingga 10 minit dan mulakan. Semak pratonton dan seret bar kemajuan sebelum menyimpan. Selepas disimpan, hasil boleh dikongsi.",
+        "Hasilnya MP4 dengan nisbah dan audio dikekalkan. Hanya penutupan wajah automatik tersedia: tiada pelarasan manual, pengecaman teks atau suntingan video. Jika ada wajah terlepas, lakukan pemprosesan lanjut sebelum berkongsi."
+      ]
+    }
+  },
+  "fil": {
+    "decorations": {
+      "title": "Mga face sticker at text watermark",
+      "lead": "Takpan ang mukha gamit ang emoji o magdagdag ng paulit-ulit na teksto para sa gamit ng larawan.",
+      "paragraphs": [
+        "Buksan ang Takpan at i-on ang mga face sticker, saka i-tap ang natukoy na mukha para pumili ng emoji. Ang I-clear ay nag-aalis lang ng sticker sa mukhang iyon. Nalalapat ang switch sa buong grupo ng larawan at naaalala sa susunod na paggamit.",
+        "Buksan ang Watermark sa toolbar sa ibaba, ilagay ang teksto, saka ito i-on. Ayusin ang hitsura sa preview. Para sa kasalukuyang larawan ang text watermark at kasama ito sa mga kopyang sine-save at ibinabahagi."
+      ]
+    },
+    "batch": {
+      "title": "Maraming larawan",
+      "lead": "Pumili ng 1–10 larawan, i-edit ang bawat isa, at i-export ang kasalukuyan o buong grupo.",
+      "paragraphs": [
+        "Gamitin ang mga arrow sa ilalim ng larawan para lumipat. Sa grupo, gamitin ang + para magdagdag hanggang 10 sa kabuuan. Mananatili ang mga naunang edit. Ibang aksyon ang pagpapalit ng buong grupo.",
+        "May sariling takip, text watermark at undo history ang bawat larawan. Hindi kinokopya ang posisyon ng takip sa ibang larawan. Piliin ang kasalukuyan o lahat sa export menu at suriin ang bawat resulta.",
+        "Sa mga aksyon ng larawan sa kaliwang itaas, puwedeng alisin ang edits ng kasalukuyang larawan o lumabas sa pag-edit ng buong grupo. Bukas pa rin ang larawan kapag inalis ang edits; may kumpirmasyon bago lumabas kung may binago."
+      ]
+    },
+    "rules": {
+      "title": "Mga sariling tuntunin sa pagtatakip",
+      "lead": "I-save ang tekstong madalas mong itago para maisama sa smart detection.",
+      "paragraphs": [
+        "Buksan ang sariling tuntunin sa Settings at magdagdag ng 2–64 character, gaya ng pangalan o address. Hanggang 20 tuntunin, kasama ang mga naka-off. Pareho ang limitasyon ng libre at Pro.",
+        "Tumutugma ang mga tuntunin sa tekstong nakilala; walang regular expression o tinatayang pagtutugma. Patakbuhin muli ang Smart pagkatapos baguhin ang tuntunin. Sa device lang ito naka-save at mabubura kapag nilinis ang app data o in-uninstall."
+      ]
+    },
+    "help": {
+      "title": "Tulong sa detection at settings",
+      "lead": "Suriin ang pagkilala ng teksto, mukha at code o baguhin ang iyong mga preference.",
+      "paragraphs": [
+        "Buksan ang detection help sa question-mark menu. Gumagamit ang pagsusuri ng built-in na sample, hindi ng iyong larawan. I-download ang resources kung kulang. Gumagana offline ang handang modelo; hindi garantiya ng matagumpay na pagsusuri ang bawat larawan.",
+        "Sumusunod ang text recognition sa wika ng app. Hindi pa suportado ang Thai at Urdu na teksto; hiwalay na gumagana ang mukha at code. Palitan ang wika sa Settings. Naaalala ang effects at adjustments para sa susunod na larawan.",
+        "Para mag-report ng problema, gamitin ang Settings. Tingnan ang diagnostic report sa email app o share sheet bago ipadala. Hindi ito awtomatikong ipinapadala ng SnapMosaic.",
+        "Sa Mga Setting, i-tap ang bersyon para tingnan ang mga update o buksan ang Google Play kapag may bago. Maaari ring magpahiwatig ng bagong feature ang pulang tuldok; buksan ang Mga Setting para makita ang kaugnay na item."
+      ]
+    },
+    "pro": {
+      "title": "Libreng export at Pro",
+      "lead": "Libre ang pag-edit. Tinatanggal ng Pro ang SnapMosaic brand watermark at mga ad.",
+      "paragraphs": [
+        "Opsyonal na isang beses na pagbili sa Google Play ang Pro. Hindi nito inaalis ang text watermark na idinagdag mo. I-restore sa Settings gamit ang Google Play account na ginamit sa pagbili.",
+        "Ang pagkumpleto ng karapat-dapat na rewarded ad ay nagbibigay ng isang export na walang brand watermark para sa isang matagumpay na file, hindi sa buong grupo. Kung humingi ng verification ang Pro, kumonekta at i-verify ang pagbili. Magagamit pa rin ang libreng pag-edit."
+      ]
+    },
+    "video": {
+      "title": "Pagtatakip sa video · Eksperimental",
+      "lead": "Awtomatikong takpan ang mga mukha sa video, sa mismong device.",
+      "paragraphs": [
+        "Buksan ang feature lab sa Settings para gamitin ang auto masking ng video. Pumili ng video na hanggang 10 minuto at simulan. Suriin ang preview at i-scrub ang video bago i-save. Pagkatapos mag-save, maaari nang ibahagi.",
+        "MP4 ang output at nananatili ang proporsyon at audio. Awtomatikong mukha lang ang tinatakpan: walang manwal na adjustment, text recognition o video editing. Kung may mukhang nalampasan, iproseso pa bago ibahagi."
+      ]
+    }
+  }
+}

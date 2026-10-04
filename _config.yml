@@ -2,5 +2,6 @@
 exclude:
   - content
   - tools
+  - docs
   - design-qa.md
   - README.md

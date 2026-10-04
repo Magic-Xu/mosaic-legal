@@ -1,0 +1,450 @@
+{
+  "version": "2.5.0",
+  "quickstart": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/quickstart-zh.mp4",
+        "poster": "assets/guide/2-5-0/hero-zh.webp",
+        "captions": "assets/guide/2-5-0/quickstart-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "应用智能遮挡"
+          },
+          {
+            "time": 14,
+            "label": "长按文字，选择要隐藏的词"
+          },
+          {
+            "time": 26,
+            "label": "检查调整，撤销或重做"
+          },
+          {
+            "time": 36,
+            "label": "选择导出格式和选项"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/quickstart-zh.mp4",
+        "poster": "assets/guide/2-5-0/hero-zh.webp",
+        "captions": "assets/guide/2-5-0/quickstart-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Apply Smart masking"
+          },
+          {
+            "time": 14,
+            "label": "Hold a line and select words"
+          },
+          {
+            "time": 26,
+            "label": "Review changes, undo or redo"
+          },
+          {
+            "time": 36,
+            "label": "Choose export format and options"
+          }
+        ]
+      }
+    }
+  },
+  "smart-detection": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/smart-detection-zh.mp4",
+        "poster": "assets/guide/2-5-0/hero-zh.webp",
+        "captions": "assets/guide/2-5-0/smart-detection-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "查看照片中的隐私细节"
+          },
+          {
+            "time": 3,
+            "label": "点「智能」应用建议遮挡"
+          },
+          {
+            "time": 7,
+            "label": "逐项检查，修正多余或遗漏的遮挡"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/smart-detection-zh.mp4",
+        "poster": "assets/guide/2-5-0/hero-zh.webp",
+        "captions": "assets/guide/2-5-0/smart-detection-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Inspect the photo"
+          },
+          {
+            "time": 3,
+            "label": "Tap Smart to apply suggestions"
+          },
+          {
+            "time": 7,
+            "label": "Review and correct the masks"
+          }
+        ]
+      }
+    }
+  },
+  "manual-masking": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/manual-masking-zh.mp4",
+        "poster": "assets/guide/2-5-0/words-zh.webp",
+        "captions": "assets/guide/2-5-0/manual-masking-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "长按已识别的文字行"
+          },
+          {
+            "time": 5,
+            "label": "取消两端，只隐藏中间数字"
+          },
+          {
+            "time": 10,
+            "label": "收起词选框，检查效果"
+          },
+          {
+            "time": 12,
+            "label": "使用撤销和重做调整"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/manual-masking-zh.mp4",
+        "poster": "assets/guide/2-5-0/words-zh.webp",
+        "captions": "assets/guide/2-5-0/manual-masking-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Hold a recognized line"
+          },
+          {
+            "time": 5,
+            "label": "Keep only the middle digits masked"
+          },
+          {
+            "time": 10,
+            "label": "Close the word picker and review"
+          },
+          {
+            "time": 12,
+            "label": "Adjust with undo and redo"
+          }
+        ]
+      }
+    }
+  },
+  "decorations": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/decorations-zh.mp4",
+        "poster": "assets/guide/2-5-0/faces-zh.webp",
+        "captions": "assets/guide/2-5-0/decorations-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "打开遮挡工具菜单"
+          },
+          {
+            "time": 4,
+            "label": "启用人脸贴纸，点「智能」应用"
+          },
+          {
+            "time": 15,
+            "label": "打开水印，输入文字"
+          },
+          {
+            "time": 22,
+            "label": "启用文字水印"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/decorations-zh.mp4",
+        "poster": "assets/guide/2-5-0/faces-zh.webp",
+        "captions": "assets/guide/2-5-0/decorations-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Open the masking menu"
+          },
+          {
+            "time": 4,
+            "label": "Enable face stickers, then tap Smart"
+          },
+          {
+            "time": 15,
+            "label": "Open Watermark and enter text"
+          },
+          {
+            "time": 22,
+            "label": "Enable the text watermark"
+          }
+        ]
+      }
+    }
+  },
+  "batch": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/batch-zh.mp4",
+        "poster": "assets/guide/2-5-0/batch-zh.webp",
+        "captions": "assets/guide/2-5-0/batch-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "处理第一张照片"
+          },
+          {
+            "time": 6,
+            "label": "切到第二张，单独应用遮挡"
+          },
+          {
+            "time": 12,
+            "label": "切回第一张，保留已有编辑"
+          },
+          {
+            "time": 19,
+            "label": "导出菜单可选择当前或全部图片"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/batch-zh.mp4",
+        "poster": "assets/guide/2-5-0/batch-zh.webp",
+        "captions": "assets/guide/2-5-0/batch-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Edit the first photo"
+          },
+          {
+            "time": 6,
+            "label": "Switch photos and apply masks"
+          },
+          {
+            "time": 12,
+            "label": "Return to the retained edits"
+          },
+          {
+            "time": 19,
+            "label": "Choose current or all photos for export"
+          }
+        ]
+      }
+    }
+  },
+  "custom-rules": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/custom-rules-zh.mp4",
+        "poster": "assets/guide/2-5-0/rules-zh.webp",
+        "captions": "assets/guide/2-5-0/custom-rules-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "在规则列表中点添加"
+          },
+          {
+            "time": 5,
+            "label": "输入想隐藏的文字"
+          },
+          {
+            "time": 10,
+            "label": "保存规则，下次智能打码时生效"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/custom-rules-zh.mp4",
+        "poster": "assets/guide/2-5-0/rules-zh.webp",
+        "captions": "assets/guide/2-5-0/custom-rules-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Add a custom rule"
+          },
+          {
+            "time": 5,
+            "label": "Enter the text to hide"
+          },
+          {
+            "time": 10,
+            "label": "Save; the rule applies on the next Smart run"
+          }
+        ]
+      }
+    }
+  },
+  "export": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/export-zh.mp4",
+        "poster": "assets/guide/2-5-0/export-zh.webp",
+        "captions": "assets/guide/2-5-0/export-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "选择 PNG 等导出格式"
+          },
+          {
+            "time": 3,
+            "label": "查看尺寸和元数据选项"
+          },
+          {
+            "time": 5,
+            "label": "按需记住格式与大小"
+          },
+          {
+            "time": 8,
+            "label": "返回画布，继续检查"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/export-zh.mp4",
+        "poster": "assets/guide/2-5-0/export-zh.webp",
+        "captions": "assets/guide/2-5-0/export-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Choose PNG or another format"
+          },
+          {
+            "time": 3,
+            "label": "Review size and metadata options"
+          },
+          {
+            "time": 5,
+            "label": "Optionally remember format and size"
+          },
+          {
+            "time": 8,
+            "label": "Return to the canvas for review"
+          }
+        ]
+      }
+    }
+  },
+  "recognition-help": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/recognition-help-zh.mp4",
+        "poster": "assets/guide/2-5-0/help-zh.webp",
+        "captions": "assets/guide/2-5-0/recognition-help-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "打开问号菜单"
+          },
+          {
+            "time": 5,
+            "label": "查看智能识别的本机检查结果"
+          },
+          {
+            "time": 10,
+            "label": "展开常见问题，了解处理方法"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/recognition-help-zh.mp4",
+        "poster": "assets/guide/2-5-0/help-zh.webp",
+        "captions": "assets/guide/2-5-0/recognition-help-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Open the Help menu"
+          },
+          {
+            "time": 5,
+            "label": "Check local recognition status"
+          },
+          {
+            "time": 10,
+            "label": "Read recognition troubleshooting tips"
+          }
+        ]
+      }
+    }
+  },
+  "video": {
+    "locales": {
+      "zh-CN": {
+        "video": "assets/guide/2-5-0/video-zh.mp4",
+        "poster": "assets/guide/2-5-0/video-zh.webp",
+        "captions": "assets/guide/2-5-0/video-zh.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "分析完成后预览人脸遮挡"
+          },
+          {
+            "time": 3,
+            "label": "拖动进度查看不同位置"
+          },
+          {
+            "time": 7,
+            "label": "保存处理后的视频"
+          },
+          {
+            "time": 12,
+            "label": "保存完成，可从顶部分享"
+          }
+        ]
+      },
+      "en": {
+        "video": "assets/guide/2-5-0/video-zh.mp4",
+        "poster": "assets/guide/2-5-0/video-zh.webp",
+        "captions": "assets/guide/2-5-0/video-en.vtt",
+        "interfaceLanguage": "zh-CN",
+        "steps": [
+          {
+            "time": 0,
+            "label": "Preview masks after analysis"
+          },
+          {
+            "time": 3,
+            "label": "Scrub to inspect other moments"
+          },
+          {
+            "time": 7,
+            "label": "Save the processed video"
+          },
+          {
+            "time": 12,
+            "label": "After saving, use the share button"
+          }
+        ]
+      }
+    }
+  },
+  "pro": {
+    "locales": {}
+  }
+}
