@@ -15,6 +15,7 @@
           "Photos and videos you choose through Android, or share into the App from another app, are processed locally on your device.",
           "Photo edits, including strokes, shapes, effects, marker highlighting, user-added text watermarks, and face emoji stickers, and video face detection, tracking, and masking data are used locally to render results. User-entered watermark text is kept for the current editing session and is included in an output only when you save or share that output.",
           "App settings such as language, export format, resolution, metadata-removal preference, recent editor tools, effects, colors, strengths, sizes, and face-sticker defaults may be stored in the App's private local storage.",
+          "Custom masking rule text and its enabled state are stored only in the App’s private local storage to match text in photos. They are excluded from Android backup and remain until you delete the rules, clear app data, or uninstall the App.",
           "Pro entitlement status and whether one rewarded SnapMosaic-brand-watermark-free export remains unused are stored locally. Google Play processes purchases and returns product and active purchase status to the App; we do not receive or store payment card details, order numbers, or purchase tokens.",
           "Processed video drafts may be stored temporarily in the App's private cache until you save, replace, close, cancel, or encounter a processing failure.",
           "Your selected photo and video content is not uploaded to our servers.",

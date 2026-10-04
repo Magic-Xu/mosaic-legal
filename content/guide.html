@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="$locale" dir="$direction">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b0a10">
+  <title>$page_title</title>
+  <meta name="description" content="$description">
+  <link rel="canonical" href="$canonical">
+$alternates
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="$page_title">
+  <meta property="og:description" content="$description">
+  <meta property="og:url" content="$canonical">
+  <meta property="og:image" content="$social_image">
+  <meta property="og:site_name" content="SnapMosaic">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="${prefix}assets/snapmosaic-play-icon-512.png">
+  <link rel="preload" href="${prefix}assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="${prefix}assets/site.css?v=7">
+  <link rel="stylesheet" href="${prefix}assets/guide.css?v=8">
+  <script src="${prefix}assets/site.js?v=5" defer></script>
+  <script src="${prefix}assets/guide.js?v=8" defer></script>
+</head>
+<body class="guide-page $page_class">
+$header
+  <div class="guide-layout">
+    <aside class="guide-sidebar">
+      <nav aria-label="$nav_guide">
+$page_links
+        <div class="sidebar-secondary">
+          <a href="../faq.html">$nav_faq $arrow</a>
+          <a href="mailto:snapmosaic.help@outlook.com">$support $arrow</a>
+        </div>
+      </nav>
+    </aside>
+    <main id="main" class="guide-main">
+      <details class="guide-mobile-menu">
+        <summary>$nav_guide · $current_label <img class="icon" src="${prefix}assets/icons/caret-down.svg" alt="" width="16" height="16"></summary>
+        <nav aria-label="$nav_guide">
+$page_links
+        </nav>
+      </details>
+$body
+    </main>
+$toc
+  </div>
+$footer
+</body>
+</html>

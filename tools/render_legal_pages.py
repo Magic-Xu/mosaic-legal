@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 from datetime import date
+from site_chrome import chrome
 import html
 import json
 import sys
@@ -92,31 +93,6 @@ def relative_href(from_locale: str, to_locale: str, document: str) -> str:
     return f"../{filename}" if to_locale == "en" else f"../{to_locale}/{filename}"
 
 
-def render_language_menu(
-    current_locale: str,
-    document: str,
-    data: dict,
-    all_locales: dict[str, dict],
-) -> str:
-    links = []
-    for locale in LOCALES:
-        target = all_locales[locale]
-        current = ' aria-current="page"' if locale == current_locale else ""
-        links.append(
-            f'          <a href="{relative_href(current_locale, locale, document)}" '
-            f'lang="{html.escape(locale)}" dir="{target["direction"]}"{current}>'
-            f'{html.escape(target["name"])}</a>'
-        )
-    return (
-        '      <details class="language-menu">\n'
-        f'        <summary><span>{html.escape(data["languageLabel"])}</span>'
-        f'<strong>{html.escape(data["name"])}</strong></summary>\n'
-        f'        <nav aria-label="{html.escape(data["languageLabel"])}">\n'
-        + "\n".join(links)
-        + "\n        </nav>\n      </details>"
-    )
-
-
 def render_section(section: dict, section_number: int) -> str:
     parts = [f'      <section><h2>{section_number}. {html.escape(section["title"])}</h2>']
     for paragraph in section.get("paragraphs", []):
@@ -169,6 +145,7 @@ def render_page(
         render_section(section, index)
         for index, section in enumerate(page["sections"], start=1)
     )
+    shared = chrome(REPO_ROOT, locale, f"{document}.html", "privacy" if document == "privacy" else "")
     return f'''<!DOCTYPE html>
 <html lang="{html.escape(locale)}" dir="{data["direction"]}">
 <head>
@@ -176,14 +153,16 @@ def render_page(
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="dark">
   <title>{html.escape(page["title"])}</title>
-  <link rel="stylesheet" href="{nested_prefix}assets/legal.css">
+  <link rel="icon" href="{nested_prefix}assets/snapmosaic-play-icon-512.png">
+  <link rel="stylesheet" href="{nested_prefix}assets/site.css?v=7">
+  <link rel="stylesheet" href="{nested_prefix}assets/legal.css?v=5">
+  <script src="{nested_prefix}assets/site.js?v=5" defer></script>
 {alternates}
 </head>
-<body>
-  <main class="container">
+<body class="legal-page">
+{shared["header"]}
+  <main id="main" class="legal-container">
     <header class="page-header">
-      <p class="brand"><a href="./index.html">SnapMosaic</a></p>
-{render_language_menu(locale, document, data, all_locales)}
       <h1>{html.escape(page["title"])}</h1>
       <p class="meta">{html.escape(data["effectiveDateLabel"])}: <time datetime="{effective_date}">{effective_date}</time></p>
       <p>{html.escape(page["intro"])}</p>
@@ -191,6 +170,7 @@ def render_page(
 
 {sections}
   </main>
+{shared["footer"]}
 </body>
 </html>
 '''
